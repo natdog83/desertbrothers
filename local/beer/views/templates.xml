@@ -1,0 +1,127 @@
+<openerp>
+    <data>
+        <template id="assets_frontend" inherit_id="website.assets_frontend" name="New homepage Front-end assets">
+            <xpath expr="." position="inside">
+
+              <script type="text/javascript" src="/beer/static/src/js/script.js" />
+        			<script type="text/javascript" src="/beer/static/src/js/beer.js" />
+        			<script type="text/javascript" src="/beer/static/src/js/jquery.cookie.min.js"></script>
+        			<script type="text/javascript" src="/beer/static/src/js/age-verification.js" />
+        			<link rel="stylesheet" href="/beer/static/src/css/font-awesome/css/font-awesome.css"/>
+        			<link href="/beer/static/src/css/beer.css" rel="stylesheet" type="text/less"/>
+        			<link rel="stylesheet" href="/beer/static/src/css/age-verification.css"/>
+              <link rel="shortcut icon" href="/beer/static/src/img/favicon.ico" type="image/x-icon"/>
+
+            </xpath>
+        </template>
+
+
+        <template id="layout_inherit" inherit_id="website.layout">
+          <xpath expr="//html/head" position="inside">
+
+          </xpath>
+          <xpath expr="//html/body" position="inside">
+            <a id="scrollToTop"><i class="icon-caret-up"></i></a>
+
+          </xpath>
+
+          <xpath expr="//div[@id='wrapwrap']/header" position="replace">
+
+              <header>
+                  <div id="inanon"></div>
+                  <div id="ahbmenu"></div>
+                  <div class="navbar navbar-default navbar-static-top" id="mainnavbar">
+                      <div class="container">
+                          <div class="navbar-header">
+                              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-top-collapse">
+                                  <span class="sr-only">Toggle navigation</span>
+                                  <span class="icon-bar"/>
+                                  <span class="icon-bar"/>
+                                  <span class="icon-bar"/>
+                              </button>
+                              <a class="navbar-brand" href="/" t-field="res_company.name"/>
+                          </div>
+                          <div class="collapse navbar-collapse navbar-top-collapse">
+                              <ul class="nav navbar-nav navbar-left" id="top_menu">
+                                  <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                                      <t t-call="website.submenu"/>
+                                  </t>
+                                  <li class="dropdown" t-ignore="true" t-if="website.user_id != user_id">
+                                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                          <b>
+                                              <span t-esc="(len(user_id.name)&gt;25) and (user_id.name[:23]+'...') or user_id.name"/>
+                                              <span class="caret"></span>
+                                          </b>
+                                      </a>
+                                      <ul class="dropdown-menu js_usermenu" role="menu">
+                                          <li id="o_logout"><a t-attf-href="/web/session/logout?redirect=/" role="menuitem">Logout</a></li>
+                                      </ul>
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="page2fix"></div>
+              </header>
+
+
+          </xpath>
+        </template>
+
+
+<!--
+        <template id="index">
+            <t t-call="website.layout">
+                <t t-set="title">Announcements</t>
+                <div class="oe_structure">
+                    <div class="container">
+                        <t t-foreach="blogs" t-as="blog">
+                          <p><t t-esc="blog.display_name"/></p>
+                          <p><t t-esc="blog.content"/></p>
+                          <p><t t-esc="blog.cover_properties"/></p>
+                        </t>
+                    </div>
+                </div>
+            </t>
+        </template>
+-->
+<!-- Blog Post Complete -->
+<template id="index" name="Blog Post">
+    <t t-call="website.layout">
+        <t t-if="testblog">
+        <div t-attf-class="#{blog_post_cover_properties.get('resize_class', '')}" id="title"  t-ignore="True">
+            <div id="js_blogcover" t-attf-class="#{blog_post_cover_properties.get('background-color')}" t-attf-style="background-image: #{blog_post_cover_properties.get('background-image', 'none')};opacity:#{blog_post_cover_properties.get('opacity', 1)}">
+            </div>
+            <div class="blog_title">
+                <h1 t-field="blogs.name" id="blog_post_name" t-att-data-blog-id="blogs.id" placeholder="Blog Post Title"/>
+                <h2 t-field="blogs.subtitle" placeholder="Subtitle"/>
+<!--                <t t-esc="postwebsiteurl" placeholder="Subtitle"/>-->
+                <p class="post-meta text-muted text-center" name="blog_post_data"/>
+
+                <div class="row row-centered">
+                    <div class="col-xs-6 col-centered">
+                        <div class="announcements">
+                        <t t-esc="cleancontent"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div t-if="blog_post_cover_properties.get('resize_class') == 'cover cover_full'" id="blog_angle_down">
+                    <strong><a t-att-href="postwebsiteurl">TEST</a></strong>
+                </div>
+            </div>
+        </div>
+
+        <div id="blog_content" t-field="blogs.content" class="blog_content mt32"/>
+  </t>
+</t>
+</template>
+<!--
+<template id="index" name="Blog Post">
+    <t t-call="website.layout">
+        <div class="website_blog"></div>
+    </t>
+</template>
+-->
+    </data>
+</openerp>

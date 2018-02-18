@@ -1,0 +1,37 @@
+<openerp>
+    <data>
+        <record id="style0" model="ahb_recipes.styles">
+            <field name="name">American Amber Ale</field>
+            <field name="category">American Ale</field>
+            <field name="style_guide">BJCP 2015</field>
+            <field name="number">A</field>
+            <field name="style_letter">A</field>
+            <field name="beertype">0</field>
+            <field name="og_min">1.045</field>
+            <field name="og_max">1.060</field>
+            <field name="fg_min">1.010</field>
+            <field name="fg_max">1.015</field>
+            <field name="bitterness_min">25.0</field>
+            <field name="bitterness_max">40.0</field>
+            <field name="carbonation_min">2.30</field>
+            <field name="carbonation_max">3.00</field>
+            <field name="color_min">10.0</field>
+            <field name="color_max">17.0</field>
+            <field name="abv_min">4.50</field>
+            <field name="abv_max">6.20</field>
+            <field name="description">
+                An amber, hoppy, moderate-strength American craft beer with a caramel malty flavor. The balance can vary quite a bit, with some versions being fairly malty and others being aggressively hoppy. Hoppy and bitter versions should not have clashing flavors with the caramel malt profile. History: A modern American craft beer style developed as a variation from American Pale Ales. Known simply as Red Ales in some regions, these beers were popularized in the hop-loving Northern California and the Pacific Northwest areas before spreading nationwide. Style Comparison: Darker, more caramelly, more body, and generally less bitter in the balance than American Pale Ales. Less alcohol, bitterness, and hop character than Red IPAs. Less strength, malt, and hop character than American Strong Ales. Should not have a strong chocolate or roast character that might suggest an American brown ale (although small amounts are OK).
+            </field>
+            <field name="profile">
+                Aroma: Low to moderate hop aroma with characteristics typical of American or New World hop varieties (citrus, floral, pine, resinous, spicy, tropical fruit, stone fruit, berry, or melon). A citrusy hop character is common, but not required. Moderately-low to moderately-high maltiness (usually with a moderate caramel character), which can either support, balance, or sometimes mask the hop presentation. Esters vary from moderate to none. Appearance: Amber to coppery-brown in color. Moderately large off-white head with good retention. Generally quite clear, although dry-hopped versions may be slightly hazy. Flavor: Moderate to high hop flavor with characteristics typical of American or New World hop varieties (citrus, floral, pine, resinous, spicy, tropical fruit, stone fruit, berry, or melon). A citrusy hop character is common, but not required. Malt flavors are moderate to strong, and usually show an initial malty sweetness followed by a moderate caramel flavor (and sometimes other character malts in lesser amounts). Malt and hop bitterness are usually balanced and mutually supportive, but can vary either way. Fruity esters can be moderate to none. Caramel sweetness and hop flavor/bitterness can linger somewhat into the medium to full finish.Mouthfeel: Medium to medium-full body. Medium to high carbonation. Overall smooth finish without astringency. Stronger versions may have a slight alcohol warmth. Comments: Can overlap in color with darker American pale ales, but with a different malt flavor and balance. Regional variations exist with some being fairly mainstream and others being quite aggressive in hopping. Stronger and more bitter versions are now split into the Red IPA style.
+            </field>
+            <field name="ingredients">
+                Pale ale malt, typically North American two-row. Medium to dark crystal malts. May also contain specialty grains which add additional character and uniqueness. American or New World hops, often with citrusy flavors, are common but others may also be used.
+            </field>
+            <field name="examples">
+                Pale ale malt, typically North American two-row. Medium to dark crystal malts. May also contain specialty grains which add additional character and uniqueness. American or New World hops, often with citrusy flavors, are common but others may also be used.
+            </field>
+            <field name="web_link">http://www.bjcp.org</field>
+        </record>
+    </data>
+</openerp>

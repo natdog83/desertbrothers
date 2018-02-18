@@ -3,15 +3,18 @@
     'name': "ahb_recipes",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        This is a module to add recipes to our Angry Horse Brewing ERP.
+        The module will have the ability to add recipes, submit to marketing,
+        marketing to submit to admin, and admin to approve and create products
+        and BOM.
+        """,
 
     'description': """
         Long description of module's purpose
     """,
 
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'author': "Desert Brothers Craft",
+    'website': "http://www.angryhorsebrewing.com",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/openerp/addons/base/module/module_data.xml

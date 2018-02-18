@@ -9,9 +9,9 @@ class ahb_recipes(models.Model):
 
 class styles(models.Model):
     _name = 'ahb_recipes.styles'
-    name = fields.Char('Name' required=True)
-    category = fields.Char('Category' required=True)
-    style_guide = fields.Char('Style Guide' required=True)
+    name = fields.Char('Name', required=True)
+    category = fields.Char('Category', required=True)
+    style_guide = fields.Char('Style Guide', required=True)
     number = fields.Integer()
     style_letter = fields.Selection([(
       'A',

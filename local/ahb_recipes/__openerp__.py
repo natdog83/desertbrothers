@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "ahb_recipes",
+    'name': "Recipes",
 
     'summary': """
         This is a module to add recipes to our Angry Horse Brewing ERP.

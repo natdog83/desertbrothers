@@ -98,10 +98,6 @@
               <field name="examples" />
               <field name="web_link" />
             </group>
-            <div class="oe_button_box" name="button_box">
-              <button string="Schedule/Log Call" name="..." type="action"/>
-              <button string="Schedule Meeting" name="action_makeMeeting" type="object"/>
-            </div>
           </sheet>
         </form>
       </field>

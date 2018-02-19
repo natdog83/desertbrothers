@@ -24,13 +24,17 @@
           <sheet>
             <group string="Style">
               <field name="name"/>
-              <field name="category" class="oe_inline" label="Category"/>
+              <field name="category" class="oe_inline" />
               <field name="style_guide" class="oe_inline"/>
             </group>
-            <div>
-              <label for="beer_type" />
-              <field name="beer_type" class="oe_inline"/>
-            </div>
+            <group string="Type">
+              <field name="number"/>
+              <div>
+                <field name="style_letter" />
+              </div>
+              <field name="beer_type" />
+            </group>
+
             <div class="oe_button_box" name="button_box">
               <button string="Schedule/Log Call" name="..." type="action"/>
               <button string="Schedule Meeting" name="action_makeMeeting" type="object"/>

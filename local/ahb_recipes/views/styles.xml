@@ -11,7 +11,7 @@
       action="style_action"
       parent=""
       sequence='8' />
-    <record id='style_view_tree' model='ir.ui.view'>
+    <record id="style_view_tree" model="ir.ui.view">
       <field name='name'>Name</field>
       <field name='category'>Category</field>
     </record>

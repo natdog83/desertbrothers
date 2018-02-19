@@ -69,6 +69,36 @@
                 <newline />
               </group>
             </group>
+            <group col='2'>
+              <group string="Color" col="6" colspan="1">
+                <div class="oe_inline oe_form_label"></div>
+                <div class="oe_inline oe_form_label">Minimum</div>
+                <div class="oe_inline oe_form_label">Maximum</div>
+                <newline />
+                <div class="oe_inline oe_form_label">Color</div>
+                <div class="oe_inline oe_form_label"><field name="color_min" class="oe_inline nolabel" /></div>
+                <div class="oe_inline oe_form_label"><field name="color_max" class="oe_inline nolabel" /></div>
+                <newline />
+              </group>
+              <group string="Alcohol by Volume" col="6" colspan="1">
+                <div class="oe_inline oe_form_label"></div>
+                <div class="oe_inline oe_form_label">Minimum</div>
+                <div class="oe_inline oe_form_label">Maximum</div>
+                <newline />
+                <div class="oe_inline oe_form_label">Alcohol by Volume</div>
+                <div class="oe_inline"><field name="abv_min" class="oe_inline nolabel" /></div>
+                <div class="oe_inline"><field name="abv_max" class="oe_inline nolabel" /></div>
+                <newline />
+                <div class="oe_inline oe_form_label">Carbonation</div>
+              </group>
+            </group>
+            <group string="Description">
+              <field name="description" />
+              <field name="profile" />
+              <field name="ingredients" />
+              <field name="examples" />
+              <field name="web_link" />
+            </group>
             <div class="oe_button_box" name="button_box">
               <button string="Schedule/Log Call" name="..." type="action"/>
               <button string="Schedule Meeting" name="action_makeMeeting" type="object"/>

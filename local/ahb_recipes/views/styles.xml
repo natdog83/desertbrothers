@@ -43,14 +43,14 @@
               <group string="Specific Gravity">
                 <label for="og_min"></label>
                 <div>
-                  <label for="og_min">Minimum</label>
-                  <label for="og_max">Maximum</label>
+                  <label>Minimum</label>
+                  <label>Maximum</label>
                 </div>
                 <newline />
-                <label for="og_min">Original Gravity</label>
+                <label>Original Gravity</label>
                 <div>
-                  <field name="og_min" class="oe_inline nolabel" />
-                  <field name="og_max" class="oe_inline nolabel" />
+                  <field name="og_min" class="oe_inline nolabel oe_left" />
+                  <field name="og_max" class="oe_inline nolabel oe_right" />
                 </div>
                 <newline />
               </group>

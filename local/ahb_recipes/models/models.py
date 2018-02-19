@@ -15,7 +15,10 @@ class styles(models.Model):
     number = fields.Integer()
     style_letter = fields.Selection((
       ('A','A'),
-      ('B','B')
+      ('B','B'),
+      ('C','C'),
+      ('D','D'),
+      ('E','E')
       ),'Style Letters')
     beertype = fields.Selection((
       ('Ale','Ale'),

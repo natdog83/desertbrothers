@@ -28,10 +28,14 @@
               <label for="category" />
               <field name="category" class="oe_inline" label="Category"/>
             </div>
-            <label for="style_guide" />
-            <field name="style_guide" class="oe_inline"/>
-            <label for="beer_type" />
-            <field name="beer_type" class="oe_inline"/>
+            <div>
+              <label for="style_guide" />
+              <field name="style_guide" class="oe_inline"/>
+            </div>
+            <div>
+              <label for="beer_type" />
+              <field name="beer_type" class="oe_inline"/>
+            </div>
             <div class="oe_button_box" name="button_box">
               <button string="Schedule/Log Call" name="..." type="action"/>
               <button string="Schedule Meeting" name="action_makeMeeting" type="object"/>

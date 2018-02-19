@@ -45,12 +45,9 @@
                 <div class="oe_inline oe_form_label">Minimum</div>
                 <div class="oe_inline oe_form_label">Maximum</div>
                 <newline />
-                <label for="" class="oe_form_label">Original Gravity</label>
-                <div>
-                  <field name="og_min" class="oe_inline nolabel" />
-                  <div class="oe_inline oe_form_label"></div>
-                  <field name="og_max" class="oe_inline nolabel" />
-                </div>
+                <label for="og_min" class="oe_form_label">Original Gravity</label>
+                <field name="og_min" class="oe_inline nolabel" />
+                <field name="og_max" class="oe_inline nolabel" />
                 <newline />
               </group>
               <group string="Bitterness and Carbonatoin">

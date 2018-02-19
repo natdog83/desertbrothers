@@ -44,10 +44,15 @@
                 <label for="og_min"></label>
                 <div>
                   <label for="og_min">Minimum</label>
-                  <label for="og_min">Maximum</label>
+                  <label for="og_max">Maximum</label>
                 </div>
                 <newline />
-                <field name="beer_type" />
+                <label for="og_min">Original Gravity</label>
+                <div>
+                  <field name="og_min" class="oe_inline nolabel" />
+                  <field name="og_max" class="oe_inline nolabel" />
+                </div>
+                <newline />
               </group>
               <group string="Bitterness and Carbonatoin">
                 <div></div>

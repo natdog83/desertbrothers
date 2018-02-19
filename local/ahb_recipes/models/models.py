@@ -13,6 +13,12 @@ class styles(models.Model):
     category = fields.Char('Category', required=True)
     style_guide = fields.Char('Style Guide', required=True)
     number = fields.Integer()
+    style_letter = fields.Selection((
+      ('A','A'),
+      ('B','B'),
+      ('C','C')),
+      'Style Letter')
+    beertype = fields.Selection([('Ale','Lager','Mixed','Mead','Cider','Wheat')]'Beer Type')
     og_min = fields.Float()
     og_max = fields.Float()
     fg_min = fields.Float()

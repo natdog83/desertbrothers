@@ -18,7 +18,7 @@
     <!-- Style form view definition -->
     <record model="ir.ui.view" id="style_view_form">
       <field name="name">Style Form</field>
-      <field name="model">ahb_recipes.ahb_recipes</field>
+      <field name="model">ahb_recipes.styles</field>
       <field name="arch" type="xml">
         <sheet>
           <form>

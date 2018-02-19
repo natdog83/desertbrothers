@@ -81,6 +81,4 @@ class styles(models.Model):
     @api.multi
     def _number_generator(self):
         for record in self:
-            if(record.number and record.style_letter):
-                record.name = "%s%s" % \
-                    (record.number or '', record.style_letter or '')
+            record.number_updated = "%s" % record.number

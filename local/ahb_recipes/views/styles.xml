@@ -89,7 +89,6 @@
                 <div class="oe_inline"><field name="abv_min" class="oe_inline nolabel" /></div>
                 <div class="oe_inline"><field name="abv_max" class="oe_inline nolabel" /></div>
                 <newline />
-                <div class="oe_inline oe_form_label">Carbonation</div>
               </group>
             </group>
             <group string="Description">

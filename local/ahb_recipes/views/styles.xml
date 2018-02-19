@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+  <data>
+    <act_window
+      id="style_action"
+      name="Styles"
+      res_model="ahb.recipes.styles" />
+    <menuitem
+      id="style_menu"
+      name="Styles"
+      action="style_action"
+      parent=""
+      sequence="5" />
+  </data>
+</openerp>

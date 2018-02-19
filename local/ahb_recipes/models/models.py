@@ -87,4 +87,4 @@ class styles(models.Model):
     @api.multi
     def _calculate_og_range(self):
         for record in self:
-            record.number_updated = "%s - %s" % (record.og_min or '',record.og_max or '')
+            record.og_range = "%s - %s" % (record.og_min or '',record.og_max or '')

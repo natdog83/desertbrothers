@@ -78,7 +78,7 @@ class styles(models.Model):
     web_link = fields.Text()
     number_updated = fields.Char(compute='_number_generator', string="#")
 
-    @api.depends('styles')
+    @api.depends('number')
     def _number_generator(self):
         for record in self:
             record.number_updated = 100

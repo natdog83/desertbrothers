@@ -14,11 +14,11 @@ class styles(models.Model):
     style_guide = fields.Char('Style Guide', required=True)
     number = fields.Integer()
     style_letter = fields.Selection((
-      ('A','A'),
-      ('B','B'),
-      ('C','C'),
-      ('D','D'),
-      ('E','E')
+      'A',
+      'B',
+      'C',
+      'D',
+      'E'
       ),'Style Letters')
     beertype = fields.Selection((
       ('Ale','Ale'),

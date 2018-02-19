@@ -20,13 +20,11 @@
       <field name="name">Style Form</field>
       <field name="model">ahb_recipes.styles</field>
       <field name="arch" type="xml">
-        <sheet>
-          <form>
-            <field name="name"/>
-            <field name="category"/>
-            <field name="style_guide"/>
-          </form>
-        </sheet>
+        <form>
+          <field name="name"/>
+          <field name="category"/>
+          <field name="style_guide"/>
+        </form>
       </field>
     </record>
 

@@ -51,12 +51,12 @@ class styles(models.Model):
       ('9','9')
       ),'Style Letters')
     beertype = fields.Selection((
-      ('Ale','Ale'),
-      ('Lager','Lager'),
-      ('Mixed','Mixed'),
-      ('Mead','Mead'),
-      ('Cider','Cider'),
-      ('Wheat','Wheat')
+      ('0','Ale'),
+      ('1','Lager'),
+      ('2','Mixed'),
+      ('3','Mead'),
+      ('4','Cider'),
+      ('5','Wheat')
       ),'Beer Type',
       required=True)
     og_min = fields.Float()

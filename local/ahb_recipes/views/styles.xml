@@ -22,7 +22,7 @@
       <field name="arch" type="xml">
         <form>
           <sheet>
-            <label name="name" class="oe_edit_only"/>
+            <label for="name" class="oe_edit_only"/>
             <h1><field name="name"/></h1>
             <label for="category" class="oe_inline"/>
             <field name="category"/>

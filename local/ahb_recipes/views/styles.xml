@@ -22,10 +22,10 @@
       <field name="arch" type="xml">
         <form>
           <sheet>
-            <field name="name"/>
+            <field name="name" class="oe_read_only" />
             <group>
               <group string="Style">
-                <field name="name"/>
+                <field name="name" class="oe_edit_only" />
                 <field name="category" />
                 <field name="style_guide" />
               </group>

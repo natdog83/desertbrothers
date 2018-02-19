@@ -3,7 +3,7 @@
   <data>
     <act_window
       id="style_action"
-      name="Styles"
+      name=" Beer Styles"
       res_model="ahb_recipes.styles" />
     <menuitem
       id="style_menu"

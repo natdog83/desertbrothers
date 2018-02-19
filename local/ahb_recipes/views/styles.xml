@@ -12,7 +12,9 @@
           <field name="number_updated"/>
           <field name="category"/>
           <field name="og_range"/>
-          <field name="number"/>
+          <field name="fg_range"/>
+          <field name="abv_range"/>
+          
         </tree>
       </field>
     </record>

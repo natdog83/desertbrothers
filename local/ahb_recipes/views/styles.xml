@@ -26,13 +26,13 @@
               <field name="name"/>
               <field name="category" class="oe_inline" />
               <field name="style_guide" class="oe_inline"/>
-            
-            <separator string="XXX"/>
-              <field name="number"/>
               <div>
-                <field name="style_letter" />
+                <field name="number"/>
+                <div>
+                  <field name="style_letter" />
+                </div>
+                <field name="beer_type" />
               </div>
-              <field name="beer_type" />
             </group>
 
             <div class="oe_button_box" name="button_box">

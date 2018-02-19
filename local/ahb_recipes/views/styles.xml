@@ -14,7 +14,8 @@
           <field name="og_range"/>
           <field name="fg_range"/>
           <field name="abv_range"/>
-          
+          <field name="ibu_range"/>
+          <field name="color_range"/>
         </tree>
       </field>
     </record>

@@ -80,6 +80,8 @@ class styles(models.Model):
     og_range = fields.Char(compute='_calculate_og_range', string="OG Range")
     fg_range = fields.Char(compute='_calculate_fg_range', string="FG Range")
     abv_range = fields.Char(compute='_calculate_abv_range', string="ABV Range")
+    ibu_range = fields.Char(compute='_calculate_ibu_range', string="IBU Range")
+    color_range = fields.Char(compute='_calculate_color_range', string="Color Range")
 
     @api.depends('number')
     def _number_generator(self):
@@ -100,3 +102,13 @@ class styles(models.Model):
     def _calculate_abv_range(self):
         for record in self:
             record.abv_range = "%s - %s" % (record.abv_min or '',record.abv_max or '')
+
+    @api.multi
+    def _calculate_ibu_range(self):
+        for record in self:
+            record.ibu_range = "%s - %s" % (record.bitterness_min or '',record.bitterness_max or '')
+
+    @api.multi
+    def _calculate_color_range(self):
+        for record in self:
+            record.color_range = "%s - %s" % (record.color_min or '',record.color_max or '')

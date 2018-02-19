@@ -59,8 +59,8 @@ class styles(models.Model):
       ('5','Wheat')
       ),'Beer Type',
       required=True)
-    og_min = fields.Float()
-    og_max = fields.Float()
+    og_min = fields.Float(digits=(1, 4))
+    og_max = fields.Float(digits=(1, 4))
     Final_Gravity_min = fields.Float()
     fg_max = fields.Float()
     bitterness_min = fields.Float()

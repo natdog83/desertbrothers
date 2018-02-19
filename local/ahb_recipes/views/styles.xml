@@ -41,9 +41,14 @@
             </group>
             <group>
               <group string="Specific Gravity">
-                <div></div>
-                <div>Minimum</div>
-                <div>Maximum</div>
+                <group string="Type">
+                  <label for="og_min"></label>
+                  <div>
+                    <label for="og_min">Minimum</label>
+                    <label for="og_min">Maximum</label>
+                  </div>
+                  <newline />
+                  <field name="beer_type" />
               </group>
               <group string="Bitterness and Carbonatoin">
                 <div></div>

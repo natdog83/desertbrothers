@@ -81,4 +81,4 @@ class styles(models.Model):
     @api.multi
     def _number_generator(self):
         for record in self:
-            record.number_updated = "%s" % record.number
+            print(record.number)

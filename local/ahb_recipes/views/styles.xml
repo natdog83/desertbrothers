@@ -41,13 +41,13 @@
             </group>
             <group>
               <group string="Specific Gravity">
-                <div class=" oe_form_label oe_align_right"></div>
-                <div class=" oe_form_label oe_align_right">Minimum</div>
-                <div class=" oe_form_label oe_align_right">Maximum</div>
+                <label for="number">Number</label>
+                <div class=" oe_form_label">Minimum</div>
+                <div class=" oe_form_label">Maximum</div>
                 <newline />
-                <div class=" oe_form_label oe_align_right"></div>
-                <field name="og_min" class="oe_inline nolabel oe_left" />
-                <field name="og_max" class="oe_inline nolabel oe_right" />
+                <label for="">Number</label>
+                <field name="og_min" class="oe_inline nolabel" />
+                <field name="og_max" class="oe_inline nolabel" />
                 <newline />
               </group>
               <group string="Bitterness and Carbonatoin">

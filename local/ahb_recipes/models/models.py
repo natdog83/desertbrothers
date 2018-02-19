@@ -8,17 +8,6 @@ class ahb_recipes(models.Model):
     style = fields.Char('Style', required=True)
 
 class styles(models.Model):
-    def _number_generator(self, cr, uid, ids, field_name, arg, context=None):
-        records=self.browse(cr,uid,ids)
-        result = {}
-        for r in records:
-            if(r.number and r.style_letter):
-                result[r.id] = "%s%s" % \
-                         (r.firstname or '', r.lastname or '')
-        return result
-
-
-
     _name = 'ahb_recipes.styles'
     name = fields.Char('Name', required=True)
     category = fields.Char('Category', required=True)
@@ -87,4 +76,11 @@ class styles(models.Model):
     ingredients = fields.Text()
     examples = fields.Text()
     web_link = fields.Text()
-    number = fields.function(_number_generator, type=Char, store=True, string="#")
+    number_updated = fields.Char(compute='_number_generator', type=Char, store=True, string="#")
+
+    @api.multi
+    def _number_generator(self):
+        for record in self:
+            if(r.number and r.style_letter):
+                record.name = "%s%s" % \
+                    (r.firstname or '', r.lastname or '')

@@ -15,7 +15,7 @@ class styles(models.Model):
     number = fields.Integer()
     style_letter = fields.Selection((
       ('A','A')
-    )'Style Letters')
+      ),'Style Letters')
     beertype = fields.Selection((
       ('Ale','Ale'),
       ('Lager','Lager'),
@@ -23,7 +23,7 @@ class styles(models.Model):
       ('Mead','Mead'),
       ('Cider','Cider'),
       ('Wheat','Wheat')
-      )'Beer Type')
+      ),'Beer Type')
     og_min = fields.Float()
     og_max = fields.Float()
     fg_min = fields.Float()

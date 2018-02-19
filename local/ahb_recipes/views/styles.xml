@@ -4,7 +4,7 @@
     <act_window
       id="style_action"
       name="Styles"
-      res_model="ahb.recipes.styles" />
+      res_model="ahb_recipes.styles" />
     <menuitem
       id="style_menu"
       name="Styles"

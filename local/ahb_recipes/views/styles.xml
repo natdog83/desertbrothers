@@ -41,7 +41,7 @@
             </group>
             <group>
               <group string="Specific Gravity">
-                <label for="og_min"></label>
+                <label></label>
                 <div>
                   <label>Minimum</label>
                   <label>Maximum</label>

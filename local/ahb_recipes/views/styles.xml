@@ -39,8 +39,8 @@
                 <field name="beer_type" />
               </group>
             </group>
-            <group>
-              <group string="Specific Gravity" col="6" colspan="2">
+            <group col="2">
+              <group string="Specific Gravity" col="6" colspan="1">
                 <div class="oe_inline oe_form_label"></div>
                 <div class="oe_inline oe_form_label">Minimum</div>
                 <div class="oe_inline oe_form_label">Maximum</div>
@@ -48,6 +48,10 @@
                 <div class="oe_inline oe_form_label">Original Gravity</div>
                 <div class="oe_inline oe_form_label"><field name="og_min" class="oe_inline nolabel" /></div>
                 <div class="oe_inline oe_form_label"><field name="og_max" class="oe_inline nolabel" /></div>
+                <newline />
+                <div class="oe_inline oe_form_label">Final Gravity</div>
+                <div class="oe_inline oe_form_label"><field name="Final_Gravity_mi" class="oe_inline nolabel" /></div>
+                <div class="oe_inline oe_form_label"><field name="fg_max" class="oe_inline nolabel" /></div>
                 <newline />
               </group>
               <group string="Bitterness and Carbonatoin">

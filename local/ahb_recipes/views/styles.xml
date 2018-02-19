@@ -40,13 +40,10 @@
               </group>
             </group>
             <group>
-              <group string="Specific Gravity">
-                <label for="number"></label>
-                <div>
-                  <div class="oe_inline oe_form_label">Minimum</div>
-                  <div class="oe_inline oe_form_label"></div>
-                  <div class="oe_inline oe_form_label">Maximum</div>
-                </div>
+              <group string="Specific Gravity col="6" colspan="2"">
+                <div class="oe_inline oe_form_label"></div>
+                <div class="oe_inline oe_form_label">Minimum</div>
+                <div class="oe_inline oe_form_label">Maximum</div>
                 <newline />
                 <label for="" class="oe_form_label">Original Gravity</label>
                 <div>

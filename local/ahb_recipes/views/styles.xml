@@ -21,6 +21,9 @@
       <field name="model">ahb_recipes.styles</field>
       <field name="arch" type="xml">
         <form>
+          <header>
+            <field name="name"/>
+          </header>
           <sheet>
             <label for="name" class="oe_edit_only"/>
             <h1><field name="name"/></h1>

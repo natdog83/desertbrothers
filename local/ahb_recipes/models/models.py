@@ -22,7 +22,33 @@ class styles(models.Model):
       ('G','G'),
       ('H','H'),
       ('I','I'),
-      ('J','J')
+      ('J','J'),
+      ('K','K'),
+      ('L','L'),
+      ('M','M'),
+      ('N','N'),
+      ('O','O'),
+      ('P','P'),
+      ('Q','Q'),
+      ('R','R'),
+      ('S','S'),
+      ('T','T'),
+      ('U','U'),
+      ('V','V'),
+      ('W','W'),
+      ('X','X'),
+      ('Y','Y'),
+      ('Z','Z'),
+      ('0','0'),
+      ('1','1'),
+      ('2','2'),
+      ('3','3'),
+      ('4','4'),
+      ('5','5'),
+      ('6','6'),
+      ('7','7'),
+      ('8','8'),
+      ('9','9')
       ),'Style Letters')
     beertype = fields.Selection((
       ('Ale','Ale'),
@@ -31,7 +57,8 @@ class styles(models.Model):
       ('Mead','Mead'),
       ('Cider','Cider'),
       ('Wheat','Wheat')
-      ),'Beer Type')
+      ),'Beer Type',
+      required=True)
     og_min = fields.Float()
     og_max = fields.Float()
     Final_Gravity_min = fields.Float()

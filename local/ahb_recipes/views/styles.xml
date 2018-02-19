@@ -10,6 +10,6 @@
       name="Styles"
       action="style_action"
       parent=""
-      sequence="5" />
+      sequence="6" />
   </data>
 </openerp>

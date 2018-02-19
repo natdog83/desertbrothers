@@ -77,8 +77,14 @@ class styles(models.Model):
     examples = fields.Text()
     web_link = fields.Text()
     number_updated = fields.Char(compute='_number_generator', string="#")
+    og_range = fields.Char(compute='_calculate_og_range', string="OG Range")
 
     @api.depends('number')
     def _number_generator(self):
         for record in self:
             record.number_updated = "%s%s" % (record.number or '',record.style_letter or '')
+
+    @api.multi
+    def _calculate_og_range(self):
+        for record in self:
+            record.number_updated = "%s - %s" % (record.og_min or '',record.og_max or '')

@@ -11,6 +11,7 @@
           <field name="name"/>
           <field name="number_updated"/>
           <field name="category"/>
+          <field name="og_range"/>
           <field name="number"/>
         </tree>
       </field>

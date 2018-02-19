@@ -24,7 +24,10 @@
           <sheet>
             <label for="name" class="oe_edit_only"/>
             <h1><field name="name"/></h1>
-            <label for="category" field name="category" class="oe_inline" label="Category"/>
+            <div>
+              <label for="category" />
+              <field name="category" class="oe_inline" label="Category"/>
+            </div>
             <label for="style_guide" />
             <field name="style_guide" class="oe_inline"/>
             <label for="beer_type" />

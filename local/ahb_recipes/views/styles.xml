@@ -24,9 +24,9 @@
           <sheet>
             <label for="name" class="oe_edit_only"/>
             <h1><field name="name"/></h1>
-            <field name="name" />
             <label for="category" />
             <field name="category"/>
+            <label for="style_guide" />
             <field name="style_guide"/>
             <div class="oe_button_box" name="button_box">
               <button string="Schedule/Log Call" name="..." type="action"/>

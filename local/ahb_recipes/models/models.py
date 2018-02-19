@@ -9,13 +9,13 @@ class ahb_recipes(models.Model):
 
 class styles(models.Model):
     def _number_generator(self, cr, uid, ids, field_name, arg, context=None):
-    records=self.browse(cr,uid,ids)
-    result = dict((x,'') for x in ids)
-    for r in records:
-        if(r.number and r.style_letter)
-            result[r.id] = "%s%s" % \
-                     (r.firstname or '', r.lastname or '')
-    return result
+        records=self.browse(cr,uid,ids)
+        result = dict((x,'') for x in ids)
+        for r in records:
+            if(r.number and r.style_letter)
+                result[r.id] = "%s%s" % \
+                         (r.firstname or '', r.lastname or '')
+        return result
 
 
 

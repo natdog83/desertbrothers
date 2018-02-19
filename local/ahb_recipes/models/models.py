@@ -50,7 +50,7 @@ class styles(models.Model):
       ('8','8'),
       ('9','9')
       ),'Style Letters')
-    beertype = fields.Selection((
+    beer_type = fields.Selection((
       ('0','Ale'),
       ('1','Lager'),
       ('2','Mixed'),

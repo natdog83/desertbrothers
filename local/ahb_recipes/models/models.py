@@ -94,7 +94,7 @@ class styles(models.Model):
     @api.multi
     def _calculate_fg_range(self):
         for record in self:
-            record.fg_range = "%s - %s" % (record.fg_min or '',record.fg_max or '')
+            record.fg_range = "%s - %s" % (record.Final_Gravity_min or '',record.fg_max or '')
 
     @api.multi
     def _calculate_abv_range(self):

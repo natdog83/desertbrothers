@@ -33,6 +33,7 @@
                 <div>
                   <field name="style_letter" />
                 </div>
+                <newline />
                 <field name="beer_type" />
               </group>
             </group>

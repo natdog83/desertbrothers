@@ -22,7 +22,8 @@
       <field name="arch" type="xml">
         <form>
           <sheet>
-            <h1><field name="name"/></h1>
+            <h1><field name="name"/> NAME</h1>
+            <br />
             <label for="name" class="oe_edit_only"/>
             <field name="name" />
             <label for="category"  />

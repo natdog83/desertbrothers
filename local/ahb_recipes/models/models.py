@@ -81,4 +81,4 @@ class styles(models.Model):
     @api.depends('number')
     def _number_generator(self):
         for record in self:
-            record.number_updated = 100
+            record.number_updated = "%s" % record.number

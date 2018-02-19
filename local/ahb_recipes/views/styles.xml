@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
   <data>
+
+    <!-- Style explicit list view definition -->
     <record model="ir.ui.view" id="style_view_tree">
-      <field name="name">Styles</field>
+      <field name="name">Style List</field>
       <field name="model">ahb_recipes.styles</field>
       <field name="arch" type="xml">
         <tree>
@@ -12,6 +14,22 @@
         </tree>
       </field>
     </record>
+
+    <!-- Style form view definition -->
+    <record model="ir.ui.view" id="style_view_form">
+      <field name="name">Style Form</field>
+      <field name="model">ahb_recipes.ahb_recipes</field>
+      <field name="arch" type="xml">
+        <sheet>
+          <form>
+            <field name="name"/>
+            <field name="category"/>
+            <field name="style_guide"/>
+          </form>
+        </sheet>
+      </field>
+    </record>
+
     <act_window
       id="style_action"
       name=" Beer Styles"

@@ -22,19 +22,20 @@
       <field name="arch" type="xml">
         <form>
           <sheet>
-            <group string="Style">
-              <field name="name"/>
-              <field name="category" class="oe_inline" />
-              <field name="style_guide" class="oe_inline"/>
-              <div>
+            <group>
+              <group string="Style">
+                <field name="name"/>
+                <field name="category" class="oe_inline" />
+                <field name="style_guide" class="oe_inline"/>
+              </group>
+              <group string="Type">
                 <field name="number"/>
                 <div>
                   <field name="style_letter" />
                 </div>
                 <field name="beer_type" />
-              </div>
+              </group>
             </group>
-
             <div class="oe_button_box" name="button_box">
               <button string="Schedule/Log Call" name="..." type="action"/>
               <button string="Schedule Meeting" name="action_makeMeeting" type="object"/>

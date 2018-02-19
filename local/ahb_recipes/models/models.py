@@ -17,7 +17,12 @@ class styles(models.Model):
       ('A','A'),
       ('B','B'),
       ('C','C'),
-      ('E','E')
+      ('E','E'),
+      ('F','F'),
+      ('G','G'),
+      ('H','H'),
+      ('I','I'),
+      ('J','J')
       ),'Style Letters')
     beertype = fields.Selection((
       ('Ale','Ale'),
@@ -29,7 +34,7 @@ class styles(models.Model):
       ),'Beer Type')
     og_min = fields.Float()
     og_max = fields.Float()
-    fg_min = fields.Float()
+    Final_Gravity_min = fields.Float()
     fg_max = fields.Float()
     bitterness_min = fields.Float()
     bitterness_max = fields.Float()

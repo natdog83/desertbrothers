@@ -76,9 +76,9 @@ class styles(models.Model):
     ingredients = fields.Text()
     examples = fields.Text()
     web_link = fields.Text()
-    number_updated = fields.Char(compute='_number_generator', store=True, string="#")
+    number_updated = fields.Char(compute='_number_generator', string="#")
 
-    @api.multi
+    @api.depends('styles')
     def _number_generator(self):
         for record in self:
-            print(record.number)
+            record.number_updated = 100

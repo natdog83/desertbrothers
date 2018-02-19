@@ -60,12 +60,12 @@
                 <div class="oe_inline oe_form_label">Maximum</div>
                 <newline />
                 <div class="oe_inline oe_form_label">Bitterness</div>
-                <div class="oe_inline oe_form_label"><field name="bitterness_min" class="oe_inline nolabel" /></div>
-                <div class="oe_inline oe_form_label"><field name="bitterness_max" class="oe_inline nolabel" /></div>
+                <div class="oe_inline"><field name="bitterness_min" class="oe_inline nolabel" /></div>
+                <div class="oe_inline"><field name="bitterness_max" class="oe_inline nolabel" /></div>
                 <newline />
-                <separator string="Carbonation" />
-                <div class="oe_inline oe_form_label"><field name="carbonation_min" class="oe_inline nolabel" /></div>
-                <div class="oe_inline oe_form_label"><field name="carbonation_max" class="oe_inline nolabel" /></div>
+                <div class="oe_inline oe_form_label">Carbonation</div>
+                <div class="oe_inline"><field name="carbonation_min" class="oe_inline nolabel" /></div>
+                <div class="oe_inline"><field name="carbonation_max" class="oe_inline nolabel" /></div>
                 <newline />
               </group>
             </group>

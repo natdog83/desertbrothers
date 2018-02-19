@@ -25,8 +25,7 @@
             <label for="name" class="oe_edit_only"/>
             <h1><field name="name"/></h1>
             <label for="category" class="oe_inline"/>
-            <field name="category"/>
-            <label for="style_guide" />
+            <field name="category"/>: <label for="style_guide" />
             <field name="style_guide"/>
             <label for="beer_type" />
             <field name="beer_type"/>

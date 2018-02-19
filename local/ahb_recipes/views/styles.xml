@@ -30,8 +30,11 @@
                 <field name="style_guide" />
               </group>
               <group string="Type">
-                <field name="number" class="oe_inline" />
-                <field name="style_letter" class="oe_inline nolabel" />
+                <label for="planned_revenue" />
+                <div>
+                  <field name="number" class="oe_inline" />
+                  <field name="style_letter" class="oe_inline nolabel" />
+                </div>
                 <newline />
                 <field name="beer_type" />
               </group>

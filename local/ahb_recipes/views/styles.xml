@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
   <data>
-    <record model="ir.ui.view" id="style.list">
+    <record model="ir.ui.view" id="style_view_tree">
       <field name="name">Styles</field>
       <field name="model">ahb_recipes.styles</field>
       <field name="arch" type="xml">

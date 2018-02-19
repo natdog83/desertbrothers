@@ -24,23 +24,17 @@
           <sheet>
             <label for="name" class="oe_edit_only"/>
             <h1><field name="name"/></h1>
-            <div class="row">
-              <div class="col-6">
-                <div>
-                  <label for="category" />
-                  <field name="category" class="oe_inline" label="Category"/>
-                </div>
-                <div>
-                  <label for="style_guide" />
-                  <field name="style_guide" class="oe_inline"/>
-                </div>
-              </div>
-              <div class="col-3">
-                <div>
-                  <label for="beer_type" />
-                  <field name="beer_type" class="oe_inline"/>
-                </div>
-              </div>
+            <div>
+              <label for="category" />
+              <field name="category" class="oe_inline" label="Category"/>
+            </div>
+            <div>
+              <label for="style_guide" />
+              <field name="style_guide" class="oe_inline"/>
+            </div>
+            <div>
+              <label for="beer_type" />
+              <field name="beer_type" class="oe_inline"/>
             </div>
             <div class="oe_button_box" name="button_box">
               <button string="Schedule/Log Call" name="..." type="action"/>

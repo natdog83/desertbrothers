@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
   <data>
-    <record model="ir.ui.view" id="style_view_tree" >
-      <field name='name'>Name</field>
-      <field name='category'>Category</field>
+    <record model="ir.ui.view" id="style.list">
+      <field name="name">Styles</field>
+      <field name="model">ahb_recipes.styles</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="category"/>
+          <field name="number"/>
+        </tree>
+      </field>
     </record>
     <act_window
       id="style_action"

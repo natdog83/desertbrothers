@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
   <data>
+    <record id="style_view_tree" model="ir.ui.view">
+      <field name='name'>Name</field>
+      <field name='category'>Category</field>
+    </record>
     <act_window
       id="style_action"
       name=" Beer Styles"
@@ -11,9 +15,5 @@
       action="style_action"
       parent=""
       sequence='8' />
-    <record id="style_view_tree" model="ir.ui.view">
-      <field name='name'>Name</field>
-      <field name='category'>Category</field>
-    </record>
   </data>
 </openerp>

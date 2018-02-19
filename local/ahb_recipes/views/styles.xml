@@ -40,7 +40,7 @@
               </group>
             </group>
             <group>
-              <group string="Specific Gravity col="6" colspan="2"">
+              <group string="Specific Gravity col="6" colspan="2">
                 <div class="oe_inline oe_form_label"></div>
                 <div class="oe_inline oe_form_label">Minimum</div>
                 <div class="oe_inline oe_form_label">Maximum</div>

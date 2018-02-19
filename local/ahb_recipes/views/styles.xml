@@ -24,7 +24,7 @@
           <sheet>
             <field name="name" class="oe_edit_only"/>
             <h1><field name="name"/></h1>
-            <label for="category"  />
+            <label for="category"  class="oe_inline"/>
             <field name="category"/>
             <label for="style_guide" />
             <field name="style_guide"/>

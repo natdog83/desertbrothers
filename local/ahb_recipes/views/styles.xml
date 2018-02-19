@@ -26,14 +26,12 @@
             <group>
               <group string="Style">
                 <field name="name"/>
-                <field name="category" class="oe_inline" />
-                <field name="style_guide" class="oe_inline"/>
+                <field name="category" />
+                <field name="style_guide" />
               </group>
               <group string="Type">
-                <field name="number"/>
-                <div class="oe_inline">
-                  <field name="style_letter" />
-                </div>
+                <field name="number" class="oe_inline" />
+                <field name="style_letter" class="oe_inline nolabel" />
                 <newline />
                 <field name="beer_type" />
               </group>

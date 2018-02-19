@@ -78,6 +78,8 @@ class styles(models.Model):
     web_link = fields.Text()
     number_updated = fields.Char(compute='_number_generator', string="#")
     og_range = fields.Char(compute='_calculate_og_range', string="OG Range")
+    fg_range = fields.Char(compute='_calculate_fg_range', string="FG Range")
+    abv_range = fields.Char(compute='_calculate_abv_range', string="ABV Range")
 
     @api.depends('number')
     def _number_generator(self):
@@ -88,3 +90,13 @@ class styles(models.Model):
     def _calculate_og_range(self):
         for record in self:
             record.og_range = "%s - %s" % (record.og_min or '',record.og_max or '')
+
+    @api.multi
+    def _calculate_fg_range(self):
+        for record in self:
+            record.fg_range = "%s - %s" % (record.fg_min or '',record.fg_max or '')
+
+    @api.multi
+    def _calculate_abv_range(self):
+        for record in self:
+            record.abv_range = "%s - %s" % (record.abv_min or '',record.abv_max or '')

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<openerp>
+  <data>
+    <record id="american_amber_ale" model="ahb_recipes.styles">
+      <field name="name">American Amber Ale</field>
+      <field name="category">American Ale</field>
+      <field name="style_guide">BJCP 2008</field>
+      <field name="number">10</field>
+      <field name="style_letter">2</field>
+      <field name="beer_type">0</field>
+    </record>
+  </data>
+</openerp>

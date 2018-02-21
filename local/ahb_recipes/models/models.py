@@ -9,33 +9,33 @@ class ahb_recipes(models.Model):
 
 class styles(models.Model):
     VALUES=[
-      ('0',''),
-      ('1','A'),
-      ('2','B'),
-      ('3','C'),
-      ('4','D'),
-      ('5','E'),
-      ('6','F'),
-      ('7','G'),
-      ('8','H'),
-      ('9','I'),
-      ('10','J'),
-      ('11','K'),
-      ('12','L'),
-      ('13','M'),
-      ('14','N'),
-      ('15','O'),
-      ('16','P'),
-      ('17','Q'),
-      ('18','R'),
-      ('19','S'),
-      ('20','T'),
-      ('21','U'),
-      ('22','V'),
-      ('23','W'),
-      ('24','X'),
-      ('25','Y'),
-      ('26','Z')
+        ('',''),
+        ('A','A'),
+        ('B','B'),
+        ('C','C'),
+        ('D','D'),
+        ('E','E'),
+        ('F','F'),
+        ('G','G'),
+        ('H','H'),
+        ('I','I'),
+        ('J','J'),
+        ('K','K'),
+        ('L','L'),
+        ('M','M'),
+        ('N','N'),
+        ('O','O'),
+        ('P','P'),
+        ('Q','Q'),
+        ('R','R'),
+        ('S','S'),
+        ('I','T'),
+        ('U','U'),
+        ('V','V'),
+        ('W','W'),
+        ('X','X'),
+        ('Y','Y'),
+        ('Z','Z')
     ]
 
     _name = 'ahb_recipes.styles'
@@ -82,37 +82,7 @@ class styles(models.Model):
     @api.depends('number')
     def _number_generator(self):
         for record in self:
-            VALUES=[
-              ('',''),
-              ('A','A'),
-              ('B','B'),
-              ('C','C'),
-              ('D','D'),
-              ('E','E'),
-              ('F','F'),
-              ('G','G'),
-              ('H','H'),
-              ('I','I'),
-              ('J','J'),
-              ('K','K'),
-              ('L','L'),
-              ('M','M'),
-              ('N','N'),
-              ('O','O'),
-              ('P','P'),
-              ('Q','Q'),
-              ('R','R'),
-              ('S','S'),
-              ('I','T'),
-              ('U','U'),
-              ('V','V'),
-              ('W','W'),
-              ('X','X'),
-              ('Y','Y'),
-              ('Z','Z')
-            ]
-            value =
-            record.number_updated = "%s%s" % (record.number or '',value or '')
+            record.number_updated = "%s%s" % (record.number or '',record.style_letter or '')
 
     @api.multi
     def _calculate_og_range(self):

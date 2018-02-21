@@ -6,7 +6,7 @@
       <field name="category">American Ale</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">10</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="american_barleywine" model="ahb_recipes.styles">
@@ -14,7 +14,7 @@
       <field name="category">Strong Ale</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">19</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">0</field>
     </record>
     <record id="american_brown_ale" model="ahb_recipes.styles">
@@ -22,7 +22,7 @@
       <field name="category">American Ale</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">10</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">0</field>
     </record>
     <record id="american_ipa" model="ahb_recipes.styles">
@@ -30,7 +30,7 @@
       <field name="category">India Pale Ale (IPA)</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">14</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="american_pale_ale" model="ahb_recipes.styles">
@@ -38,7 +38,7 @@
       <field name="category">American Ale</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">10</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">0</field>
     </record>
     <record id="american_stout" model="ahb_recipes.styles">
@@ -46,7 +46,7 @@
       <field name="category">Stout</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">13</field>
-      <field name="style_letter">5</field>
+      <field name="style_letter">E</field>
       <field name="beer_type">0</field>
     </record>
     <record id="american_wheat_or_rye_beer" model="ahb_recipes.styles">
@@ -54,7 +54,7 @@
       <field name="category">Light Hybrid Beer</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">6</field>
-      <field name="style_letter">4</field>
+      <field name="style_letter">D</field>
       <field name="beer_type">2</field>
     </record>
     <record id="applewine" model="ahb_recipes.styles">
@@ -62,7 +62,7 @@
       <field name="category">Specialty Cider and Perry</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">28</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">4</field>
     </record>
     <record id="baltic_porter" model="ahb_recipes.styles">
@@ -70,7 +70,7 @@
       <field name="category">Porter</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">12</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">2</field>
     </record>
     <record id="belgian_blond_ale" model="ahb_recipes.styles">
@@ -78,7 +78,7 @@
       <field name="category">Belgian Strong Ale</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">18</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">0</field>
     </record>
     <record id="belgian_dark_strong_ale" model="ahb_recipes.styles">
@@ -86,7 +86,7 @@
       <field name="category">Belgian Strong Ale</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">18</field>
-      <field name="style_letter">5</field>
+      <field name="style_letter">E</field>
       <field name="beer_type">0</field>
     </record>
     <record id="belgian_dubbel" model="ahb_recipes.styles">
@@ -94,7 +94,7 @@
       <field name="category">Belgian Strong Ale</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">18</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="belgian_golden_strong_ale" model="ahb_recipes.styles">
@@ -102,7 +102,7 @@
       <field name="category">Belgian Strong Ale</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">18</field>
-      <field name="style_letter">4</field>
+      <field name="style_letter">D</field>
       <field name="beer_type">0</field>
     </record>
     <record id="belgian_pale_ale" model="ahb_recipes.styles">
@@ -110,7 +110,7 @@
       <field name="category">Belgian and French Ale</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">16</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="belgian_specialty_ale" model="ahb_recipes.styles">
@@ -118,7 +118,7 @@
       <field name="category">Belgian and French Ale</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">16</field>
-      <field name="style_letter">5</field>
+      <field name="style_letter">E</field>
       <field name="beer_type">0</field>
     </record>
     <record id="belgian_tripel" model="ahb_recipes.styles">
@@ -126,7 +126,7 @@
       <field name="category">Belgian Strong Ale</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">18</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">0</field>
     </record>
     <record id="berliner_weiss" model="ahb_recipes.styles">
@@ -134,7 +134,7 @@
       <field name="category">Sour Ale</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">17</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">0</field>
     </record>
     <record id="biere_de_garde" model="ahb_recipes.styles">
@@ -142,7 +142,7 @@
       <field name="category">Belgian and French Ale</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">16</field>
-      <field name="style_letter">4</field>
+      <field name="style_letter">D</field>
       <field name="beer_type">0</field>
     </record>
     <record id="blonde_ale" model="ahb_recipes.styles">
@@ -150,7 +150,7 @@
       <field name="category">Light Hybrid Beer</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">6</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="bohemian_pilsner" model="ahb_recipes.styles">
@@ -158,7 +158,7 @@
       <field name="category">Pilsner</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">2</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">1</field>
     </record>
     <record id="braggot" model="ahb_recipes.styles">
@@ -166,7 +166,7 @@
       <field name="category">Other Mead</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">26</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">3</field>
     </record>
     <record id="brown_porter" model="ahb_recipes.styles">
@@ -174,7 +174,7 @@
       <field name="category">Porter</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">12</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">0</field>
     </record>
     <record id="california_common_beer" model="ahb_recipes.styles">
@@ -182,7 +182,7 @@
       <field name="category">Amber Hybrid Beer</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">7</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">2</field>
     </record>
     <record id="christmas/winter_specialty_spice_beer" model="ahb_recipes.styles">
@@ -190,7 +190,7 @@
       <field name="category">Spice/Herb/Vegetable Beer</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">21</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">2</field>
     </record>
     <record id="classic_american_pilsner" model="ahb_recipes.styles">
@@ -198,7 +198,7 @@
       <field name="category">Pilsner</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">2</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">1</field>
     </record>
     <record id="classic_rauchbier" model="ahb_recipes.styles">
@@ -206,7 +206,7 @@
       <field name="category">Smoke-Flavored and Wood-Aged Beer</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">22</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">2</field>
     </record>
     <record id="common_cider" model="ahb_recipes.styles">
@@ -214,7 +214,7 @@
       <field name="category">Standard Cider and Perry</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">27</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">4</field>
     </record>
     <record id="common_perry" model="ahb_recipes.styles">
@@ -222,7 +222,7 @@
       <field name="category">Standard Cider and Perry</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">27</field>
-      <field name="style_letter">4</field>
+      <field name="style_letter">D</field>
       <field name="beer_type">4</field>
     </record>
     <record id="cream_ale" model="ahb_recipes.styles">
@@ -230,7 +230,7 @@
       <field name="category">Light Hybrid Beer</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">6</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">2</field>
     </record>
     <record id="cyser_(apple_melomel)" model="ahb_recipes.styles">
@@ -238,7 +238,7 @@
       <field name="category">Melomel (Fruit Mead)</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">25</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">3</field>
     </record>
     <record id="dark_american_lager" model="ahb_recipes.styles">
@@ -246,7 +246,7 @@
       <field name="category">Dark Lager</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">4</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">1</field>
     </record>
     <record id="doppelbock" model="ahb_recipes.styles">
@@ -254,7 +254,7 @@
       <field name="category">Bock</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">5</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">1</field>
     </record>
     <record id="dortmunder_export" model="ahb_recipes.styles">
@@ -262,7 +262,7 @@
       <field name="category">Light Lager</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">1</field>
-      <field name="style_letter">5</field>
+      <field name="style_letter">E</field>
       <field name="beer_type">1</field>
     </record>
     <record id="dry_mead" model="ahb_recipes.styles">
@@ -270,7 +270,7 @@
       <field name="category">Traditional Mead</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">24</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">3</field>
     </record>
     <record id="dry_stout" model="ahb_recipes.styles">
@@ -278,7 +278,7 @@
       <field name="category">Stout</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">13</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">0</field>
     </record>
     <record id="dunkelweizen" model="ahb_recipes.styles">
@@ -286,7 +286,7 @@
       <field name="category">German Wheat and Rye Beer</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">15</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="duuml;sseldorf_altbier" model="ahb_recipes.styles">
@@ -294,7 +294,7 @@
       <field name="category">Amber Hybrid Beer</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">7</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">0</field>
     </record>
     <record id="eisbock" model="ahb_recipes.styles">
@@ -302,7 +302,7 @@
       <field name="category">Bock</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">5</field>
-      <field name="style_letter">4</field>
+      <field name="style_letter">D</field>
       <field name="beer_type">1</field>
     </record>
     <record id="english_barleywine" model="ahb_recipes.styles">
@@ -310,7 +310,7 @@
       <field name="category">Strong Ale</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">19</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="english_cider" model="ahb_recipes.styles">
@@ -318,7 +318,7 @@
       <field name="category">Standard Cider and Perry</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">27</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">4</field>
     </record>
     <record id="english_ipa" model="ahb_recipes.styles">
@@ -326,7 +326,7 @@
       <field name="category">India Pale Ale (IPA)</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">14</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">0</field>
     </record>
     <record id="extra_special/strong_bitter_(english_pale_ale)" model="ahb_recipes.styles">
@@ -334,7 +334,7 @@
       <field name="category">English Pale Ale</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">8</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">0</field>
     </record>
     <record id="flanders_brown_ale/oud_bruin" model="ahb_recipes.styles">
@@ -342,7 +342,7 @@
       <field name="category">Sour Ale</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">17</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">0</field>
     </record>
     <record id="flanders_red_ale" model="ahb_recipes.styles">
@@ -350,7 +350,7 @@
       <field name="category">Sour Ale</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">17</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="foreign_extra_stout" model="ahb_recipes.styles">
@@ -358,7 +358,7 @@
       <field name="category">Stout</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">13</field>
-      <field name="style_letter">4</field>
+      <field name="style_letter">D</field>
       <field name="beer_type">0</field>
     </record>
     <record id="french_cider" model="ahb_recipes.styles">
@@ -366,7 +366,7 @@
       <field name="category">Standard Cider and Perry</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">27</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">4</field>
     </record>
     <record id="fruit_beer" model="ahb_recipes.styles">
@@ -374,7 +374,7 @@
       <field name="category">Fruit Beer</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">20</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">2</field>
     </record>
     <record id="fruit_cider" model="ahb_recipes.styles">
@@ -382,7 +382,7 @@
       <field name="category">Specialty Cider and Perry</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">28</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">4</field>
     </record>
     <record id="fruit_lambic" model="ahb_recipes.styles">
@@ -390,7 +390,7 @@
       <field name="category">Sour Ale</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">17</field>
-      <field name="style_letter">6</field>
+      <field name="style_letter">F</field>
       <field name="beer_type">0</field>
     </record>
     <record id="german_pilsner_(pils)" model="ahb_recipes.styles">
@@ -398,7 +398,7 @@
       <field name="category">Pilsner</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">2</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">1</field>
     </record>
     <record id="gueuze" model="ahb_recipes.styles">
@@ -406,7 +406,7 @@
       <field name="category">Sour Ale</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">17</field>
-      <field name="style_letter">5</field>
+      <field name="style_letter">E</field>
       <field name="beer_type">0</field>
     </record>
     <record id="imperial_ipa" model="ahb_recipes.styles">
@@ -414,7 +414,7 @@
       <field name="category">India Pale Ale (IPA)</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">14</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">0</field>
     </record>
     <record id="imperial_stout" model="ahb_recipes.styles">
@@ -422,7 +422,7 @@
       <field name="category">Stout</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">13</field>
-      <field name="style_letter">6</field>
+      <field name="style_letter">F</field>
       <field name="beer_type">0</field>
     </record>
     <record id="irish_red_ale" model="ahb_recipes.styles">
@@ -430,7 +430,7 @@
       <field name="category">Scottish and Irish Ale</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">9</field>
-      <field name="style_letter">4</field>
+      <field name="style_letter">D</field>
       <field name="beer_type">0</field>
     </record>
     <record id="kouml;lsch" model="ahb_recipes.styles">
@@ -438,7 +438,7 @@
       <field name="category">Light Hybrid Beer</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">6</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">0</field>
     </record>
     <record id="lite_american_lager" model="ahb_recipes.styles">
@@ -446,7 +446,7 @@
       <field name="category">Light Lager</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">1</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">1</field>
     </record>
     <record id="mailbock/helles_bock" model="ahb_recipes.styles">
@@ -454,7 +454,7 @@
       <field name="category">Bock</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">5</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">1</field>
     </record>
     <record id="metheglin" model="ahb_recipes.styles">
@@ -462,7 +462,7 @@
       <field name="category">Other Mead</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">26</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">3</field>
     </record>
     <record id="mild" model="ahb_recipes.styles">
@@ -470,7 +470,7 @@
       <field name="category">English Brown Ale</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">11</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">0</field>
     </record>
     <record id="munich_dunkel" model="ahb_recipes.styles">
@@ -478,7 +478,7 @@
       <field name="category">Dark Lager</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">4</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">1</field>
     </record>
     <record id="munich_helles" model="ahb_recipes.styles">
@@ -486,7 +486,7 @@
       <field name="category">Light Lager</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">1</field>
-      <field name="style_letter">4</field>
+      <field name="style_letter">D</field>
       <field name="beer_type">1</field>
     </record>
     <record id="new_england_cider" model="ahb_recipes.styles">
@@ -494,7 +494,7 @@
       <field name="category">Specialty Cider and Perry</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">28</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">4</field>
     </record>
     <record id="northern_english_brown_ale" model="ahb_recipes.styles">
@@ -502,7 +502,7 @@
       <field name="category">English Brown Ale</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">11</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">0</field>
     </record>
     <record id="northern_german_altbier" model="ahb_recipes.styles">
@@ -510,7 +510,7 @@
       <field name="category">Amber Hybrid Beer</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">7</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">2</field>
     </record>
     <record id="oatmeal_stout" model="ahb_recipes.styles">
@@ -518,7 +518,7 @@
       <field name="category">Stout</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">13</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">0</field>
     </record>
     <record id="oktoberfest/mauml;rzen" model="ahb_recipes.styles">
@@ -526,7 +526,7 @@
       <field name="category">European Amber Lager</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">3</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">1</field>
     </record>
     <record id="old_ale" model="ahb_recipes.styles">
@@ -534,7 +534,7 @@
       <field name="category">Strong Ale</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">19</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">0</field>
     </record>
     <record id="open_category_mead" model="ahb_recipes.styles">
@@ -542,7 +542,7 @@
       <field name="category">Other Mead</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">26</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">3</field>
     </record>
     <record id="other_fruit_melomel" model="ahb_recipes.styles">
@@ -550,7 +550,7 @@
       <field name="category">Melomel (Fruit Mead)</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">25</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">3</field>
     </record>
     <record id="other_smoked_beer" model="ahb_recipes.styles">
@@ -558,7 +558,7 @@
       <field name="category">Smoke-Flavored and Wood-Aged Beer</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">22</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">2</field>
     </record>
     <record id="other_specialty_cider/perry" model="ahb_recipes.styles">
@@ -566,7 +566,7 @@
       <field name="category">Specialty Cider and Perry</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">28</field>
-      <field name="style_letter">4</field>
+      <field name="style_letter">D</field>
       <field name="beer_type">4</field>
     </record>
     <record id="premium_american_lager" model="ahb_recipes.styles">
@@ -574,7 +574,7 @@
       <field name="category">Light Lager</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">1</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">1</field>
     </record>
     <record id="pyment_(grape_melomel)" model="ahb_recipes.styles">
@@ -582,7 +582,7 @@
       <field name="category">Melomel (Fruit Mead)</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">25</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">3</field>
     </record>
     <record id="robust_porter" model="ahb_recipes.styles">
@@ -590,7 +590,7 @@
       <field name="category">Porter</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">12</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="roggenbier_(german_rye_beer)" model="ahb_recipes.styles">
@@ -598,7 +598,7 @@
       <field name="category">German Wheat and Rye Beer</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">15</field>
-      <field name="style_letter">4</field>
+      <field name="style_letter">D</field>
       <field name="beer_type">0</field>
     </record>
     <record id="saison" model="ahb_recipes.styles">
@@ -606,7 +606,7 @@
       <field name="category">Belgian and French Ale</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">16</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">0</field>
     </record>
     <record id="schwarzbier_(black_beer)" model="ahb_recipes.styles">
@@ -614,7 +614,7 @@
       <field name="category">Dark Lager</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">4</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">1</field>
     </record>
     <record id="scottish_export_80/-" model="ahb_recipes.styles">
@@ -622,7 +622,7 @@
       <field name="category">Scottish and Irish Ale</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">9</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">0</field>
     </record>
     <record id="scottish_heavy_70/-" model="ahb_recipes.styles">
@@ -630,7 +630,7 @@
       <field name="category">Scottish and Irish Ale</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">9</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="scottish_light_60/-" model="ahb_recipes.styles">
@@ -638,7 +638,7 @@
       <field name="category">Scottish and Irish Ale</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">9</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">0</field>
     </record>
     <record id="semi-sweet_mead" model="ahb_recipes.styles">
@@ -646,7 +646,7 @@
       <field name="category">Traditional Mead</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">24</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">3</field>
     </record>
     <record id="southern_english_brown_ale" model="ahb_recipes.styles">
@@ -654,7 +654,7 @@
       <field name="category">English Brown Ale</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">11</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="special/best/premium_bitter" model="ahb_recipes.styles">
@@ -662,7 +662,7 @@
       <field name="category">English Pale Ale</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">8</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="specialty_beer" model="ahb_recipes.styles">
@@ -670,7 +670,7 @@
       <field name="category">Specialty Beer</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">23</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">2</field>
     </record>
     <record id="spice,_herb,_or_vegetable_beer" model="ahb_recipes.styles">
@@ -678,7 +678,7 @@
       <field name="category">Spice/Herb/Vegetable Beer</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">21</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">2</field>
     </record>
     <record id="standard_american_lager" model="ahb_recipes.styles">
@@ -686,7 +686,7 @@
       <field name="category">Light Lager</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">1</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">1</field>
     </record>
     <record id="standard/ordinary_bitter" model="ahb_recipes.styles">
@@ -694,7 +694,7 @@
       <field name="category">English Pale Ale</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">8</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">0</field>
     </record>
     <record id="straight_(unblended)_lambic" model="ahb_recipes.styles">
@@ -702,7 +702,7 @@
       <field name="category">Sour Ale</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">17</field>
-      <field name="style_letter">4</field>
+      <field name="style_letter">D</field>
       <field name="beer_type">0</field>
     </record>
     <record id="strong_scotch_ale" model="ahb_recipes.styles">
@@ -710,7 +710,7 @@
       <field name="category">Scottish and Irish Ale</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">9</field>
-      <field name="style_letter">5</field>
+      <field name="style_letter">E</field>
       <field name="beer_type">0</field>
     </record>
     <record id="sweet_mead" model="ahb_recipes.styles">
@@ -718,7 +718,7 @@
       <field name="category">Traditional Mead</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">24</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">3</field>
     </record>
     <record id="sweet_stout" model="ahb_recipes.styles">
@@ -726,7 +726,7 @@
       <field name="category">Stout</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">13</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="traditional_bock" model="ahb_recipes.styles">
@@ -734,7 +734,7 @@
       <field name="category">Bock</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">5</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">1</field>
     </record>
     <record id="traditional_perry" model="ahb_recipes.styles">
@@ -742,7 +742,7 @@
       <field name="category">Standard Cider and Perry</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">27</field>
-      <field name="style_letter">5</field>
+      <field name="style_letter">E</field>
       <field name="beer_type">4</field>
     </record>
     <record id="vienna_lager" model="ahb_recipes.styles">
@@ -750,7 +750,7 @@
       <field name="category">European Amber Lager</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">3</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">1</field>
     </record>
     <record id="weizen/weissbier" model="ahb_recipes.styles">
@@ -758,7 +758,7 @@
       <field name="category">German Wheat and Rye Beer</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">15</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">0</field>
     </record>
     <record id="weizenbock" model="ahb_recipes.styles">
@@ -766,7 +766,7 @@
       <field name="category">German Wheat and Rye Beer</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">15</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">0</field>
     </record>
     <record id="witbier" model="ahb_recipes.styles">
@@ -774,7 +774,7 @@
       <field name="category">Belgian and French Ale</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">16</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">2</field>
     </record>
     <record id="wood_aged_beer" model="ahb_recipes.styles">
@@ -782,7 +782,7 @@
       <field name="category">Smoke-Flavored and Wood-Aged Beer</field>
       <field name="style_guide">BJCP 2008</field>
       <field name="number">22</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">2</field>
     </record>
     <record id="american_light_lager" model="ahb_recipes.styles">
@@ -790,7 +790,7 @@
       <field name="category">Standard American Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">1</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">1</field>
     </record>
     <record id="american_lager" model="ahb_recipes.styles">
@@ -798,7 +798,7 @@
       <field name="category">Standard American Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">1</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">1</field>
     </record>
     <record id="cream_ale" model="ahb_recipes.styles">
@@ -806,7 +806,7 @@
       <field name="category">Standard American Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">1</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">2</field>
     </record>
     <record id="american_wheat_beer" model="ahb_recipes.styles">
@@ -814,7 +814,7 @@
       <field name="category">Standard American Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">1</field>
-      <field name="style_letter">4</field>
+      <field name="style_letter">D</field>
       <field name="beer_type">5</field>
     </record>
     <record id="international_pale_lager" model="ahb_recipes.styles">
@@ -822,7 +822,7 @@
       <field name="category">International Lager</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">2</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">1</field>
     </record>
     <record id="international_amber_lager" model="ahb_recipes.styles">
@@ -830,7 +830,7 @@
       <field name="category">International Lager</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">2</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">1</field>
     </record>
     <record id="international_dark_lager" model="ahb_recipes.styles">
@@ -838,7 +838,7 @@
       <field name="category">International Lager</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">2</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">1</field>
     </record>
     <record id="czech_pale_lager" model="ahb_recipes.styles">
@@ -846,7 +846,7 @@
       <field name="category">Czech Lager</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">3</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">1</field>
     </record>
     <record id="czech_premium_pale_lager" model="ahb_recipes.styles">
@@ -854,7 +854,7 @@
       <field name="category">Czech Lager</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">3</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">1</field>
     </record>
     <record id="czech_amber_lager" model="ahb_recipes.styles">
@@ -862,7 +862,7 @@
       <field name="category">Czech Lager</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">3</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">1</field>
     </record>
     <record id="czech_dark_lager" model="ahb_recipes.styles">
@@ -870,7 +870,7 @@
       <field name="category">Czech Lager</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">3</field>
-      <field name="style_letter">4</field>
+      <field name="style_letter">D</field>
       <field name="beer_type">1</field>
     </record>
     <record id="munich_helles" model="ahb_recipes.styles">
@@ -878,7 +878,7 @@
       <field name="category">Pale Malty European Lager</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">4</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">1</field>
     </record>
     <record id="festbier" model="ahb_recipes.styles">
@@ -886,7 +886,7 @@
       <field name="category">Pale Malty European Lager</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">4</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">1</field>
     </record>
     <record id="helles_bock" model="ahb_recipes.styles">
@@ -894,7 +894,7 @@
       <field name="category">Pale Malty European Lager</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">4</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">1</field>
     </record>
     <record id="german_leichtbier" model="ahb_recipes.styles">
@@ -902,7 +902,7 @@
       <field name="category">Pale Bitter European Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">5</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">1</field>
     </record>
     <record id="kouml;lsch" model="ahb_recipes.styles">
@@ -910,7 +910,7 @@
       <field name="category">Pale Bitter European Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">5</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="german_helles_exportbier" model="ahb_recipes.styles">
@@ -918,7 +918,7 @@
       <field name="category">Pale Bitter European Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">5</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">1</field>
     </record>
     <record id="german_pils" model="ahb_recipes.styles">
@@ -926,7 +926,7 @@
       <field name="category">Pale Bitter European Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">5</field>
-      <field name="style_letter">4</field>
+      <field name="style_letter">D</field>
       <field name="beer_type">1</field>
     </record>
     <record id="mauml;rzen" model="ahb_recipes.styles">
@@ -934,7 +934,7 @@
       <field name="category">Amber Malty European Lager</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">6</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">1</field>
     </record>
     <record id="rauchbier" model="ahb_recipes.styles">
@@ -942,7 +942,7 @@
       <field name="category">Amber Malty European Lager</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">6</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">1</field>
     </record>
     <record id="dunkles_bock" model="ahb_recipes.styles">
@@ -950,7 +950,7 @@
       <field name="category">Amber Malty European Lager</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">6</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">1</field>
     </record>
     <record id="vienna_lager" model="ahb_recipes.styles">
@@ -958,7 +958,7 @@
       <field name="category">Amber Bitter European Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">7</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">1</field>
     </record>
     <record id="altbier" model="ahb_recipes.styles">
@@ -966,7 +966,7 @@
       <field name="category">Amber Bitter European Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">7</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="pale_kellerbier" model="ahb_recipes.styles">
@@ -974,7 +974,7 @@
       <field name="category">Amber Bitter European Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">7</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">1</field>
     </record>
     <record id="munich_dunkel" model="ahb_recipes.styles">
@@ -982,7 +982,7 @@
       <field name="category">Dark European Lager</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">8</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">1</field>
     </record>
     <record id="schwarzbier" model="ahb_recipes.styles">
@@ -990,7 +990,7 @@
       <field name="category">Dark European Lager</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">8</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">1</field>
     </record>
     <record id="doppelbock" model="ahb_recipes.styles">
@@ -998,7 +998,7 @@
       <field name="category">Strong European Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">9</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">1</field>
     </record>
     <record id="eisbock" model="ahb_recipes.styles">
@@ -1006,7 +1006,7 @@
       <field name="category">Strong European Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">9</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">1</field>
     </record>
     <record id="baltic_porter" model="ahb_recipes.styles">
@@ -1014,7 +1014,7 @@
       <field name="category">Strong European Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">9</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">0</field>
     </record>
     <record id="weissbier" model="ahb_recipes.styles">
@@ -1022,7 +1022,7 @@
       <field name="category">German Wheat Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">10</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">5</field>
     </record>
     <record id="dunkles_weissbier" model="ahb_recipes.styles">
@@ -1030,7 +1030,7 @@
       <field name="category">German Wheat Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">10</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">5</field>
     </record>
     <record id="weizenbock" model="ahb_recipes.styles">
@@ -1038,7 +1038,7 @@
       <field name="category">German Wheat Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">10</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">5</field>
     </record>
     <record id="ordinary_bitter" model="ahb_recipes.styles">
@@ -1046,7 +1046,7 @@
       <field name="category">British Bitter</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">11</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">0</field>
     </record>
     <record id="best_bitter" model="ahb_recipes.styles">
@@ -1054,7 +1054,7 @@
       <field name="category">British Bitter</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">11</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="strong_bitter" model="ahb_recipes.styles">
@@ -1062,7 +1062,7 @@
       <field name="category">British Bitter</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">11</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">0</field>
     </record>
     <record id="british_golden_ale" model="ahb_recipes.styles">
@@ -1070,7 +1070,7 @@
       <field name="category">Pale Commonwealth Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">12</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">0</field>
     </record>
     <record id="australian_sparkling_ale" model="ahb_recipes.styles">
@@ -1078,7 +1078,7 @@
       <field name="category">Pale Commonwealth Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">12</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="english_ipa" model="ahb_recipes.styles">
@@ -1086,7 +1086,7 @@
       <field name="category">Pale Commonwealth Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">12</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">0</field>
     </record>
     <record id="dark_mild" model="ahb_recipes.styles">
@@ -1094,7 +1094,7 @@
       <field name="category">Brown British Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">13</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">0</field>
     </record>
     <record id="british_brown_ale" model="ahb_recipes.styles">
@@ -1102,7 +1102,7 @@
       <field name="category">Brown British Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">13</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="english_porter" model="ahb_recipes.styles">
@@ -1110,7 +1110,7 @@
       <field name="category">Brown British Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">13</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">0</field>
     </record>
     <record id="scottish_light" model="ahb_recipes.styles">
@@ -1118,7 +1118,7 @@
       <field name="category">Scottish Ale</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">14</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">0</field>
     </record>
     <record id="scottish_heavy" model="ahb_recipes.styles">
@@ -1126,7 +1126,7 @@
       <field name="category">Scottish Ale</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">14</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="scottish_export" model="ahb_recipes.styles">
@@ -1134,7 +1134,7 @@
       <field name="category">Scottish Ale</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">14</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">0</field>
     </record>
     <record id="irish_red_ale" model="ahb_recipes.styles">
@@ -1142,7 +1142,7 @@
       <field name="category">Irish Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">15</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">0</field>
     </record>
     <record id="irish_stout" model="ahb_recipes.styles">
@@ -1150,7 +1150,7 @@
       <field name="category">Irish Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">15</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="irish_extra_stout" model="ahb_recipes.styles">
@@ -1158,7 +1158,7 @@
       <field name="category">Irish Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">15</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">0</field>
     </record>
     <record id="sweet_stout" model="ahb_recipes.styles">
@@ -1166,7 +1166,7 @@
       <field name="category">Dark British Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">16</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">0</field>
     </record>
     <record id="oatmeal_stout" model="ahb_recipes.styles">
@@ -1174,7 +1174,7 @@
       <field name="category">Dark British Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">16</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="tropical_stout" model="ahb_recipes.styles">
@@ -1182,7 +1182,7 @@
       <field name="category">Dark British Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">16</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">0</field>
     </record>
     <record id="foreign_extra_stout" model="ahb_recipes.styles">
@@ -1190,7 +1190,7 @@
       <field name="category">Dark British Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">16</field>
-      <field name="style_letter">4</field>
+      <field name="style_letter">D</field>
       <field name="beer_type">0</field>
     </record>
     <record id="british_strong_ale" model="ahb_recipes.styles">
@@ -1198,7 +1198,7 @@
       <field name="category">Strong British Ale</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">17</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">0</field>
     </record>
     <record id="old_ale" model="ahb_recipes.styles">
@@ -1206,7 +1206,7 @@
       <field name="category">Strong British Ale</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">17</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="wee_heavy" model="ahb_recipes.styles">
@@ -1214,7 +1214,7 @@
       <field name="category">Strong British Ale</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">17</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">0</field>
     </record>
     <record id="english_barleywine" model="ahb_recipes.styles">
@@ -1222,7 +1222,7 @@
       <field name="category">Strong British Ale</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">17</field>
-      <field name="style_letter">4</field>
+      <field name="style_letter">D</field>
       <field name="beer_type">0</field>
     </record>
     <record id="blonde_ale" model="ahb_recipes.styles">
@@ -1230,7 +1230,7 @@
       <field name="category">Pale American Ale</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">18</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">0</field>
     </record>
     <record id="american_pale_ale" model="ahb_recipes.styles">
@@ -1238,7 +1238,7 @@
       <field name="category">Pale American Ale</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">18</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="american_amber_ale" model="ahb_recipes.styles">
@@ -1246,7 +1246,7 @@
       <field name="category">Amber and Brown American Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">19</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">0</field>
     </record>
     <record id="california_common" model="ahb_recipes.styles">
@@ -1254,7 +1254,7 @@
       <field name="category">Amber and Brown American Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">19</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">1</field>
     </record>
     <record id="american_brown_ale" model="ahb_recipes.styles">
@@ -1262,7 +1262,7 @@
       <field name="category">Amber and Brown American Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">19</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">0</field>
     </record>
     <record id="american_porter" model="ahb_recipes.styles">
@@ -1270,7 +1270,7 @@
       <field name="category">American Porter and Stout</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">20</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">0</field>
     </record>
     <record id="american_stout" model="ahb_recipes.styles">
@@ -1278,7 +1278,7 @@
       <field name="category">American Porter and Stout</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">20</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="imperial_stout" model="ahb_recipes.styles">
@@ -1286,7 +1286,7 @@
       <field name="category">American Porter and Stout</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">20</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">0</field>
     </record>
     <record id="american_ipa" model="ahb_recipes.styles">
@@ -1294,7 +1294,7 @@
       <field name="category">IPA</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">21</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">0</field>
     </record>
     <record id="specialty_ipa" model="ahb_recipes.styles">
@@ -1302,7 +1302,7 @@
       <field name="category">IPA</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">21</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="double_ipa" model="ahb_recipes.styles">
@@ -1310,7 +1310,7 @@
       <field name="category">Strong American Ale</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">22</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">0</field>
     </record>
     <record id="american_strong_ale" model="ahb_recipes.styles">
@@ -1318,7 +1318,7 @@
       <field name="category">Strong American Ale</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">22</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="american_barleywine" model="ahb_recipes.styles">
@@ -1326,7 +1326,7 @@
       <field name="category">Strong American Ale</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">22</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">0</field>
     </record>
     <record id="wheatwine" model="ahb_recipes.styles">
@@ -1334,7 +1334,7 @@
       <field name="category">Strong American Ale</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">22</field>
-      <field name="style_letter">4</field>
+      <field name="style_letter">D</field>
       <field name="beer_type">0</field>
     </record>
     <record id="berliner_weisse" model="ahb_recipes.styles">
@@ -1342,7 +1342,7 @@
       <field name="category">European Sour Ale</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">23</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">0</field>
     </record>
     <record id="flanders_red_ale" model="ahb_recipes.styles">
@@ -1350,7 +1350,7 @@
       <field name="category">European Sour Ale</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">23</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="oud_bruin" model="ahb_recipes.styles">
@@ -1358,7 +1358,7 @@
       <field name="category">European Sour Ale</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">23</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">0</field>
     </record>
     <record id="lambic" model="ahb_recipes.styles">
@@ -1366,7 +1366,7 @@
       <field name="category">European Sour Ale</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">23</field>
-      <field name="style_letter">4</field>
+      <field name="style_letter">D</field>
       <field name="beer_type">2</field>
     </record>
     <record id="gueuze" model="ahb_recipes.styles">
@@ -1374,7 +1374,7 @@
       <field name="category">European Sour Ale</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">23</field>
-      <field name="style_letter">5</field>
+      <field name="style_letter">E</field>
       <field name="beer_type">2</field>
     </record>
     <record id="fruit_lambic" model="ahb_recipes.styles">
@@ -1382,7 +1382,7 @@
       <field name="category">European Sour Ale</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">23</field>
-      <field name="style_letter">6</field>
+      <field name="style_letter">F</field>
       <field name="beer_type">2</field>
     </record>
     <record id="witbier" model="ahb_recipes.styles">
@@ -1390,7 +1390,7 @@
       <field name="category">Belgian Ale</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">24</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">0</field>
     </record>
     <record id="belgian_pale_ale" model="ahb_recipes.styles">
@@ -1398,7 +1398,7 @@
       <field name="category">Belgian Ale</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">24</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="biegrave;re_de_garde" model="ahb_recipes.styles">
@@ -1406,7 +1406,7 @@
       <field name="category">Belgian Ale</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">24</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">0</field>
     </record>
     <record id="belgian_blond_ale" model="ahb_recipes.styles">
@@ -1414,7 +1414,7 @@
       <field name="category">Strong Belgian Ale</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">25</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">0</field>
     </record>
     <record id="saison" model="ahb_recipes.styles">
@@ -1422,7 +1422,7 @@
       <field name="category">Strong Belgian Ale</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">25</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="belgian_golden_strong_ale" model="ahb_recipes.styles">
@@ -1430,7 +1430,7 @@
       <field name="category">Strong Belgian Ale</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">25</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">0</field>
     </record>
     <record id="trappist_single" model="ahb_recipes.styles">
@@ -1438,7 +1438,7 @@
       <field name="category">Trappist Ale</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">26</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">0</field>
     </record>
     <record id="belgian_dubbel" model="ahb_recipes.styles">
@@ -1446,7 +1446,7 @@
       <field name="category">Trappist Ale</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">26</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="belgian_tripel" model="ahb_recipes.styles">
@@ -1454,7 +1454,7 @@
       <field name="category">Trappist Ale</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">26</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">0</field>
     </record>
     <record id="belgian_dark_strong_ale" model="ahb_recipes.styles">
@@ -1462,7 +1462,7 @@
       <field name="category">Trappist Ale</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">26</field>
-      <field name="style_letter">4</field>
+      <field name="style_letter">D</field>
       <field name="beer_type">0</field>
     </record>
     <record id="historical_beer_-_other" model="ahb_recipes.styles">
@@ -1470,7 +1470,7 @@
       <field name="category">Historical Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">27</field>
-      <field name="style_letter">0</field>
+      <field name="style_letter" />
       <field name="beer_type">0</field>
     </record>
     <record id="gose" model="ahb_recipes.styles">
@@ -1478,7 +1478,7 @@
       <field name="category">Historical Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">27</field>
-      <field name="style_letter">0</field>
+      <field name="style_letter" />
       <field name="beer_type">0</field>
     </record>
     <record id="kentucky_common" model="ahb_recipes.styles">
@@ -1486,7 +1486,7 @@
       <field name="category">Historical Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">27</field>
-      <field name="style_letter">0</field>
+      <field name="style_letter" />
       <field name="beer_type">0</field>
     </record>
     <record id="lichtenhainer" model="ahb_recipes.styles">
@@ -1494,7 +1494,7 @@
       <field name="category">Historical Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">27</field>
-      <field name="style_letter">0</field>
+      <field name="style_letter" />
       <field name="beer_type">5</field>
     </record>
     <record id="london_brown_ale" model="ahb_recipes.styles">
@@ -1502,7 +1502,7 @@
       <field name="category">Historical Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">27</field>
-      <field name="style_letter">0</field>
+      <field name="style_letter" />
       <field name="beer_type">0</field>
     </record>
     <record id="piwo_grodziskie" model="ahb_recipes.styles">
@@ -1510,7 +1510,7 @@
       <field name="category">Historical Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">27</field>
-      <field name="style_letter">0</field>
+      <field name="style_letter" />
       <field name="beer_type">0</field>
     </record>
     <record id="pre-prohibition_lager" model="ahb_recipes.styles">
@@ -1518,7 +1518,7 @@
       <field name="category">Historical Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">27</field>
-      <field name="style_letter">0</field>
+      <field name="style_letter" />
       <field name="beer_type">1</field>
     </record>
     <record id="pre-prohibition_porter" model="ahb_recipes.styles">
@@ -1526,7 +1526,7 @@
       <field name="category">Historical Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">27</field>
-      <field name="style_letter">0</field>
+      <field name="style_letter" />
       <field name="beer_type">0</field>
     </record>
     <record id="roggenbier" model="ahb_recipes.styles">
@@ -1534,7 +1534,7 @@
       <field name="category">Historical Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">27</field>
-      <field name="style_letter">0</field>
+      <field name="style_letter" />
       <field name="beer_type">5</field>
     </record>
     <record id="sahti" model="ahb_recipes.styles">
@@ -1542,7 +1542,7 @@
       <field name="category">Historical Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">27</field>
-      <field name="style_letter">0</field>
+      <field name="style_letter" />
       <field name="beer_type">5</field>
     </record>
     <record id="brett_beer" model="ahb_recipes.styles">
@@ -1550,7 +1550,7 @@
       <field name="category">American Wild Ale</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">28</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">2</field>
     </record>
     <record id="mixed-fermentation_sour_beer" model="ahb_recipes.styles">
@@ -1558,7 +1558,7 @@
       <field name="category">American Wild Ale</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">28</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">2</field>
     </record>
     <record id="wild_specialty_beer" model="ahb_recipes.styles">
@@ -1566,7 +1566,7 @@
       <field name="category">American Wild Ale</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">28</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">2</field>
     </record>
     <record id="fruit_beer" model="ahb_recipes.styles">
@@ -1574,7 +1574,7 @@
       <field name="category">Fruit Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">29</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">2</field>
     </record>
     <record id="fruit_and_spice_beer" model="ahb_recipes.styles">
@@ -1582,7 +1582,7 @@
       <field name="category">Fruit Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">29</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">2</field>
     </record>
     <record id="specialty_fruit_beer" model="ahb_recipes.styles">
@@ -1590,7 +1590,7 @@
       <field name="category">Fruit Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">29</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">2</field>
     </record>
     <record id="spice,_herb_or_vegetable_beer" model="ahb_recipes.styles">
@@ -1598,7 +1598,7 @@
       <field name="category">Spiced Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">30</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">2</field>
     </record>
     <record id="autumn_seasonal_beer" model="ahb_recipes.styles">
@@ -1606,7 +1606,7 @@
       <field name="category">Spiced Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">30</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">2</field>
     </record>
     <record id="winter_seasonal_beer" model="ahb_recipes.styles">
@@ -1614,7 +1614,7 @@
       <field name="category">Spiced Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">30</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">2</field>
     </record>
     <record id="alternative_grain_beer" model="ahb_recipes.styles">
@@ -1622,7 +1622,7 @@
       <field name="category">Alternative Fermentables Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">31</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">2</field>
     </record>
     <record id="alternative_sugar_beer" model="ahb_recipes.styles">
@@ -1630,7 +1630,7 @@
       <field name="category">Alternative Fermentables Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">31</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">2</field>
     </record>
     <record id="classic_style_smoked_beer" model="ahb_recipes.styles">
@@ -1638,7 +1638,7 @@
       <field name="category">Smoked Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">32</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">2</field>
     </record>
     <record id="specialty_smoked_beer" model="ahb_recipes.styles">
@@ -1646,7 +1646,7 @@
       <field name="category">Smoked Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">32</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">2</field>
     </record>
     <record id="wood-aged_beer" model="ahb_recipes.styles">
@@ -1654,7 +1654,7 @@
       <field name="category">Wood Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">33</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">2</field>
     </record>
     <record id="specialty_wood-aged_beer" model="ahb_recipes.styles">
@@ -1662,7 +1662,7 @@
       <field name="category">Wood Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">33</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">2</field>
     </record>
     <record id="clone_beer" model="ahb_recipes.styles">
@@ -1670,7 +1670,7 @@
       <field name="category">Specialty Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">34</field>
-      <field name="style_letter">1</field>
+      <field name="style_letter">A</field>
       <field name="beer_type">2</field>
     </record>
     <record id="mixed_style_beer" model="ahb_recipes.styles">
@@ -1678,7 +1678,7 @@
       <field name="category">Specialty Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">34</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">2</field>
     </record>
     <record id="experimental_beer" model="ahb_recipes.styles">
@@ -1686,7 +1686,7 @@
       <field name="category">Specialty Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">34</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">2</field>
     </record>
     <record id="amber_kellerbier" model="ahb_recipes.styles">
@@ -1694,7 +1694,7 @@
       <field name="category">Amber Bitter European Beer</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">7</field>
-      <field name="style_letter">3</field>
+      <field name="style_letter">C</field>
       <field name="beer_type">1</field>
     </record>
     <record id="belgian_ipa" model="ahb_recipes.styles">
@@ -1702,7 +1702,7 @@
       <field name="category">IPA</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">21</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="black_ipa" model="ahb_recipes.styles">
@@ -1710,7 +1710,7 @@
       <field name="category">IPA</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">21</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="brown_ipa" model="ahb_recipes.styles">
@@ -1718,7 +1718,7 @@
       <field name="category">IPA</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">21</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="red_ipa" model="ahb_recipes.styles">
@@ -1726,7 +1726,7 @@
       <field name="category">IPA</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">21</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="rye_ipa" model="ahb_recipes.styles">
@@ -1734,7 +1734,7 @@
       <field name="category">IPA</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">21</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
     <record id="white_ipa" model="ahb_recipes.styles">
@@ -1742,7 +1742,7 @@
       <field name="category">IPA</field>
       <field name="style_guide">BJCP 2015</field>
       <field name="number">21</field>
-      <field name="style_letter">2</field>
+      <field name="style_letter">B</field>
       <field name="beer_type">0</field>
     </record>
   </data>

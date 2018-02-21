@@ -8,12 +8,7 @@ class ahb_recipes(models.Model):
     style = fields.Char('Style', required=True)
 
 class styles(models.Model):
-    _name = 'ahb_recipes.styles'
-    name = fields.Char('Name', required=True)
-    category = fields.Char('Category', required=True)
-    style_guide = fields.Char('Style Guide', required=True)
-    number = fields.Integer()
-    style_letter = fields.Selection((
+    VALUES=[
       ('0',''),
       ('1','A'),
       ('2','B'),
@@ -41,6 +36,15 @@ class styles(models.Model):
       ('24','X'),
       ('25','Y'),
       ('26','Z')
+    ]
+
+    _name = 'ahb_recipes.styles'
+    name = fields.Char('Name', required=True)
+    category = fields.Char('Category', required=True)
+    style_guide = fields.Char('Style Guide', required=True)
+    number = fields.Integer()
+    style_letter = fields.Selection((
+      VALUES
       ),'Style Letters')
     beer_type = fields.Selection((
       ('0','Ale'),
@@ -78,7 +82,7 @@ class styles(models.Model):
     @api.depends('number')
     def _number_generator(self):
         for record in self:
-            record.number_updated = "%s%s" % (record.number or '',record.style_letter{} or '')
+            record.number_updated = "%s%s" % (record.number or '',record.style_letter or '')
 
     @api.multi
     def _calculate_og_range(self):

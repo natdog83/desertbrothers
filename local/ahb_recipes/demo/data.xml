@@ -8,6 +8,23 @@
       <field name="number">1</field>
       <field name="style_letter">A</field>
       <field name="beer_type">1</field>
+      <field name="og_min">1.0280000</field>
+      <field name="og_max">1.0400000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="american_lager" model="ahb_recipes.styles">
       <field name="name">American Lager</field>
@@ -16,6 +33,23 @@
       <field name="number">1</field>
       <field name="style_letter">B</field>
       <field name="beer_type">1</field>
+      <field name="og_min">1.0400000</field>
+      <field name="og_max">1.0500000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="cream_ale" model="ahb_recipes.styles">
       <field name="name">Cream Ale</field>
@@ -24,6 +58,23 @@
       <field name="number">1</field>
       <field name="style_letter">C</field>
       <field name="beer_type">2</field>
+      <field name="og_min">1.0420000</field>
+      <field name="og_max">1.0550000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="american_wheat_beer" model="ahb_recipes.styles">
       <field name="name">American Wheat Beer</field>
@@ -32,6 +83,23 @@
       <field name="number">1</field>
       <field name="style_letter">D</field>
       <field name="beer_type">5</field>
+      <field name="og_min">1.0400000</field>
+      <field name="og_max">1.0550000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="international_pale_lager" model="ahb_recipes.styles">
       <field name="name">International Pale Lager</field>
@@ -40,6 +108,23 @@
       <field name="number">2</field>
       <field name="style_letter">A</field>
       <field name="beer_type">1</field>
+      <field name="og_min">1.0420000</field>
+      <field name="og_max">1.0500000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="international_amber_lager" model="ahb_recipes.styles">
       <field name="name">International Amber Lager</field>
@@ -48,6 +133,23 @@
       <field name="number">2</field>
       <field name="style_letter">B</field>
       <field name="beer_type">1</field>
+      <field name="og_min">1.0420000</field>
+      <field name="og_max">1.0550000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="international_dark_lager" model="ahb_recipes.styles">
       <field name="name">International Dark Lager</field>
@@ -56,6 +158,23 @@
       <field name="number">2</field>
       <field name="style_letter">C</field>
       <field name="beer_type">1</field>
+      <field name="og_min">1.0440000</field>
+      <field name="og_max">1.0560000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="czech_pale_lager" model="ahb_recipes.styles">
       <field name="name">Czech Pale Lager</field>
@@ -64,6 +183,23 @@
       <field name="number">3</field>
       <field name="style_letter">A</field>
       <field name="beer_type">1</field>
+      <field name="og_min">1.0280000</field>
+      <field name="og_max">1.0440000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="czech_premium_pale_lager" model="ahb_recipes.styles">
       <field name="name">Czech Premium Pale Lager</field>
@@ -72,6 +208,23 @@
       <field name="number">3</field>
       <field name="style_letter">B</field>
       <field name="beer_type">1</field>
+      <field name="og_min">1.0440000</field>
+      <field name="og_max">1.0600000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="czech_amber_lager" model="ahb_recipes.styles">
       <field name="name">Czech Amber Lager</field>
@@ -80,6 +233,23 @@
       <field name="number">3</field>
       <field name="style_letter">C</field>
       <field name="beer_type">1</field>
+      <field name="og_min">1.0440000</field>
+      <field name="og_max">1.0600000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="czech_dark_lager" model="ahb_recipes.styles">
       <field name="name">Czech Dark Lager</field>
@@ -88,6 +258,23 @@
       <field name="number">3</field>
       <field name="style_letter">D</field>
       <field name="beer_type">1</field>
+      <field name="og_min">1.0440000</field>
+      <field name="og_max">1.0600000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="munich_helles" model="ahb_recipes.styles">
       <field name="name">Munich Helles</field>
@@ -96,6 +283,23 @@
       <field name="number">4</field>
       <field name="style_letter">A</field>
       <field name="beer_type">1</field>
+      <field name="og_min">1.0440000</field>
+      <field name="og_max">1.0480000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="festbier" model="ahb_recipes.styles">
       <field name="name">Festbier</field>
@@ -104,6 +308,23 @@
       <field name="number">4</field>
       <field name="style_letter">B</field>
       <field name="beer_type">1</field>
+      <field name="og_min">1.0540000</field>
+      <field name="og_max">1.0570000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="helles_bock" model="ahb_recipes.styles">
       <field name="name">Helles Bock</field>
@@ -112,6 +333,23 @@
       <field name="number">4</field>
       <field name="style_letter">C</field>
       <field name="beer_type">1</field>
+      <field name="og_min">1.0640000</field>
+      <field name="og_max">1.0720000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="german_leichtbier" model="ahb_recipes.styles">
       <field name="name">German Leichtbier</field>
@@ -120,6 +358,23 @@
       <field name="number">5</field>
       <field name="style_letter">A</field>
       <field name="beer_type">1</field>
+      <field name="og_min">1.0260000</field>
+      <field name="og_max">1.0340000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="kouml;lsch" model="ahb_recipes.styles">
       <field name="name">Kouml;lsch</field>
@@ -128,6 +383,23 @@
       <field name="number">5</field>
       <field name="style_letter">B</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0440000</field>
+      <field name="og_max">1.0500000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="german_helles_exportbier" model="ahb_recipes.styles">
       <field name="name">German Helles Exportbier</field>
@@ -136,6 +408,23 @@
       <field name="number">5</field>
       <field name="style_letter">C</field>
       <field name="beer_type">1</field>
+      <field name="og_min">1.0480000</field>
+      <field name="og_max">1.0560000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="german_pils" model="ahb_recipes.styles">
       <field name="name">German Pils</field>
@@ -144,6 +433,23 @@
       <field name="number">5</field>
       <field name="style_letter">D</field>
       <field name="beer_type">1</field>
+      <field name="og_min">1.0440000</field>
+      <field name="og_max">1.0500000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="mauml;rzen" model="ahb_recipes.styles">
       <field name="name">Mauml;rzen</field>
@@ -152,6 +458,23 @@
       <field name="number">6</field>
       <field name="style_letter">A</field>
       <field name="beer_type">1</field>
+      <field name="og_min">1.0540000</field>
+      <field name="og_max">1.0600000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="rauchbier" model="ahb_recipes.styles">
       <field name="name">Rauchbier</field>
@@ -160,6 +483,23 @@
       <field name="number">6</field>
       <field name="style_letter">B</field>
       <field name="beer_type">1</field>
+      <field name="og_min">1.0500000</field>
+      <field name="og_max">1.0570000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="dunkles_bock" model="ahb_recipes.styles">
       <field name="name">Dunkles Bock</field>
@@ -168,6 +508,23 @@
       <field name="number">6</field>
       <field name="style_letter">C</field>
       <field name="beer_type">1</field>
+      <field name="og_min">1.0640000</field>
+      <field name="og_max">1.0720000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="vienna_lager" model="ahb_recipes.styles">
       <field name="name">Vienna Lager</field>
@@ -176,6 +533,23 @@
       <field name="number">7</field>
       <field name="style_letter">A</field>
       <field name="beer_type">1</field>
+      <field name="og_min">1.0480000</field>
+      <field name="og_max">1.0550000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="altbier" model="ahb_recipes.styles">
       <field name="name">Altbier</field>
@@ -184,6 +558,23 @@
       <field name="number">7</field>
       <field name="style_letter">B</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0440000</field>
+      <field name="og_max">1.0520000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="pale_kellerbier" model="ahb_recipes.styles">
       <field name="name">Pale Kellerbier</field>
@@ -192,6 +583,23 @@
       <field name="number">7</field>
       <field name="style_letter">C</field>
       <field name="beer_type">1</field>
+      <field name="og_min">1.0450000</field>
+      <field name="og_max">1.0510000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="munich_dunkel" model="ahb_recipes.styles">
       <field name="name">Munich Dunkel</field>
@@ -200,6 +608,23 @@
       <field name="number">8</field>
       <field name="style_letter">A</field>
       <field name="beer_type">1</field>
+      <field name="og_min">1.0480000</field>
+      <field name="og_max">1.0560000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="schwarzbier" model="ahb_recipes.styles">
       <field name="name">Schwarzbier</field>
@@ -208,6 +633,23 @@
       <field name="number">8</field>
       <field name="style_letter">B</field>
       <field name="beer_type">1</field>
+      <field name="og_min">1.0460000</field>
+      <field name="og_max">1.0520000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="doppelbock" model="ahb_recipes.styles">
       <field name="name">Doppelbock</field>
@@ -216,6 +658,23 @@
       <field name="number">9</field>
       <field name="style_letter">A</field>
       <field name="beer_type">1</field>
+      <field name="og_min">1.0720000</field>
+      <field name="og_max">1.1120000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="eisbock" model="ahb_recipes.styles">
       <field name="name">Eisbock</field>
@@ -224,6 +683,23 @@
       <field name="number">9</field>
       <field name="style_letter">B</field>
       <field name="beer_type">1</field>
+      <field name="og_min">1.0780000</field>
+      <field name="og_max">1.1200000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="baltic_porter" model="ahb_recipes.styles">
       <field name="name">Baltic Porter</field>
@@ -232,6 +708,23 @@
       <field name="number">9</field>
       <field name="style_letter">C</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0600000</field>
+      <field name="og_max">1.0900000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="weissbier" model="ahb_recipes.styles">
       <field name="name">Weissbier</field>
@@ -240,6 +733,23 @@
       <field name="number">10</field>
       <field name="style_letter">A</field>
       <field name="beer_type">5</field>
+      <field name="og_min">1.0440000</field>
+      <field name="og_max">1.0520000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="dunkles_weissbier" model="ahb_recipes.styles">
       <field name="name">Dunkles Weissbier</field>
@@ -248,6 +758,23 @@
       <field name="number">10</field>
       <field name="style_letter">B</field>
       <field name="beer_type">5</field>
+      <field name="og_min">1.0440000</field>
+      <field name="og_max">1.0560000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="weizenbock" model="ahb_recipes.styles">
       <field name="name">Weizenbock</field>
@@ -256,6 +783,23 @@
       <field name="number">10</field>
       <field name="style_letter">C</field>
       <field name="beer_type">5</field>
+      <field name="og_min">1.0640000</field>
+      <field name="og_max">1.0900000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="ordinary_bitter" model="ahb_recipes.styles">
       <field name="name">Ordinary Bitter</field>
@@ -264,6 +808,23 @@
       <field name="number">11</field>
       <field name="style_letter">A</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0300000</field>
+      <field name="og_max">1.0390000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="best_bitter" model="ahb_recipes.styles">
       <field name="name">Best Bitter</field>
@@ -272,6 +833,23 @@
       <field name="number">11</field>
       <field name="style_letter">B</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0400000</field>
+      <field name="og_max">1.0480000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="strong_bitter" model="ahb_recipes.styles">
       <field name="name">Strong Bitter</field>
@@ -280,6 +858,23 @@
       <field name="number">11</field>
       <field name="style_letter">C</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0480000</field>
+      <field name="og_max">1.0600000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="british_golden_ale" model="ahb_recipes.styles">
       <field name="name">British Golden Ale</field>
@@ -288,6 +883,23 @@
       <field name="number">12</field>
       <field name="style_letter">A</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0380000</field>
+      <field name="og_max">1.0530000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="australian_sparkling_ale" model="ahb_recipes.styles">
       <field name="name">Australian Sparkling Ale</field>
@@ -296,6 +908,23 @@
       <field name="number">12</field>
       <field name="style_letter">B</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0380000</field>
+      <field name="og_max">1.0500000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="english_ipa" model="ahb_recipes.styles">
       <field name="name">English IPA</field>
@@ -304,6 +933,23 @@
       <field name="number">12</field>
       <field name="style_letter">C</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0500000</field>
+      <field name="og_max">1.0750000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="dark_mild" model="ahb_recipes.styles">
       <field name="name">Dark Mild</field>
@@ -312,6 +958,23 @@
       <field name="number">13</field>
       <field name="style_letter">A</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0300000</field>
+      <field name="og_max">1.0380000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="british_brown_ale" model="ahb_recipes.styles">
       <field name="name">British Brown Ale</field>
@@ -320,6 +983,23 @@
       <field name="number">13</field>
       <field name="style_letter">B</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0400000</field>
+      <field name="og_max">1.0520000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="english_porter" model="ahb_recipes.styles">
       <field name="name">English Porter</field>
@@ -328,6 +1008,23 @@
       <field name="number">13</field>
       <field name="style_letter">C</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0400000</field>
+      <field name="og_max">1.0520000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="scottish_light" model="ahb_recipes.styles">
       <field name="name">Scottish Light</field>
@@ -336,6 +1033,23 @@
       <field name="number">14</field>
       <field name="style_letter">A</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0300000</field>
+      <field name="og_max">1.0350000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="scottish_heavy" model="ahb_recipes.styles">
       <field name="name">Scottish Heavy</field>
@@ -344,6 +1058,23 @@
       <field name="number">14</field>
       <field name="style_letter">B</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0350000</field>
+      <field name="og_max">1.0400000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="scottish_export" model="ahb_recipes.styles">
       <field name="name">Scottish Export</field>
@@ -352,6 +1083,23 @@
       <field name="number">14</field>
       <field name="style_letter">C</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0400000</field>
+      <field name="og_max">1.0600000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="irish_red_ale" model="ahb_recipes.styles">
       <field name="name">Irish Red Ale</field>
@@ -360,6 +1108,23 @@
       <field name="number">15</field>
       <field name="style_letter">A</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0360000</field>
+      <field name="og_max">1.0460000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="irish_stout" model="ahb_recipes.styles">
       <field name="name">Irish Stout</field>
@@ -368,6 +1133,23 @@
       <field name="number">15</field>
       <field name="style_letter">B</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0360000</field>
+      <field name="og_max">1.0440000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="irish_extra_stout" model="ahb_recipes.styles">
       <field name="name">Irish Extra Stout</field>
@@ -376,6 +1158,23 @@
       <field name="number">15</field>
       <field name="style_letter">C</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0520000</field>
+      <field name="og_max">1.0620000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="sweet_stout" model="ahb_recipes.styles">
       <field name="name">Sweet Stout</field>
@@ -384,6 +1183,23 @@
       <field name="number">16</field>
       <field name="style_letter">A</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0440000</field>
+      <field name="og_max">1.0600000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="oatmeal_stout" model="ahb_recipes.styles">
       <field name="name">Oatmeal Stout</field>
@@ -392,6 +1208,23 @@
       <field name="number">16</field>
       <field name="style_letter">B</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0450000</field>
+      <field name="og_max">1.0650000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="tropical_stout" model="ahb_recipes.styles">
       <field name="name">Tropical Stout</field>
@@ -400,6 +1233,23 @@
       <field name="number">16</field>
       <field name="style_letter">C</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0560000</field>
+      <field name="og_max">1.0750000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="foreign_extra_stout" model="ahb_recipes.styles">
       <field name="name">Foreign Extra Stout</field>
@@ -408,6 +1258,23 @@
       <field name="number">16</field>
       <field name="style_letter">D</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0560000</field>
+      <field name="og_max">1.0750000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="british_strong_ale" model="ahb_recipes.styles">
       <field name="name">British Strong Ale</field>
@@ -416,6 +1283,23 @@
       <field name="number">17</field>
       <field name="style_letter">A</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0550000</field>
+      <field name="og_max">1.0800000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="old_ale" model="ahb_recipes.styles">
       <field name="name">Old Ale</field>
@@ -424,6 +1308,23 @@
       <field name="number">17</field>
       <field name="style_letter">B</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0550000</field>
+      <field name="og_max">1.0880000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="wee_heavy" model="ahb_recipes.styles">
       <field name="name">Wee Heavy</field>
@@ -432,6 +1333,23 @@
       <field name="number">17</field>
       <field name="style_letter">C</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0700000</field>
+      <field name="og_max">1.1300000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="english_barleywine" model="ahb_recipes.styles">
       <field name="name">English Barleywine</field>
@@ -440,6 +1358,23 @@
       <field name="number">17</field>
       <field name="style_letter">D</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0800000</field>
+      <field name="og_max">1.1200000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="blonde_ale" model="ahb_recipes.styles">
       <field name="name">Blonde Ale</field>
@@ -448,6 +1383,23 @@
       <field name="number">18</field>
       <field name="style_letter">A</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0380000</field>
+      <field name="og_max">1.0540000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="american_pale_ale" model="ahb_recipes.styles">
       <field name="name">American Pale Ale</field>
@@ -456,6 +1408,23 @@
       <field name="number">18</field>
       <field name="style_letter">B</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0450000</field>
+      <field name="og_max">1.0600000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="american_amber_ale" model="ahb_recipes.styles">
       <field name="name">American Amber Ale</field>
@@ -464,6 +1433,23 @@
       <field name="number">19</field>
       <field name="style_letter">A</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0450000</field>
+      <field name="og_max">1.0600000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="california_common" model="ahb_recipes.styles">
       <field name="name">California Common</field>
@@ -472,6 +1458,23 @@
       <field name="number">19</field>
       <field name="style_letter">B</field>
       <field name="beer_type">1</field>
+      <field name="og_min">1.0480000</field>
+      <field name="og_max">1.0540000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="american_brown_ale" model="ahb_recipes.styles">
       <field name="name">American Brown Ale</field>
@@ -480,6 +1483,23 @@
       <field name="number">19</field>
       <field name="style_letter">C</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0450000</field>
+      <field name="og_max">1.0600000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="american_porter" model="ahb_recipes.styles">
       <field name="name">American Porter</field>
@@ -488,6 +1508,23 @@
       <field name="number">20</field>
       <field name="style_letter">A</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0500000</field>
+      <field name="og_max">1.0700000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="american_stout" model="ahb_recipes.styles">
       <field name="name">American Stout</field>
@@ -496,6 +1533,23 @@
       <field name="number">20</field>
       <field name="style_letter">B</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0500000</field>
+      <field name="og_max">1.0750000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="imperial_stout" model="ahb_recipes.styles">
       <field name="name">Imperial Stout</field>
@@ -504,6 +1558,23 @@
       <field name="number">20</field>
       <field name="style_letter">C</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0750000</field>
+      <field name="og_max">1.1150000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="american_ipa" model="ahb_recipes.styles">
       <field name="name">American IPA</field>
@@ -512,6 +1583,23 @@
       <field name="number">21</field>
       <field name="style_letter">A</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0560000</field>
+      <field name="og_max">1.0700000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="specialty_ipa" model="ahb_recipes.styles">
       <field name="name">Specialty IPA</field>
@@ -520,6 +1608,23 @@
       <field name="number">21</field>
       <field name="style_letter">B</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0500000</field>
+      <field name="og_max">1.0850000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="double_ipa" model="ahb_recipes.styles">
       <field name="name">Double IPA</field>
@@ -528,6 +1633,23 @@
       <field name="number">22</field>
       <field name="style_letter">A</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0650000</field>
+      <field name="og_max">1.0850000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="american_strong_ale" model="ahb_recipes.styles">
       <field name="name">American Strong Ale</field>
@@ -536,6 +1658,23 @@
       <field name="number">22</field>
       <field name="style_letter">B</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0620000</field>
+      <field name="og_max">1.0900000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="american_barleywine" model="ahb_recipes.styles">
       <field name="name">American Barleywine</field>
@@ -544,6 +1683,23 @@
       <field name="number">22</field>
       <field name="style_letter">C</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0800000</field>
+      <field name="og_max">1.1200000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="wheatwine" model="ahb_recipes.styles">
       <field name="name">Wheatwine</field>
@@ -552,6 +1708,23 @@
       <field name="number">22</field>
       <field name="style_letter">D</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0800000</field>
+      <field name="og_max">1.1200000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="berliner_weisse" model="ahb_recipes.styles">
       <field name="name">Berliner Weisse</field>
@@ -560,6 +1733,23 @@
       <field name="number">23</field>
       <field name="style_letter">A</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0280000</field>
+      <field name="og_max">1.0320000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="flanders_red_ale" model="ahb_recipes.styles">
       <field name="name">Flanders Red Ale</field>
@@ -568,6 +1758,23 @@
       <field name="number">23</field>
       <field name="style_letter">B</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0480000</field>
+      <field name="og_max">1.0570000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="oud_bruin" model="ahb_recipes.styles">
       <field name="name">Oud Bruin</field>
@@ -576,6 +1783,23 @@
       <field name="number">23</field>
       <field name="style_letter">C</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0400000</field>
+      <field name="og_max">1.0740000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="lambic" model="ahb_recipes.styles">
       <field name="name">Lambic</field>
@@ -584,6 +1808,23 @@
       <field name="number">23</field>
       <field name="style_letter">D</field>
       <field name="beer_type">2</field>
+      <field name="og_min">1.0400000</field>
+      <field name="og_max">1.0540000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="gueuze" model="ahb_recipes.styles">
       <field name="name">Gueuze</field>
@@ -592,6 +1833,23 @@
       <field name="number">23</field>
       <field name="style_letter">E</field>
       <field name="beer_type">2</field>
+      <field name="og_min">1.0400000</field>
+      <field name="og_max">1.0600000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="fruit_lambic" model="ahb_recipes.styles">
       <field name="name">Fruit Lambic</field>
@@ -600,6 +1858,23 @@
       <field name="number">23</field>
       <field name="style_letter">F</field>
       <field name="beer_type">2</field>
+      <field name="og_min">1.0400000</field>
+      <field name="og_max">1.0600000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="witbier" model="ahb_recipes.styles">
       <field name="name">Witbier</field>
@@ -608,6 +1883,23 @@
       <field name="number">24</field>
       <field name="style_letter">A</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0440000</field>
+      <field name="og_max">1.0520000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="belgian_pale_ale" model="ahb_recipes.styles">
       <field name="name">Belgian Pale Ale</field>
@@ -616,6 +1908,23 @@
       <field name="number">24</field>
       <field name="style_letter">B</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0480000</field>
+      <field name="og_max">1.0540000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="biegrave;re_de_garde" model="ahb_recipes.styles">
       <field name="name">Biegrave;re de Garde</field>
@@ -624,6 +1933,23 @@
       <field name="number">24</field>
       <field name="style_letter">C</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0600000</field>
+      <field name="og_max">1.0800000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="belgian_blond_ale" model="ahb_recipes.styles">
       <field name="name">Belgian Blond Ale</field>
@@ -632,6 +1958,23 @@
       <field name="number">25</field>
       <field name="style_letter">A</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0620000</field>
+      <field name="og_max">1.0750000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="saison" model="ahb_recipes.styles">
       <field name="name">Saison</field>
@@ -640,6 +1983,23 @@
       <field name="number">25</field>
       <field name="style_letter">B</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0480000</field>
+      <field name="og_max">1.0650000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="belgian_golden_strong_ale" model="ahb_recipes.styles">
       <field name="name">Belgian Golden Strong Ale</field>
@@ -648,6 +2008,23 @@
       <field name="number">25</field>
       <field name="style_letter">C</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0700000</field>
+      <field name="og_max">1.0950000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="trappist_single" model="ahb_recipes.styles">
       <field name="name">Trappist Single</field>
@@ -656,6 +2033,23 @@
       <field name="number">26</field>
       <field name="style_letter">A</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0440000</field>
+      <field name="og_max">1.0540000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="belgian_dubbel" model="ahb_recipes.styles">
       <field name="name">Belgian Dubbel</field>
@@ -664,6 +2058,23 @@
       <field name="number">26</field>
       <field name="style_letter">B</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0620000</field>
+      <field name="og_max">1.0750000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="belgian_tripel" model="ahb_recipes.styles">
       <field name="name">Belgian Tripel</field>
@@ -672,6 +2083,23 @@
       <field name="number">26</field>
       <field name="style_letter">C</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0750000</field>
+      <field name="og_max">1.0850000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="belgian_dark_strong_ale" model="ahb_recipes.styles">
       <field name="name">Belgian Dark Strong Ale</field>
@@ -680,6 +2108,23 @@
       <field name="number">26</field>
       <field name="style_letter">D</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0750000</field>
+      <field name="og_max">1.1100000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="historical_beer_-_other" model="ahb_recipes.styles">
       <field name="name">Historical Beer - Other</field>
@@ -688,6 +2133,23 @@
       <field name="number">27</field>
       <field name="style_letter" />
       <field name="beer_type">0</field>
+      <field name="og_min">1.0300000</field>
+      <field name="og_max">1.0900000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="gose" model="ahb_recipes.styles">
       <field name="name">Gose</field>
@@ -696,6 +2158,23 @@
       <field name="number">27</field>
       <field name="style_letter" />
       <field name="beer_type">0</field>
+      <field name="og_min">1.0360000</field>
+      <field name="og_max">1.0560000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="kentucky_common" model="ahb_recipes.styles">
       <field name="name">Kentucky Common</field>
@@ -704,6 +2183,23 @@
       <field name="number">27</field>
       <field name="style_letter" />
       <field name="beer_type">0</field>
+      <field name="og_min">1.0440000</field>
+      <field name="og_max">1.0550000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="lichtenhainer" model="ahb_recipes.styles">
       <field name="name">Lichtenhainer</field>
@@ -712,6 +2208,23 @@
       <field name="number">27</field>
       <field name="style_letter" />
       <field name="beer_type">5</field>
+      <field name="og_min">1.0320000</field>
+      <field name="og_max">1.0400000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="london_brown_ale" model="ahb_recipes.styles">
       <field name="name">London Brown Ale</field>
@@ -720,6 +2233,23 @@
       <field name="number">27</field>
       <field name="style_letter" />
       <field name="beer_type">0</field>
+      <field name="og_min">1.0330000</field>
+      <field name="og_max">1.0380000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="piwo_grodziskie" model="ahb_recipes.styles">
       <field name="name">Piwo Grodziskie</field>
@@ -728,6 +2258,23 @@
       <field name="number">27</field>
       <field name="style_letter" />
       <field name="beer_type">0</field>
+      <field name="og_min">1.0280000</field>
+      <field name="og_max">1.0320000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="pre-prohibition_lager" model="ahb_recipes.styles">
       <field name="name">Pre-Prohibition Lager</field>
@@ -736,6 +2283,23 @@
       <field name="number">27</field>
       <field name="style_letter" />
       <field name="beer_type">1</field>
+      <field name="og_min">1.0440000</field>
+      <field name="og_max">1.0600000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="pre-prohibition_porter" model="ahb_recipes.styles">
       <field name="name">Pre-Prohibition Porter</field>
@@ -744,6 +2308,23 @@
       <field name="number">27</field>
       <field name="style_letter" />
       <field name="beer_type">0</field>
+      <field name="og_min">1.0460000</field>
+      <field name="og_max">1.0600000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="roggenbier" model="ahb_recipes.styles">
       <field name="name">Roggenbier</field>
@@ -752,6 +2333,23 @@
       <field name="number">27</field>
       <field name="style_letter" />
       <field name="beer_type">5</field>
+      <field name="og_min">1.0460000</field>
+      <field name="og_max">1.0560000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="sahti" model="ahb_recipes.styles">
       <field name="name">Sahti</field>
@@ -760,6 +2358,23 @@
       <field name="number">27</field>
       <field name="style_letter" />
       <field name="beer_type">5</field>
+      <field name="og_min">1.0760000</field>
+      <field name="og_max">1.1200000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="brett_beer" model="ahb_recipes.styles">
       <field name="name">Brett Beer</field>
@@ -768,6 +2383,23 @@
       <field name="number">28</field>
       <field name="style_letter">A</field>
       <field name="beer_type">2</field>
+      <field name="og_min">1.0200000</field>
+      <field name="og_max">1.0900000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="mixed-fermentation_sour_beer" model="ahb_recipes.styles">
       <field name="name">Mixed-Fermentation Sour Beer</field>
@@ -776,6 +2408,23 @@
       <field name="number">28</field>
       <field name="style_letter">B</field>
       <field name="beer_type">2</field>
+      <field name="og_min">1.0200000</field>
+      <field name="og_max">1.0900000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="wild_specialty_beer" model="ahb_recipes.styles">
       <field name="name">Wild Specialty Beer</field>
@@ -784,6 +2433,23 @@
       <field name="number">28</field>
       <field name="style_letter">C</field>
       <field name="beer_type">2</field>
+      <field name="og_min">1.0200000</field>
+      <field name="og_max">1.0900000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="fruit_beer" model="ahb_recipes.styles">
       <field name="name">Fruit Beer</field>
@@ -792,6 +2458,23 @@
       <field name="number">29</field>
       <field name="style_letter">A</field>
       <field name="beer_type">2</field>
+      <field name="og_min">1.0200000</field>
+      <field name="og_max">1.0900000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="fruit_and_spice_beer" model="ahb_recipes.styles">
       <field name="name">Fruit and Spice Beer</field>
@@ -800,6 +2483,23 @@
       <field name="number">29</field>
       <field name="style_letter">B</field>
       <field name="beer_type">2</field>
+      <field name="og_min">1.0200000</field>
+      <field name="og_max">1.0900000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="specialty_fruit_beer" model="ahb_recipes.styles">
       <field name="name">Specialty Fruit Beer</field>
@@ -808,6 +2508,23 @@
       <field name="number">29</field>
       <field name="style_letter">C</field>
       <field name="beer_type">2</field>
+      <field name="og_min">1.0200000</field>
+      <field name="og_max">1.0900000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="spice,_herb_or_vegetable_beer" model="ahb_recipes.styles">
       <field name="name">Spice, Herb or Vegetable Beer</field>
@@ -816,6 +2533,23 @@
       <field name="number">30</field>
       <field name="style_letter">A</field>
       <field name="beer_type">2</field>
+      <field name="og_min">1.0200000</field>
+      <field name="og_max">1.0900000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="autumn_seasonal_beer" model="ahb_recipes.styles">
       <field name="name">Autumn Seasonal Beer</field>
@@ -824,6 +2558,23 @@
       <field name="number">30</field>
       <field name="style_letter">B</field>
       <field name="beer_type">2</field>
+      <field name="og_min">1.0200000</field>
+      <field name="og_max">1.0900000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="winter_seasonal_beer" model="ahb_recipes.styles">
       <field name="name">Winter Seasonal Beer</field>
@@ -832,6 +2583,23 @@
       <field name="number">30</field>
       <field name="style_letter">C</field>
       <field name="beer_type">2</field>
+      <field name="og_min">1.0200000</field>
+      <field name="og_max">1.0900000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="alternative_grain_beer" model="ahb_recipes.styles">
       <field name="name">Alternative Grain Beer</field>
@@ -840,6 +2608,23 @@
       <field name="number">31</field>
       <field name="style_letter">A</field>
       <field name="beer_type">2</field>
+      <field name="og_min">1.0200000</field>
+      <field name="og_max">1.0900000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="alternative_sugar_beer" model="ahb_recipes.styles">
       <field name="name">Alternative Sugar Beer</field>
@@ -848,6 +2633,23 @@
       <field name="number">31</field>
       <field name="style_letter">B</field>
       <field name="beer_type">2</field>
+      <field name="og_min">1.0200000</field>
+      <field name="og_max">1.0900000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="classic_style_smoked_beer" model="ahb_recipes.styles">
       <field name="name">Classic Style Smoked Beer</field>
@@ -856,6 +2658,23 @@
       <field name="number">32</field>
       <field name="style_letter">A</field>
       <field name="beer_type">2</field>
+      <field name="og_min">1.0200000</field>
+      <field name="og_max">1.0900000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="specialty_smoked_beer" model="ahb_recipes.styles">
       <field name="name">Specialty Smoked Beer</field>
@@ -864,6 +2683,23 @@
       <field name="number">32</field>
       <field name="style_letter">B</field>
       <field name="beer_type">2</field>
+      <field name="og_min">1.0200000</field>
+      <field name="og_max">1.0900000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="wood-aged_beer" model="ahb_recipes.styles">
       <field name="name">Wood-Aged Beer</field>
@@ -872,6 +2708,23 @@
       <field name="number">33</field>
       <field name="style_letter">A</field>
       <field name="beer_type">2</field>
+      <field name="og_min">1.0200000</field>
+      <field name="og_max">1.0900000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="specialty_wood-aged_beer" model="ahb_recipes.styles">
       <field name="name">Specialty Wood-Aged Beer</field>
@@ -880,6 +2733,23 @@
       <field name="number">33</field>
       <field name="style_letter">B</field>
       <field name="beer_type">2</field>
+      <field name="og_min">1.0200000</field>
+      <field name="og_max">1.0900000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="clone_beer" model="ahb_recipes.styles">
       <field name="name">Clone Beer</field>
@@ -888,6 +2758,23 @@
       <field name="number">34</field>
       <field name="style_letter">A</field>
       <field name="beer_type">2</field>
+      <field name="og_min">1.0200000</field>
+      <field name="og_max">1.0900000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="mixed_style_beer" model="ahb_recipes.styles">
       <field name="name">Mixed Style Beer</field>
@@ -896,6 +2783,23 @@
       <field name="number">34</field>
       <field name="style_letter">B</field>
       <field name="beer_type">2</field>
+      <field name="og_min">1.0200000</field>
+      <field name="og_max">1.0900000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="experimental_beer" model="ahb_recipes.styles">
       <field name="name">Experimental Beer</field>
@@ -904,6 +2808,23 @@
       <field name="number">34</field>
       <field name="style_letter">C</field>
       <field name="beer_type">2</field>
+      <field name="og_min">1.0200000</field>
+      <field name="og_max">1.0900000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="amber_kellerbier" model="ahb_recipes.styles">
       <field name="name">Amber Kellerbier</field>
@@ -912,6 +2833,23 @@
       <field name="number">7</field>
       <field name="style_letter">C</field>
       <field name="beer_type">1</field>
+      <field name="og_min">1.0480000</field>
+      <field name="og_max">1.0540000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="belgian_ipa" model="ahb_recipes.styles">
       <field name="name">Belgian IPA</field>
@@ -920,6 +2858,23 @@
       <field name="number">21</field>
       <field name="style_letter">B</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0580000</field>
+      <field name="og_max">1.0800000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="black_ipa" model="ahb_recipes.styles">
       <field name="name">Black IPA</field>
@@ -928,6 +2883,23 @@
       <field name="number">21</field>
       <field name="style_letter">B</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0500000</field>
+      <field name="og_max">1.0850000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="brown_ipa" model="ahb_recipes.styles">
       <field name="name">Brown IPA</field>
@@ -936,6 +2908,23 @@
       <field name="number">21</field>
       <field name="style_letter">B</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0560000</field>
+      <field name="og_max">1.0700000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="red_ipa" model="ahb_recipes.styles">
       <field name="name">Red IPA</field>
@@ -944,6 +2933,23 @@
       <field name="number">21</field>
       <field name="style_letter">B</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0560000</field>
+      <field name="og_max">1.0700000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="rye_ipa" model="ahb_recipes.styles">
       <field name="name">Rye IPA</field>
@@ -952,6 +2958,23 @@
       <field name="number">21</field>
       <field name="style_letter">B</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0560000</field>
+      <field name="og_max">1.0750000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
     <record id="white_ipa" model="ahb_recipes.styles">
       <field name="name">White IPA</field>
@@ -960,6 +2983,23 @@
       <field name="number">21</field>
       <field name="style_letter">B</field>
       <field name="beer_type">0</field>
+      <field name="og_min">1.0560000</field>
+      <field name="og_max">1.0650000</field>
+      <field name="Final_Gravity_min" />
+      <field name="fg_max" />
+      <field name="bitterness_min" />
+      <field name="bitterness_max" />
+      <field name="carbonation_min" />
+      <field name="carbonation_max" />
+      <field name="color_min" />
+      <field name="color_max" />
+      <field name="abv_min" />
+      <field name="abv_max" />
+      <field name="description" />
+      <field name="profile" />
+      <field name="ingredients" />
+      <field name="examples" />
+      <field name="web_link" />
     </record>
   </data>
 </openerp>

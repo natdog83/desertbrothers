@@ -84,27 +84,27 @@ class styles(models.Model):
         for record in self:
             record.number_updated = "%s%s" % (record.number or '',record.style_letter or '')
 
-    @api.multi
+    @api.depends('number')
     def _calculate_og_range(self):
         for record in self:
             record.og_range = "%s - %s" % (record.og_min or '',record.og_max or '')
 
-    @api.multi
+    @api.depends('number')
     def _calculate_fg_range(self):
         for record in self:
             record.fg_range = "%s - %s" % (record.Final_Gravity_min or '',record.fg_max or '')
 
-    @api.multi
+    @api.depends('number')
     def _calculate_abv_range(self):
         for record in self:
             record.abv_range = "%s - %s" % (record.abv_min or '',record.abv_max or '')
 
-    @api.multi
+    @api.depends('number')
     def _calculate_ibu_range(self):
         for record in self:
             record.ibu_range = "%s - %s" % (record.bitterness_min or '',record.bitterness_max or '')
 
-    @api.multi
+    @api.depends('number')
     def _calculate_color_range(self):
         for record in self:
             record.color_range = "%s - %s" % (record.color_min or '',record.color_max or '')

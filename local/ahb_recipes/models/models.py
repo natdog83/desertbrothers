@@ -48,7 +48,8 @@ class styles(models.Model):
       ('32','6'),
       ('33','7'),
       ('34','8'),
-      ('35','9')
+      ('35','9'),
+      ('36','10')
       ),'Style Letters')
     beer_type = fields.Selection((
       ('0','Ale'),

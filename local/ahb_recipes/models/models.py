@@ -14,6 +14,7 @@ class styles(models.Model):
     style_guide = fields.Char('Style Guide', required=True)
     number = fields.Integer()
     style_letter = fields.Selection((
+      ('0',''),
       ('1','A'),
       ('2','B'),
       ('3','C'),

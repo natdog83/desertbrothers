@@ -82,7 +82,7 @@ class styles(models.Model):
     @api.depends('number')
     def _number_generator(self):
         for record in self:
-            record.number_updated = "%s%s" % (record.number or '',dict(VALUES)[record.style_letter] or '')
+            record.number_updated = "%s%s" % (record.number or '',record.style_letter or '')
 
     @api.multi
     def _calculate_og_range(self):

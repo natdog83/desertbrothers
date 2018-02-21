@@ -82,7 +82,7 @@ class styles(models.Model):
     @api.depends('number')
     def _number_generator(self):
         for record in self:
-            value = dict(VALUES)[record.style_letter]
+            value = VALUES.get("record.style_letter","")
             record.number_updated = "%s%s" % (record.number or '',value or '')
 
     @api.multi

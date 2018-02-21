@@ -4,6 +4,7 @@ from openerp import models, fields, api
 
 class ahb_recipes(models.Model):
     _name = 'ahb_recipes.ahb_recipes'
+    _order = "number, style_letter"
     name = fields.Char('Proposed Name', required=True)
     style = fields.Char('Style', required=True)
 

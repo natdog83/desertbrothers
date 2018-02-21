@@ -76,12 +76,12 @@ class styles(models.Model):
     ingredients = fields.Text()
     examples = fields.Text()
     web_link = fields.Text()
-    number_updated = fields.Char(compute='_number_generator', string="#")
-    og_range = fields.Char(compute='_calculate_og_range', string="OG Range")
-    fg_range = fields.Char(compute='_calculate_fg_range', string="FG Range")
-    abv_range = fields.Char(compute='_calculate_abv_range', string="ABV Range")
-    ibu_range = fields.Char(compute='_calculate_ibu_range', string="IBU Range")
-    color_range = fields.Char(compute='_calculate_color_range', string="Color Range")
+    number_updated = fields.Char(compute='_number_generator', string="#",store=True)
+    og_range = fields.Char(compute='_calculate_og_range', string="OG Range",store=True)
+    fg_range = fields.Char(compute='_calculate_fg_range', string="FG Range",store=True)
+    abv_range = fields.Char(compute='_calculate_abv_range', string="ABV Range",store=True)
+    ibu_range = fields.Char(compute='_calculate_ibu_range', string="IBU Range",store=True)
+    color_range = fields.Char(compute='_calculate_color_range', string="Color Range",store=True)
 
     @api.depends('number')
     def _number_generator(self):

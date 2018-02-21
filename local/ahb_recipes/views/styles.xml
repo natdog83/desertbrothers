@@ -7,7 +7,7 @@
       <field name="name">Style List</field>
       <field name="model">ahb_recipes.styles</field>
       <field name="arch" type="xml">
-        <tree>
+        <tree default_order='category'>
           <field name="name"/>
           <field name="number_updated"/>
           <field name="category"/>

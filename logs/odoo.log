@@ -1,0 +1,1382 @@
+2018-02-19 02:40:59,149 1130 INFO ? openerp: OpenERP version 9.0c
+2018-02-19 02:40:59,149 1130 INFO ? openerp: addons paths: ['/home/odoo/.local/share/Odoo/addons/9.0', u'/home/odoo/odoo-dev/desertbrothers/local', u'/home/odoo/odoo-dev/desertbrothers/src/odoo/openerp/addons', u'/home/odoo/odoo-dev/desertbrothers/src/odoo/addons']
+2018-02-19 02:40:59,149 1130 INFO ? openerp: database: default@default:default
+2018-02-19 02:40:59,389 1130 INFO ? openerp.service.server: HTTP service (werkzeug) running on 0.0.0.0:8069
+2018-02-19 02:40:59,465 1130 INFO DEV openerp.modules.loading: loading 1 modules...
+2018-02-19 02:40:59,474 1130 INFO DEV openerp.modules.loading: 1 modules loaded in 0.01s, 0 queries
+2018-02-19 02:40:59,518 1130 INFO DEV openerp.modules.loading: loading 15 modules...
+2018-02-19 02:40:59,613 1130 INFO DEV openerp.addons.report.models.report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf
+2018-02-19 02:40:59,791 1130 INFO DEV openerp.modules.loading: 15 modules loaded in 0.27s, 0 queries
+2018-02-19 02:40:59,994 1130 INFO DEV openerp.modules.loading: Modules loaded.
+2018-02-19 02:46:17,929 1130 INFO ? openerp.addons.account_financial_report_qweb.report: ImportError raised while loading module.
+2018-02-19 02:46:18,125 1130 INFO ? openerp.addons.bus.models.bus: Bus.loop listen imbus on db postgres
+2018-02-19 02:46:19,220 1130 INFO ? openerp.http: HTTP Configuring static files
+2018-02-19 02:46:19,223 1130 INFO DEV openerp.addons.base.ir.ir_http: Generating routing map
+2018-02-19 02:46:19,408 1130 INFO DEV werkzeug: 45.49.96.233 - - [19/Feb/2018 02:46:19] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-19 02:46:19,974 1130 INFO DEV werkzeug: 45.49.96.233 - - [19/Feb/2018 02:46:19] "POST /web/dataset/call_kw/ir.model/fields_view_get HTTP/1.1" 200 -
+2018-02-19 02:46:20,097 1130 INFO DEV werkzeug: 45.49.96.233 - - [19/Feb/2018 02:46:20] "POST /web/dataset/call_kw/ir.model/fields_view_get HTTP/1.1" 200 -
+2018-02-19 02:46:20,147 1130 INFO DEV werkzeug: 45.49.96.233 - - [19/Feb/2018 02:46:20] "POST /web/dataset/call_kw/ir.model/fields_get HTTP/1.1" 200 -
+2018-02-19 02:46:20,163 1130 INFO DEV werkzeug: 45.49.96.233 - - [19/Feb/2018 02:46:20] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-19 02:46:20,279 1130 INFO DEV werkzeug: 45.49.96.233 - - [19/Feb/2018 02:46:20] "POST /web/dataset/call_kw/ir.model/fields_view_get HTTP/1.1" 200 -
+2018-02-19 02:46:20,400 1130 INFO DEV werkzeug: 45.49.96.233 - - [19/Feb/2018 02:46:20] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-19 03:11:28,590 1130 INFO DEV openerp.service.server: Initiating shutdown
+2018-02-19 03:11:28,591 1130 INFO DEV openerp.service.server: Hit CTRL-C again or send a second signal to force the shutdown.
+2018-02-21 18:00:42,089 1130 INFO ? openerp: OpenERP version 9.0c
+2018-02-21 18:00:42,089 1130 INFO ? openerp: addons paths: ['/home/odoo/.local/share/Odoo/addons/9.0', u'/home/odoo/odoo-dev/desertbrothers/local', u'/home/odoo/odoo-dev/desertbrothers/src/odoo/openerp/addons', u'/home/odoo/odoo-dev/desertbrothers/src/odoo/addons']
+2018-02-21 18:00:42,089 1130 INFO ? openerp: database: default@default:default
+2018-02-21 18:00:42,331 1130 INFO ? openerp.service.server: HTTP service (werkzeug) running on 0.0.0.0:8069
+2018-02-21 18:00:42,411 1130 INFO DEV openerp.modules.loading: loading 1 modules...
+2018-02-21 18:00:42,420 1130 INFO DEV openerp.modules.loading: 1 modules loaded in 0.01s, 0 queries
+2018-02-21 18:00:42,469 1130 INFO DEV openerp.modules.loading: loading 15 modules...
+2018-02-21 18:00:42,570 1130 INFO DEV openerp.addons.report.models.report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf
+2018-02-21 18:00:42,744 1130 INFO DEV openerp.modules.loading: 15 modules loaded in 0.28s, 0 queries
+2018-02-21 18:00:42,946 1130 INFO DEV openerp.modules.loading: Modules loaded.
+2018-02-21 18:01:44,373 1130 INFO DEV openerp.addons.base.ir.ir_autovacuum: GC'd 28 user log entries
+2018-02-21 18:03:11,570 1130 INFO ? openerp.addons.account_financial_report_qweb.report: ImportError raised while loading module.
+2018-02-21 18:03:11,803 1130 INFO ? openerp.addons.bus.models.bus: Bus.loop listen imbus on db postgres
+2018-02-21 18:03:13,011 1130 INFO ? openerp.http: HTTP Configuring static files
+2018-02-21 18:03:13,014 1130 INFO DEV openerp.addons.base.ir.ir_http: Generating routing map
+2018-02-21 18:03:13,142 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:13] "GET / HTTP/1.1" 200 -
+2018-02-21 18:03:13,782 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:13] "GET /web HTTP/1.1" 200 -
+2018-02-21 18:03:14,342 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:14] "POST /web/dataset/call HTTP/1.1" 200 -
+2018-02-21 18:03:14,418 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:14] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-02-21 18:03:14,469 1130 INFO DEV openerp.service.common: successful login from 'admin' using database 'dev'
+2018-02-21 18:03:14,477 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:14] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2018-02-21 18:03:14,562 1130 INFO DEV openerp.http: Generating nondb routing
+2018-02-21 18:03:14,629 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:14] "POST /web/proxy/load HTTP/1.1" 200 -
+2018-02-21 18:03:14,833 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:14] "POST /web/session/modules HTTP/1.1" 200 -
+2018-02-21 18:03:14,934 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:14] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-21 18:03:14,938 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:14] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-02-21 18:03:15,012 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:15] "GET /web/webclient/locale/en_US HTTP/1.1" 200 -
+2018-02-21 18:03:15,143 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:15] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2018-02-21 18:03:15,146 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:15] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-21 18:03:15,158 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:15] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-21 18:03:15,222 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:15] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-02-21 18:03:15,230 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:15] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2018-02-21 18:03:15,239 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:15] "GET /web/image?model=res.users&field=image_small&id=1 HTTP/1.1" 200 -
+2018-02-21 18:03:15,420 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:15] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-21 18:03:15,557 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:15] "POST /web/dataset/call_kw/ahb_recipes.styles/fields_view_get HTTP/1.1" 200 -
+2018-02-21 18:03:15,581 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:15] "POST /web/dataset/call_kw/ahb_recipes.styles/fields_view_get HTTP/1.1" 200 -
+2018-02-21 18:03:15,636 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:15] "POST /web/dataset/call_kw/ahb_recipes.styles/fields_get HTTP/1.1" 200 -
+2018-02-21 18:03:15,643 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:15] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-21 18:03:15,747 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:15] "POST /web/dataset/call_kw/ahb_recipes.styles/fields_view_get HTTP/1.1" 200 -
+2018-02-21 18:03:15,898 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:15] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-21 18:03:29,108 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:29] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-02-21 18:03:29,142 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:29] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-21 18:03:29,264 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:29] "POST /web/dataset/call_kw/ir.module.module/fields_view_get HTTP/1.1" 200 -
+2018-02-21 18:03:29,300 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:29] "POST /web/dataset/call_kw/ir.module.module/fields_view_get HTTP/1.1" 200 -
+2018-02-21 18:03:29,361 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:29] "POST /web/dataset/call_kw/ir.module.module/fields_get HTTP/1.1" 200 -
+2018-02-21 18:03:29,362 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:29] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-21 18:03:29,479 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:29] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-21 18:03:29,689 1130 INFO ? werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:29] "GET /account_financial_report_qweb/static/description/icon.png HTTP/1.1" 200 -
+2018-02-21 18:03:29,693 1130 INFO ? werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:29] "GET /document_management_system/static/description/icon.png HTTP/1.1" 200 -
+2018-02-21 18:03:29,699 1130 INFO ? werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:29] "GET /mis_builder/static/description/icon.png HTTP/1.1" 200 -
+2018-02-21 18:03:32,018 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:32] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-21 18:03:32,203 1130 INFO ? werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:32] "GET /base/static/description/icon.png HTTP/1.1" 200 -
+2018-02-21 18:03:32,215 1130 INFO ? werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:32] "GET /account_asset/static/description/icon.png HTTP/1.1" 200 -
+2018-02-21 18:03:32,215 1130 INFO ? werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:32] "GET /hr_payroll/static/description/icon.png HTTP/1.1" 200 -
+2018-02-21 18:03:42,101 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:42] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-21 18:03:43,449 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:43] "POST /web/dataset/call_kw/ir.module.module/fields_view_get HTTP/1.1" 200 -
+2018-02-21 18:03:43,817 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:43] "POST /web/dataset/call_kw/ir.module.module/read HTTP/1.1" 200 -
+2018-02-21 18:03:43,939 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:43] "POST /web/dataset/call_kw/ir.module.category/name_search HTTP/1.1" 200 -
+2018-02-21 18:03:44,004 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:44] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-21 18:03:44,005 1130 INFO ? werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:44] "GET /web/static/src/img/placeholder.png HTTP/1.1" 200 -
+2018-02-21 18:03:44,067 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:44] "POST /web/dataset/call_kw/ir.module.module.dependency/read HTTP/1.1" 200 -
+2018-02-21 18:03:44,274 1130 INFO ? werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:44] "GET /base/static/src/css/description.css HTTP/1.1" 200 -
+2018-02-21 18:03:46,227 1130 INFO DEV openerp.modules.loading: loading 1 modules...
+2018-02-21 18:03:46,234 1130 INFO DEV openerp.modules.loading: 1 modules loaded in 0.01s, 0 queries
+2018-02-21 18:03:46,299 1130 INFO DEV openerp.modules.loading: loading 15 modules...
+2018-02-21 18:03:46,335 1130 INFO DEV openerp.modules.module: module ahb_recipes: creating or updating database tables
+2018-02-21 18:03:46,383 1130 INFO DEV openerp.modules.loading: loading ahb_recipes/views/views.xml
+2018-02-21 18:03:46,390 1130 INFO DEV openerp.modules.loading: loading ahb_recipes/views/templates.xml
+2018-02-21 18:03:46,392 1130 INFO DEV openerp.modules.loading: loading ahb_recipes/views/styles.xml
+2018-02-21 18:03:46,444 1130 INFO DEV openerp.modules.loading: loading ahb_recipes/demo/demo.xml
+2018-02-21 18:03:46,474 1130 INFO DEV openerp.modules.loading: 15 modules loaded in 0.18s, 0 queries
+2018-02-21 18:03:46,513 1130 WARNING DEV openerp.modules.loading: The model ahb_recipes.ahb_recipes has no access rules, consider adding one. E.g. access_ahb_recipes_ahb_recipes,access_ahb_recipes_ahb_recipes,model_ahb_recipes_ahb_recipes,,1,0,0,0
+2018-02-21 18:03:46,513 1130 WARNING DEV openerp.modules.loading: The model ahb_recipes.styles has no access rules, consider adding one. E.g. access_ahb_recipes_styles,access_ahb_recipes_styles,model_ahb_recipes_styles,,1,0,0,0
+2018-02-21 18:03:46,637 1130 INFO DEV openerp.modules.loading: Modules loaded.
+2018-02-21 18:03:46,638 1130 INFO DEV openerp.addons.base.res.res_config: getting next operation
+2018-02-21 18:03:46,638 1130 INFO DEV openerp.addons.base.res.res_config: getting next ir.actions.todo
+2018-02-21 18:03:46,642 1130 INFO DEV openerp.addons.base.res.res_config: next action is None
+2018-02-21 18:03:46,643 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:46] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2018-02-21 18:03:46,715 1130 INFO DEV openerp.addons.base.ir.ir_http: Generating routing map
+2018-02-21 18:03:46,732 1130 INFO DEV openerp.addons.base.ir.ir_http: Generating routing map
+2018-02-21 18:03:46,783 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:46] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-02-21 18:03:46,986 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:46] "GET /web? HTTP/1.1" 200 -
+2018-02-21 18:03:47,600 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:47] "POST /web/dataset/call HTTP/1.1" 200 -
+2018-02-21 18:03:47,704 1130 INFO DEV openerp.service.common: successful login from 'admin' using database 'dev'
+2018-02-21 18:03:47,711 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:47] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2018-02-21 18:03:47,769 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:47] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-02-21 18:03:47,947 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:47] "POST /web/proxy/load HTTP/1.1" 200 -
+2018-02-21 18:03:48,156 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:48] "POST /web/session/modules HTTP/1.1" 200 -
+2018-02-21 18:03:48,258 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:48] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-21 18:03:48,259 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:48] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-02-21 18:03:48,382 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:48] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2018-02-21 18:03:48,391 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:48] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-21 18:03:48,402 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:48] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-21 18:03:48,427 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:48] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-21 18:03:48,466 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:48] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-02-21 18:03:48,476 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:48] "GET /web/image?model=res.users&field=image_small&id=1 HTTP/1.1" 200 -
+2018-02-21 18:03:48,526 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:48] "POST /web/dataset/call_kw/ir.module.module/fields_view_get HTTP/1.1" 200 -
+2018-02-21 18:03:48,572 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:48] "POST /web/dataset/call_kw/ir.module.module/fields_view_get HTTP/1.1" 200 -
+2018-02-21 18:03:48,618 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:48] "POST /web/dataset/call_kw/ir.module.module/fields_get HTTP/1.1" 200 -
+2018-02-21 18:03:48,623 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:48] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-21 18:03:48,761 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:48] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-21 18:03:48,963 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:48] "POST /web/dataset/call_kw/ir.module.module/fields_view_get HTTP/1.1" 200 -
+2018-02-21 18:03:49,152 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:49] "POST /web/dataset/call_kw/ir.module.module/read HTTP/1.1" 200 -
+2018-02-21 18:03:49,153 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:49] "POST /web/dataset/call_kw/ir.module.module/read HTTP/1.1" 200 -
+2018-02-21 18:03:49,275 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:49] "POST /web/dataset/call_kw/ir.module.category/name_search HTTP/1.1" 200 -
+2018-02-21 18:03:49,315 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:49] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-21 18:03:49,371 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:49] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-21 18:03:49,423 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:49] "POST /web/dataset/call_kw/ir.module.module.dependency/read HTTP/1.1" 200 -
+2018-02-21 18:03:51,596 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:51] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-21 18:03:51,730 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:51] "POST /web/dataset/call_kw/ahb_recipes.styles/fields_view_get HTTP/1.1" 200 -
+2018-02-21 18:03:51,738 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:51] "POST /web/dataset/call_kw/ahb_recipes.styles/fields_view_get HTTP/1.1" 200 -
+2018-02-21 18:03:51,806 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:51] "POST /web/dataset/call_kw/ahb_recipes.styles/fields_get HTTP/1.1" 200 -
+2018-02-21 18:03:51,816 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:51] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-21 18:03:51,909 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:51] "POST /web/dataset/call_kw/ahb_recipes.styles/fields_view_get HTTP/1.1" 200 -
+2018-02-21 18:03:51,997 1130 INFO DEV werkzeug: 45.49.96.233 - - [21/Feb/2018 18:03:51] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-21 18:04:33,632 1130 INFO DEV openerp.service.server: Initiating shutdown
+2018-02-21 18:04:33,632 1130 INFO DEV openerp.service.server: Hit CTRL-C again or send a second signal to force the shutdown.
+2018-02-22 01:55:45,861 1130 INFO ? openerp: OpenERP version 9.0c
+2018-02-22 01:55:45,862 1130 INFO ? openerp: addons paths: ['/home/odoo/.local/share/Odoo/addons/9.0', u'/home/odoo/odoo-dev/desertbrothers/local', u'/home/odoo/odoo-dev/desertbrothers/src/odoo/openerp/addons', u'/home/odoo/odoo-dev/desertbrothers/src/odoo/addons']
+2018-02-22 01:55:45,862 1130 INFO ? openerp: database: default@default:default
+2018-02-22 01:55:46,096 1130 INFO ? openerp.service.server: HTTP service (werkzeug) running on 0.0.0.0:8069
+2018-02-22 01:55:46,166 1130 INFO DEV openerp.modules.loading: loading 1 modules...
+2018-02-22 01:55:46,175 1130 INFO DEV openerp.modules.loading: 1 modules loaded in 0.01s, 0 queries
+2018-02-22 01:55:46,292 1130 INFO DEV openerp.modules.loading: loading 31 modules...
+2018-02-22 01:55:46,360 1130 INFO ? openerp.addons.bus.models.bus: Bus.loop listen imbus on db postgres
+2018-02-22 01:55:46,429 1130 INFO DEV openerp.addons.report.models.report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf
+2018-02-22 01:55:47,710 1130 INFO DEV openerp.modules.loading: 31 modules loaded in 1.42s, 0 queries
+2018-02-22 01:55:48,129 1130 INFO DEV openerp.modules.loading: Modules loaded.
+2018-02-22 01:57:43,344 1130 INFO DEV openerp.service.server: Initiating shutdown
+2018-02-22 01:57:43,344 1130 INFO DEV openerp.service.server: Hit CTRL-C again or send a second signal to force the shutdown.
+2018-02-22 03:48:56,836 1131 INFO ? openerp: OpenERP version 9.0c
+2018-02-22 03:48:56,836 1131 INFO ? openerp: addons paths: ['/home/odoo/.local/share/Odoo/addons/9.0', u'/home/odoo/odoo-dev/desertbrothers/local', u'/home/odoo/odoo-dev/desertbrothers/src/odoo/openerp/addons', u'/home/odoo/odoo-dev/desertbrothers/src/odoo/addons']
+2018-02-22 03:48:56,837 1131 INFO ? openerp: database: default@default:default
+2018-02-22 03:48:57,078 1131 INFO ? openerp.service.server: HTTP service (werkzeug) running on 0.0.0.0:8069
+2018-02-22 03:48:57,150 1131 INFO DEV openerp.modules.loading: loading 1 modules...
+2018-02-22 03:48:57,326 1131 INFO DEV openerp.modules.module: module base: creating or updating database tables
+2018-02-22 03:48:59,379 1131 INFO DEV openerp.modules.loading: loading base/base_data.xml
+2018-02-22 03:48:59,407 1131 INFO DEV openerp.modules.loading: loading base/res/res_currency_data.xml
+2018-02-22 03:48:59,619 1131 INFO DEV openerp.modules.loading: loading base/res/res_country_data.xml
+2018-02-22 03:48:59,928 1131 INFO DEV openerp.modules.loading: loading base/security/base_security.xml
+2018-02-22 03:49:01,046 1131 INFO DEV openerp.modules.loading: loading base/base_menu.xml
+2018-02-22 03:49:01,181 1131 INFO DEV openerp.modules.loading: loading base/res/res_config.xml
+2018-02-22 03:49:01,216 1131 INFO DEV openerp.modules.loading: loading base/res/res.country.state.csv
+2018-02-22 03:49:01,380 1131 INFO DEV openerp.modules.loading: loading base/ir/ir_actions.xml
+2018-02-22 03:49:01,806 1131 INFO DEV openerp.modules.loading: loading base/ir/ir_config_parameter_view.xml
+2018-02-22 03:49:01,867 1131 INFO DEV openerp.modules.loading: loading base/ir/ir_cron_view.xml
+2018-02-22 03:49:01,947 1131 INFO DEV openerp.modules.loading: loading base/ir/ir_filters.xml
+2018-02-22 03:49:02,016 1131 INFO DEV openerp.modules.loading: loading base/ir/ir_mail_server_view.xml
+2018-02-22 03:49:02,079 1131 INFO DEV openerp.modules.loading: loading base/ir/ir_model_view.xml
+2018-02-22 03:49:02,448 1131 INFO DEV openerp.modules.loading: loading base/ir/ir_attachment_view.xml
+2018-02-22 03:49:02,517 1131 INFO DEV openerp.modules.loading: loading base/ir/ir_rule_view.xml
+2018-02-22 03:49:02,593 1131 INFO DEV openerp.modules.loading: loading base/ir/ir_sequence_view.xml
+2018-02-22 03:49:02,662 1131 INFO DEV openerp.modules.loading: loading base/ir/ir_translation_view.xml
+2018-02-22 03:49:02,733 1131 INFO DEV openerp.modules.loading: loading base/ir/ir_ui_menu_view.xml
+2018-02-22 03:49:02,803 1131 INFO DEV openerp.modules.loading: loading base/ir/ir_ui_view_view.xml
+2018-02-22 03:49:02,940 1131 INFO DEV openerp.modules.loading: loading base/ir/ir_values_view.xml
+2018-02-22 03:49:03,050 1131 INFO DEV openerp.modules.loading: loading base/ir/ir_autovacuum.xml
+2018-02-22 03:49:03,057 1131 INFO DEV openerp.modules.loading: loading base/ir/ir_model_report.xml
+2018-02-22 03:49:03,079 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [379]
+2018-02-22 03:49:03,089 1131 INFO DEV openerp.modules.loading: loading base/ir/report_ir_model.xml
+2018-02-22 03:49:03,111 1131 INFO DEV openerp.modules.loading: loading base/ir/ir_logging_view.xml
+2018-02-22 03:49:03,174 1131 INFO DEV openerp.modules.loading: loading base/ir/ir_qweb.xml
+2018-02-22 03:49:03,193 1131 INFO DEV openerp.modules.loading: loading base/workflow/workflow_view.xml
+2018-02-22 03:49:03,517 1131 INFO DEV openerp.modules.loading: loading base/module/module_view.xml
+2018-02-22 03:49:03,668 1131 INFO DEV openerp.modules.loading: loading base/module/module_data.xml
+2018-02-22 03:49:04,653 1131 INFO DEV openerp.modules.loading: loading base/module/module_report.xml
+2018-02-22 03:49:04,663 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [380]
+2018-02-22 03:49:04,667 1131 INFO DEV openerp.modules.loading: loading base/module/report/report_ir_module_reference.xml
+2018-02-22 03:49:04,686 1131 INFO DEV openerp.modules.loading: loading base/module/wizard/base_module_update_view.xml
+2018-02-22 03:49:04,715 1131 INFO DEV openerp.modules.loading: loading base/module/wizard/base_language_install_view.xml
+2018-02-22 03:49:04,742 1131 INFO DEV openerp.modules.loading: loading base/module/wizard/base_import_language_view.xml
+2018-02-22 03:49:04,768 1131 INFO DEV openerp.modules.loading: loading base/module/wizard/base_module_upgrade_view.xml
+2018-02-22 03:49:04,813 1131 INFO DEV openerp.modules.loading: loading base/module/wizard/base_module_configuration_view.xml
+2018-02-22 03:49:04,831 1131 INFO DEV openerp.modules.loading: loading base/module/wizard/base_export_language_view.xml
+2018-02-22 03:49:04,862 1131 INFO DEV openerp.modules.loading: loading base/module/wizard/base_update_translations_view.xml
+2018-02-22 03:49:04,889 1131 INFO DEV openerp.modules.loading: loading base/module/wizard/base_module_immediate_install.xml
+2018-02-22 03:49:04,901 1131 INFO DEV openerp.modules.loading: loading base/res/res_company_view.xml
+2018-02-22 03:49:04,968 1131 INFO DEV openerp.modules.loading: loading base/res/res_request_view.xml
+2018-02-22 03:49:05,027 1131 INFO DEV openerp.modules.loading: loading base/res/res_lang_view.xml
+2018-02-22 03:49:05,090 1131 INFO DEV openerp.modules.loading: loading base/res/res_partner_view.xml
+2018-02-22 03:49:05,372 1131 INFO DEV openerp.modules.loading: loading base/res/res_bank_view.xml
+2018-02-22 03:49:05,492 1131 INFO DEV openerp.modules.loading: loading base/res/res_country_view.xml
+2018-02-22 03:49:05,640 1131 INFO DEV openerp.modules.loading: loading base/res/res_currency_view.xml
+2018-02-22 03:49:05,758 1131 INFO DEV openerp.modules.loading: loading base/res/res_users_view.xml
+2018-02-22 03:49:05,809 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [381]
+2018-02-22 03:49:06,169 1131 INFO DEV openerp.modules.loading: loading base/res/res_partner_data.xml
+2018-02-22 03:49:06,180 1131 INFO DEV openerp.modules.loading: loading base/res/ir_property_view.xml
+2018-02-22 03:49:06,244 1131 INFO DEV openerp.modules.loading: loading base/res/res_security.xml
+2018-02-22 03:49:06,250 1131 INFO DEV openerp.modules.loading: loading base/security/ir.model.access.csv
+2018-02-22 03:49:07,177 1131 INFO DEV openerp.modules.loading: loading base/base_demo.xml
+2018-02-22 03:49:07,187 1131 INFO DEV openerp.modules.loading: loading base/res/res_currency_demo.xml
+2018-02-22 03:49:07,393 1131 INFO DEV openerp.modules.loading: loading base/res/res_bank_demo.xml
+2018-02-22 03:49:07,399 1131 INFO DEV openerp.modules.loading: loading base/res/res_partner_demo.xml
+2018-02-22 03:49:07,440 1131 INFO DEV openerp.modules.loading: loading base/res/res_partner_demo.yml
+2018-02-22 03:49:07,487 1131 INFO DEV openerp.modules.loading: loading base/res/res_partner_image_demo.xml
+2018-02-22 03:49:07,499 1131 INFO DEV openerp.addons.base.ir.ir_translation: module base: loading base translation file en for language en_US
+2018-02-22 03:49:07,499 1131 INFO DEV openerp.tools.translate: loading /home/odoo/odoo-dev/desertbrothers/src/odoo/openerp/addons/base/i18n/en.po
+2018-02-22 03:49:08,795 1131 INFO DEV openerp.modules.loading: 1 modules loaded in 11.64s, 0 queries
+2018-02-22 03:49:08,950 1131 INFO DEV openerp.modules.loading: loading 46 modules...
+2018-02-22 03:49:09,007 1131 INFO ? openerp.addons.bus.models.bus: Bus.loop listen imbus on db postgres
+2018-02-22 03:49:09,062 1131 INFO DEV openerp.addons.report.models.report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf
+2018-02-22 03:49:09,463 1131 INFO DEV openerp.modules.module: module mail: creating or updating database tables
+2018-02-22 03:49:09,717 1131 INFO DEV openerp.addons.auth_crypt.auth_crypt: Hashing passwords, may be slow for databases with many users...
+2018-02-22 03:49:09,889 1131 INFO DEV openerp.modules.loading: loading mail/wizard/invite_view.xml
+2018-02-22 03:49:09,914 1131 INFO DEV openerp.modules.loading: loading mail/wizard/mail_compose_message_view.xml
+2018-02-22 03:49:09,956 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [327]
+2018-02-22 03:49:09,958 1131 INFO DEV openerp.modules.loading: loading mail/views/mail_message_subtype_views.xml
+2018-02-22 03:49:09,999 1131 INFO DEV openerp.modules.loading: loading mail/views/mail_tracking_views.xml
+2018-02-22 03:49:10,041 1131 INFO DEV openerp.modules.loading: loading mail/views/mail_message_views.xml
+2018-02-22 03:49:10,120 1131 INFO DEV openerp.modules.loading: loading mail/views/mail_mail_views.xml
+2018-02-22 03:49:10,185 1131 INFO DEV openerp.modules.loading: loading mail/views/mail_followers_views.xml
+2018-02-22 03:49:10,226 1131 INFO DEV openerp.modules.loading: loading mail/views/mail_channel_views.xml
+2018-02-22 03:49:10,374 1131 INFO DEV openerp.modules.loading: loading mail/views/mail_shortcode_views.xml
+2018-02-22 03:49:10,412 1131 INFO DEV openerp.modules.loading: loading mail/views/res_config_views.xml
+2018-02-22 03:49:10,439 1131 INFO DEV openerp.modules.loading: loading mail/data/mail_data.xml
+2018-02-22 03:49:10,457 1131 INFO DEV openerp.modules.loading: loading mail/data/mail_channel_data.xml
+2018-02-22 03:49:10,464 1131 INFO DEV openerp.modules.loading: loading mail/data/mail_shortcode_data.xml
+2018-02-22 03:49:10,522 1131 INFO DEV openerp.modules.loading: loading mail/security/mail_security.xml
+2018-02-22 03:49:10,529 1131 INFO DEV openerp.modules.loading: loading mail/security/ir.model.access.csv
+2018-02-22 03:49:10,791 1131 INFO DEV openerp.modules.loading: loading mail/views/mail_alias_views.xml
+2018-02-22 03:49:10,849 1131 INFO DEV openerp.modules.loading: loading mail/views/res_users_views.xml
+2018-02-22 03:49:10,940 1131 INFO DEV openerp.modules.loading: loading mail/views/mail_templates.xml
+2018-02-22 03:49:10,985 1131 INFO DEV openerp.modules.loading: loading mail/wizard/email_template_preview_view.xml
+2018-02-22 03:49:11,008 1131 INFO DEV openerp.modules.loading: loading mail/views/mail_template_views.xml
+2018-02-22 03:49:11,071 1131 INFO DEV openerp.modules.loading: loading mail/views/ir_actions_views.xml
+2018-02-22 03:49:11,133 1131 INFO DEV openerp.modules.loading: loading mail/views/res_partner_views.xml
+2018-02-22 03:49:11,208 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [389]
+2018-02-22 03:49:11,212 1131 INFO DEV openerp.modules.loading: loading mail/views/contact_views.xml
+2018-02-22 03:49:11,253 1131 INFO DEV openerp.modules.loading: loading mail/data/mail_demo.xml
+2018-02-22 03:49:11,303 1131 INFO DEV openerp.modules.loading: loading mail/data/mail_channel_demo.xml
+2018-02-22 03:49:11,324 1131 INFO DEV openerp.addons.base.ir.ir_translation: module mail: loading translation file (en_US) for language en_US
+2018-02-22 03:49:11,324 1131 INFO DEV openerp.tools.translate: loading /home/odoo/odoo-dev/desertbrothers/src/odoo/addons/mail/i18n/en_US.po
+2018-02-22 03:49:11,788 1131 INFO DEV openerp.modules.module: module analytic: creating or updating database tables
+2018-02-22 03:49:11,854 1131 INFO DEV openerp.modules.loading: loading analytic/security/analytic_security.xml
+2018-02-22 03:49:11,937 1131 INFO DEV openerp.modules.loading: loading analytic/security/ir.model.access.csv
+2018-02-22 03:49:11,962 1131 INFO DEV openerp.modules.loading: loading analytic/views/analytic_view.xml
+2018-02-22 03:49:12,124 1131 INFO DEV openerp.modules.loading: loading analytic/wizard/account_analytic_chart_view.xml
+2018-02-22 03:49:12,146 1131 INFO DEV openerp.modules.loading: loading analytic/data/analytic_demo.xml
+2018-02-22 03:49:12,150 1131 INFO DEV openerp.modules.loading: loading analytic/data/analytic_account_demo.xml
+2018-02-22 03:49:12,303 1131 INFO DEV openerp.modules.module: module auth_signup: creating or updating database tables
+2018-02-22 03:49:12,365 1131 INFO DEV openerp.addons.auth_crypt.auth_crypt: Hashing passwords, may be slow for databases with many users...
+2018-02-22 03:49:12,389 1131 INFO DEV openerp.modules.loading: loading auth_signup/auth_signup_data.xml
+2018-02-22 03:49:12,397 1131 INFO DEV openerp.modules.loading: loading auth_signup/res_config.xml
+2018-02-22 03:49:12,426 1131 INFO DEV openerp.modules.loading: loading auth_signup/res_users_view.xml
+2018-02-22 03:49:12,514 1131 INFO DEV openerp.modules.loading: loading auth_signup/views/auth_signup_login.xml
+2018-02-22 03:49:12,729 1131 INFO DEV openerp.modules.module: module fetchmail: creating or updating database tables
+2018-02-22 03:49:12,785 1131 INFO DEV openerp.modules.loading: loading fetchmail/fetchmail_data.xml
+2018-02-22 03:49:12,789 1131 INFO DEV openerp.modules.loading: loading fetchmail/fetchmail_view.xml
+2018-02-22 03:49:12,906 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [328]
+2018-02-22 03:49:12,908 1131 INFO DEV openerp.modules.loading: loading fetchmail/security/ir.model.access.csv
+2018-02-22 03:49:12,920 1131 INFO DEV openerp.modules.loading: loading fetchmail/fetchmail_installer_view.xml
+2018-02-22 03:49:12,926 1131 INFO DEV openerp.addons.base.ir.ir_translation: module fetchmail: loading translation file (en_US) for language en_US
+2018-02-22 03:49:12,926 1131 INFO DEV openerp.tools.translate: loading /home/odoo/odoo-dev/desertbrothers/src/odoo/addons/fetchmail/i18n/en_US.po
+2018-02-22 03:49:13,044 1131 INFO DEV openerp.modules.module: module im_odoo_support: creating or updating database tables
+2018-02-22 03:49:13,050 1131 INFO DEV openerp.modules.loading: loading im_odoo_support/views/im_odoo_support.xml
+2018-02-22 03:49:13,181 1131 INFO DEV openerp.modules.module: module mail_tip: creating or updating database tables
+2018-02-22 03:49:13,187 1131 INFO DEV openerp.modules.loading: loading mail_tip/views/mail_tip.xml
+2018-02-22 03:49:13,390 1131 INFO DEV openerp.modules.module: module product: creating or updating database tables
+2018-02-22 03:49:13,743 1131 INFO DEV openerp.modules.loading: loading product/security/product_security.xml
+2018-02-22 03:49:14,358 1131 INFO DEV openerp.modules.loading: loading product/security/ir.model.access.csv
+2018-02-22 03:49:14,626 1131 INFO DEV openerp.modules.loading: loading product/wizard/product_price_view.xml
+2018-02-22 03:49:14,652 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [329]
+2018-02-22 03:49:14,654 1131 INFO DEV openerp.modules.loading: loading product/res_config_view.xml
+2018-02-22 03:49:14,685 1131 INFO DEV openerp.modules.loading: loading product/product_data.xml
+2018-02-22 03:49:14,726 1131 INFO DEV openerp.modules.loading: loading product/product_report.xml
+2018-02-22 03:49:14,736 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [330]
+2018-02-22 03:49:14,746 1131 INFO DEV openerp.modules.loading: loading product/product_view.xml
+2018-02-22 03:49:14,905 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.actions.act_window.view records with IDs: [57, 58, 59]
+2018-02-22 03:49:15,539 1131 INFO DEV openerp.modules.loading: loading product/pricelist_view.xml
+2018-02-22 03:49:15,688 1131 INFO DEV openerp.modules.loading: loading product/partner_view.xml
+2018-02-22 03:49:15,728 1131 INFO DEV openerp.modules.loading: loading product/views/report_pricelist.xml
+2018-02-22 03:49:15,748 1131 INFO DEV openerp.modules.loading: loading product/views/report_productlabel.xml
+2018-02-22 03:49:15,768 1131 INFO DEV openerp.modules.loading: loading product/product_demo.xml
+2018-02-22 03:49:16,009 1131 INFO DEV openerp.modules.loading: loading product/product_image_demo.xml
+2018-02-22 03:49:16,376 1131 INFO DEV openerp.modules.module: module sales_team: creating or updating database tables
+2018-02-22 03:49:16,456 1131 INFO DEV openerp.addons.auth_crypt.auth_crypt: Hashing passwords, may be slow for databases with many users...
+2018-02-22 03:49:16,467 1131 INFO DEV openerp.modules.loading: loading sales_team/security/sales_team_security.xml
+2018-02-22 03:49:16,476 1131 INFO DEV openerp.modules.loading: loading sales_team/security/ir.model.access.csv
+2018-02-22 03:49:16,505 1131 INFO DEV openerp.modules.loading: loading sales_team/sales_team_data.xml
+2018-02-22 03:49:16,508 1131 INFO DEV openerp.modules.loading: loading sales_team/sales_team.xml
+2018-02-22 03:49:16,675 1131 INFO DEV openerp.modules.loading: loading sales_team/sales_team_dashboard.xml
+2018-02-22 03:49:16,695 1131 INFO DEV openerp.modules.loading: loading sales_team/sales_team_demo.xml
+2018-02-22 03:49:17,038 1131 INFO DEV openerp.modules.module: module account: creating or updating database tables
+2018-02-22 03:49:18,257 1131 INFO DEV openerp.modules.loading: loading account/security/account_security.xml
+2018-02-22 03:49:18,659 1131 INFO DEV openerp.modules.loading: loading account/security/ir.model.access.csv
+2018-02-22 03:49:19,356 1131 INFO DEV openerp.modules.loading: loading account/data/data_account_type.xml
+2018-02-22 03:49:19,378 1131 INFO DEV openerp.modules.loading: loading account/data/account_data.xml
+2018-02-22 03:49:19,404 1131 INFO DEV openerp.modules.loading: loading account/views/account_menuitem.xml
+2018-02-22 03:49:19,490 1131 INFO DEV openerp.modules.loading: loading account/views/account_payment_view.xml
+2018-02-22 03:49:19,642 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [331]
+2018-02-22 03:49:19,644 1131 INFO DEV openerp.modules.loading: loading account/wizard/account_reconcile_view.xml
+2018-02-22 03:49:19,685 1131 INFO DEV openerp.modules.loading: loading account/wizard/account_unreconcile_view.xml
+2018-02-22 03:49:19,709 1131 INFO DEV openerp.modules.loading: loading account/wizard/account_move_reversal_view.xml
+2018-02-22 03:49:19,732 1131 INFO DEV openerp.modules.loading: loading account/views/account_view.xml
+2018-02-22 03:49:19,809 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [332]
+2018-02-22 03:49:19,817 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [333]
+2018-02-22 03:49:19,826 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [334]
+2018-02-22 03:49:19,833 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [335]
+2018-02-22 03:49:19,841 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [336]
+2018-02-22 03:49:19,849 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [337]
+2018-02-22 03:49:19,857 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [338]
+2018-02-22 03:49:19,865 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [339]
+2018-02-22 03:49:19,872 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [340]
+2018-02-22 03:49:19,963 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.actions.act_window.view records with IDs: [60, 61]
+2018-02-22 03:49:19,993 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [341]
+2018-02-22 03:49:20,000 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [342]
+2018-02-22 03:49:20,550 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [343]
+2018-02-22 03:49:20,984 1131 INFO DEV openerp.modules.loading: loading account/views/account_report.xml
+2018-02-22 03:49:20,995 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [344]
+2018-02-22 03:49:21,006 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [345]
+2018-02-22 03:49:21,017 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [346]
+2018-02-22 03:49:21,027 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [347]
+2018-02-22 03:49:21,038 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [348]
+2018-02-22 03:49:21,048 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [349]
+2018-02-22 03:49:21,059 1131 INFO DEV openerp.modules.loading: loading account/wizard/account_invoice_refund_view.xml
+2018-02-22 03:49:21,081 1131 INFO DEV openerp.modules.loading: loading account/wizard/account_validate_move_view.xml
+2018-02-22 03:49:21,107 1131 INFO DEV openerp.modules.loading: loading account/wizard/account_invoice_state_view.xml
+2018-02-22 03:49:21,131 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [350]
+2018-02-22 03:49:21,150 1131 INFO DEV openerp.modules.loading: loading account/wizard/pos_box.xml
+2018-02-22 03:49:21,174 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [351]
+2018-02-22 03:49:21,198 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [352]
+2018-02-22 03:49:21,200 1131 INFO DEV openerp.modules.loading: loading account/views/account_end_fy.xml
+2018-02-22 03:49:21,202 1131 INFO DEV openerp.modules.loading: loading account/views/account_invoice_view.xml
+2018-02-22 03:49:21,524 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [353]
+2018-02-22 03:49:21,527 1131 INFO DEV openerp.modules.loading: loading account/data/invoice_action_data.xml
+2018-02-22 03:49:21,530 1131 INFO DEV openerp.modules.loading: loading account/views/account_invoice_workflow.xml
+2018-02-22 03:49:21,572 1131 INFO DEV openerp.modules.loading: loading account/views/partner_view.xml
+2018-02-22 03:49:21,753 1131 INFO DEV openerp.modules.loading: loading account/views/product_view.xml
+2018-02-22 03:49:21,810 1131 INFO DEV openerp.modules.loading: loading account/views/account_analytic_view.xml
+2018-02-22 03:49:21,919 1131 INFO DEV openerp.modules.loading: loading account/views/company_view.xml
+2018-02-22 03:49:21,953 1131 INFO DEV openerp.modules.loading: loading account/views/res_config_view.xml
+2018-02-22 03:49:21,998 1131 INFO DEV openerp.modules.loading: loading account/views/account_tip_data.xml
+2018-02-22 03:49:22,000 1131 INFO DEV openerp.modules.loading: loading account/views/account.xml
+2018-02-22 03:49:22,050 1131 INFO DEV openerp.modules.loading: loading account/views/report_invoice.xml
+2018-02-22 03:49:22,122 1131 INFO DEV openerp.modules.loading: loading account/report/account_invoice_report_view.xml
+2018-02-22 03:49:22,218 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [354]
+2018-02-22 03:49:22,220 1131 INFO DEV openerp.modules.loading: loading account/report/inherited_layouts.xml
+2018-02-22 03:49:22,243 1131 INFO DEV openerp.modules.loading: loading account/views/account_journal_dashboard_view.xml
+2018-02-22 03:49:22,284 1131 INFO DEV openerp.modules.loading: loading account/views/report_overdue.xml
+2018-02-22 03:49:22,317 1131 INFO DEV openerp.modules.loading: loading account/views/web_planner_data.xml
+2018-02-22 03:49:22,354 1131 INFO DEV openerp.modules.loading: loading account/views/report_overdue.xml
+2018-02-22 03:49:22,386 1131 INFO DEV openerp.modules.loading: loading account/wizard/account_report_common_view.xml
+2018-02-22 03:49:22,408 1131 INFO DEV openerp.modules.loading: loading account/wizard/account_report_general_ledger_view.xml
+2018-02-22 03:49:22,446 1131 INFO DEV openerp.modules.loading: loading account/views/report_generalledger.xml
+2018-02-22 03:49:22,466 1131 INFO DEV openerp.modules.loading: loading account/wizard/account_report_trial_balance_view.xml
+2018-02-22 03:49:22,501 1131 INFO DEV openerp.modules.loading: loading account/views/report_trialbalance.xml
+2018-02-22 03:49:22,520 1131 INFO DEV openerp.modules.loading: loading account/views/account_financial_report_data.xml
+2018-02-22 03:49:22,532 1131 INFO DEV openerp.modules.loading: loading account/wizard/account_financial_report_view.xml
+2018-02-22 03:49:22,584 1131 INFO DEV openerp.modules.loading: loading account/views/report_financial.xml
+2018-02-22 03:49:22,604 1131 INFO DEV openerp.modules.loading: loading account/wizard/account_report_aged_partner_balance_view.xml
+2018-02-22 03:49:22,631 1131 INFO DEV openerp.modules.loading: loading account/views/report_agedpartnerbalance.xml
+2018-02-22 03:49:22,651 1131 INFO DEV openerp.modules.loading: loading account/demo/account_demo.xml
+2018-02-22 03:49:22,674 1131 INFO DEV openerp.addons.base.ir.ir_translation: module account: loading base translation file en for language en_US
+2018-02-22 03:49:22,675 1131 INFO DEV openerp.tools.translate: loading /home/odoo/odoo-dev/desertbrothers/src/odoo/addons/account/i18n/en.po
+2018-02-22 03:49:23,695 1131 INFO DEV openerp.modules.module: module portal: creating or updating database tables
+2018-02-22 03:49:23,742 1131 INFO DEV openerp.modules.loading: loading portal/portal_data.xml
+2018-02-22 03:49:23,747 1131 INFO DEV openerp.modules.loading: loading portal/portal_view.xml
+2018-02-22 03:49:23,829 1131 INFO DEV openerp.modules.loading: loading portal/wizard/portal_wizard_view.xml
+2018-02-22 03:49:23,841 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [355]
+2018-02-22 03:49:23,859 1131 INFO DEV openerp.modules.loading: loading portal/security/ir.model.access.csv
+2018-02-22 03:49:23,881 1131 INFO DEV openerp.modules.loading: loading portal/portal_demo.xml
+2018-02-22 03:49:24,029 1131 INFO DEV openerp.modules.module: module procurement: creating or updating database tables
+2018-02-22 03:49:24,093 1131 INFO DEV openerp.modules.loading: loading procurement/security/ir.model.access.csv
+2018-02-22 03:49:24,123 1131 INFO DEV openerp.modules.loading: loading procurement/security/procurement_security.xml
+2018-02-22 03:49:24,127 1131 INFO DEV openerp.modules.loading: loading procurement/procurement_data.xml
+2018-02-22 03:49:24,132 1131 INFO DEV openerp.modules.loading: loading procurement/wizard/schedulers_all_view.xml
+2018-02-22 03:49:24,152 1131 INFO DEV openerp.modules.loading: loading procurement/procurement_view.xml
+2018-02-22 03:49:24,373 1131 INFO DEV openerp.modules.loading: loading procurement/company_view.xml
+2018-02-22 03:49:24,406 1131 INFO DEV openerp.modules.loading: loading procurement/product_product_view.xml
+2018-02-22 03:49:24,489 1131 INFO DEV openerp.addons.base.ir.ir_translation: module procurement: loading translation file (en_US) for language en_US
+2018-02-22 03:49:24,489 1131 INFO DEV openerp.tools.translate: loading /home/odoo/odoo-dev/desertbrothers/src/odoo/addons/procurement/i18n/en_US.po
+2018-02-22 03:49:24,718 1131 INFO DEV openerp.modules.module: module account_accountant: creating or updating database tables
+2018-02-22 03:49:24,722 1131 INFO DEV openerp.modules.loading: loading account_accountant/security/account_security.xml
+2018-02-22 03:49:24,727 1131 INFO DEV openerp.modules.loading: loading account_accountant/account_accountant_data.xml
+2018-02-22 03:49:24,756 1131 INFO DEV openerp.modules.loading: loading account_accountant/account_accountant_demo.xml
+2018-02-22 03:49:24,868 1131 INFO DEV openerp.modules.module: module account_bank_statement_import: creating or updating database tables
+2018-02-22 03:49:24,946 1131 INFO DEV openerp.modules.loading: loading account_bank_statement_import/account_bank_statement_import_view.xml
+2018-02-22 03:49:24,991 1131 INFO DEV openerp.modules.loading: loading account_bank_statement_import/account_import_tip_data.xml
+2018-02-22 03:49:24,993 1131 INFO DEV openerp.modules.loading: loading account_bank_statement_import/wizard/journal_creation.xml
+2018-02-22 03:49:25,012 1131 INFO DEV openerp.modules.loading: loading account_bank_statement_import/demo/partner_bank.xml
+2018-02-22 03:49:25,179 1131 INFO DEV openerp.modules.module: module account_check_printing: creating or updating database tables
+2018-02-22 03:49:25,264 1131 INFO DEV openerp.modules.loading: loading account_check_printing/data/check_printing.xml
+2018-02-22 03:49:25,271 1131 INFO DEV openerp.modules.loading: loading account_check_printing/views/account_journal_dashboard_view.xml
+2018-02-22 03:49:25,301 1131 INFO DEV openerp.modules.loading: loading account_check_printing/views/account_journal_view.xml
+2018-02-22 03:49:25,328 1131 INFO DEV openerp.modules.loading: loading account_check_printing/views/account_payment_view.xml
+2018-02-22 03:49:25,420 1131 INFO DEV openerp.modules.loading: loading account_check_printing/wizard/print_pre_numbered_checks.xml
+2018-02-22 03:49:25,615 1131 INFO DEV openerp.modules.module: module l10n_generic_coa: creating or updating database tables
+2018-02-22 03:49:25,619 1131 INFO DEV openerp.modules.loading: loading l10n_generic_coa/data/configurable_account_chart.xml
+2018-02-22 03:49:25,656 1131 INFO DEV openerp.modules.loading: loading l10n_generic_coa/account_chart_template.yml
+2018-02-22 03:49:25,665 1131 INFO DEV openerp.modules.loading: loading l10n_generic_coa/../account/demo/account_bank_statement.yml
+2018-02-22 03:49:25,780 1131 INFO ? openerp.addons.account_financial_report_qweb.report: ImportError raised while loading module.
+2018-02-22 03:49:25,831 1131 INFO DEV openerp.modules.loading: loading l10n_generic_coa/../account/demo/account_invoice_demo.yml
+2018-02-22 03:49:26,263 1131 INFO DEV openerp.models.unlink: User #1 deleted account.invoice.tax records with IDs: [6]
+2018-02-22 03:49:26,996 1131 INFO DEV openerp.modules.module: module sale: creating or updating database tables
+2018-02-22 03:49:27,335 1131 INFO ? openerp.http: HTTP Configuring static files
+2018-02-22 03:49:27,651 1131 INFO DEV openerp.modules.loading: loading sale/wizard/sale_make_invoice_advance.xml
+2018-02-22 03:49:27,686 1131 INFO DEV openerp.modules.loading: loading sale/security/sale_security.xml
+2018-02-22 03:49:28,441 1131 INFO DEV openerp.modules.loading: loading sale/security/ir.model.access.csv
+2018-02-22 03:49:28,774 1131 INFO DEV openerp.modules.loading: loading sale/sale_sequence.xml
+2018-02-22 03:49:28,781 1131 INFO DEV openerp.modules.loading: loading sale/sale_report.xml
+2018-02-22 03:49:28,790 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [356]
+2018-02-22 03:49:28,793 1131 INFO DEV openerp.modules.loading: loading sale/sale_data.xml
+2018-02-22 03:49:28,808 1131 INFO DEV openerp.modules.loading: loading sale/sale_view.xml
+2018-02-22 03:49:29,381 1131 INFO DEV openerp.modules.loading: loading sale/sales_team_view.xml
+2018-02-22 03:49:29,450 1131 INFO DEV openerp.modules.loading: loading sale/res_partner_view.xml
+2018-02-22 03:49:29,537 1131 INFO DEV openerp.modules.loading: loading sale/report/sale_report_view.xml
+2018-02-22 03:49:29,611 1131 INFO DEV openerp.modules.loading: loading sale/data/mail_template_data.xml
+2018-02-22 03:49:29,616 1131 INFO DEV openerp.modules.loading: loading sale/res_config_view.xml
+2018-02-22 03:49:29,681 1131 INFO DEV openerp.modules.loading: loading sale/views/report_saleorder.xml
+2018-02-22 03:49:29,720 1131 INFO DEV openerp.modules.loading: loading sale/views/sale.xml
+2018-02-22 03:49:29,772 1131 INFO DEV openerp.modules.loading: loading sale/sales_team_dashboard.xml
+2018-02-22 03:49:29,805 1131 INFO DEV openerp.modules.loading: loading sale/sale_tip_data.xml
+2018-02-22 03:49:29,818 1131 INFO DEV openerp.modules.loading: loading sale/sale_demo.xml
+2018-02-22 03:49:29,868 1131 INFO DEV openerp.modules.loading: loading sale/sale_product_demo.xml
+2018-02-22 03:49:30,650 1131 INFO DEV openerp.modules.module: module stock: creating or updating database tables
+2018-02-22 03:49:31,565 1131 INFO DEV openerp.modules.loading: loading stock/data/default_barcode_patterns.xml
+2018-02-22 03:49:31,583 1131 INFO DEV openerp.modules.loading: loading stock/security/stock_security.xml
+2018-02-22 03:49:32,180 1131 INFO DEV openerp.modules.loading: loading stock/security/ir.model.access.csv
+2018-02-22 03:49:32,943 1131 INFO DEV openerp.modules.loading: loading stock/stock_data.xml
+2018-02-22 03:49:33,066 1131 INFO DEV openerp.modules.loading: loading stock/stock_data.yml
+2018-02-22 03:49:33,103 1131 INFO DEV openerp.modules.loading: loading stock/wizard/stock_move_view.xml
+2018-02-22 03:49:33,128 1131 INFO DEV openerp.modules.loading: loading stock/wizard/stock_change_product_qty_view.xml
+2018-02-22 03:49:33,153 1131 INFO DEV openerp.modules.loading: loading stock/wizard/stock_return_picking_view.xml
+2018-02-22 03:49:33,178 1131 INFO DEV openerp.modules.loading: loading stock/wizard/make_procurement_view.xml
+2018-02-22 03:49:33,202 1131 INFO DEV openerp.modules.loading: loading stock/wizard/orderpoint_procurement_view.xml
+2018-02-22 03:49:33,224 1131 INFO DEV openerp.modules.loading: loading stock/report/report_stock_forecast.xml
+2018-02-22 03:49:33,279 1131 INFO DEV openerp.modules.loading: loading stock/stock_incoterms.xml
+2018-02-22 03:49:33,319 1131 INFO DEV openerp.modules.loading: loading stock/stock_report.xml
+2018-02-22 03:49:33,330 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [357]
+2018-02-22 03:49:33,341 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [358]
+2018-02-22 03:49:33,352 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [359]
+2018-02-22 03:49:33,363 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [360]
+2018-02-22 03:49:33,375 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [361]
+2018-02-22 03:49:33,386 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [362]
+2018-02-22 03:49:33,397 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [363]
+2018-02-22 03:49:33,402 1131 INFO DEV openerp.modules.loading: loading stock/stock_view.xml
+2018-02-22 03:49:33,733 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [364]
+2018-02-22 03:49:34,665 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [365]
+2018-02-22 03:49:35,096 1131 INFO DEV openerp.modules.loading: loading stock/stock_sequence.xml
+2018-02-22 03:49:35,104 1131 INFO DEV openerp.modules.loading: loading stock/product_view.xml
+2018-02-22 03:49:35,448 1131 INFO DEV openerp.modules.loading: loading stock/partner_view.xml
+2018-02-22 03:49:35,501 1131 INFO DEV openerp.modules.loading: loading stock/report/report_stock_view.xml
+2018-02-22 03:49:35,564 1131 INFO DEV openerp.modules.loading: loading stock/res_config_view.xml
+2018-02-22 03:49:35,609 1131 INFO DEV openerp.modules.loading: loading stock/views/report_package_barcode.xml
+2018-02-22 03:49:35,645 1131 INFO DEV openerp.modules.loading: loading stock/views/report_lot_barcode.xml
+2018-02-22 03:49:35,663 1131 INFO DEV openerp.modules.loading: loading stock/views/report_location_barcode.xml
+2018-02-22 03:49:35,703 1131 INFO DEV openerp.modules.loading: loading stock/views/report_stockpicking_operations.xml
+2018-02-22 03:49:35,766 1131 INFO DEV openerp.modules.loading: loading stock/views/report_deliveryslip.xml
+2018-02-22 03:49:35,803 1131 INFO DEV openerp.modules.loading: loading stock/views/report_stockinventory.xml
+2018-02-22 03:49:35,825 1131 INFO DEV openerp.modules.loading: loading stock/stock_dashboard.xml
+2018-02-22 03:49:35,847 1131 INFO DEV openerp.modules.loading: loading stock/wizard/stock_immediate_transfer.xml
+2018-02-22 03:49:35,865 1131 INFO DEV openerp.modules.loading: loading stock/wizard/stock_backorder_confirmation.xml
+2018-02-22 03:49:35,885 1131 INFO DEV openerp.modules.loading: loading stock/data/web_planner_data.xml
+2018-02-22 03:49:35,920 1131 INFO DEV openerp.modules.loading: loading stock/stock_demo_pre.yml
+2018-02-22 03:49:35,950 1131 INFO DEV openerp.modules.loading: loading stock/stock_demo.xml
+2018-02-22 03:49:35,985 1131 INFO DEV openerp.modules.loading: loading stock/procurement_demo.xml
+2018-02-22 03:49:36,079 1131 INFO DEV openerp.modules.loading: loading stock/stock_orderpoint.xml
+2018-02-22 03:49:36,088 1131 INFO DEV openerp.modules.loading: loading stock/stock_orderpoint.yml
+2018-02-22 03:49:36,094 1131 INFO DEV openerp.modules.loading: loading stock/stock_demo.yml
+2018-02-22 03:49:36,225 1131 INFO DEV openerp.modules.loading: loading stock/stock_location_demo_cpu1.xml
+2018-02-22 03:49:36,228 1131 INFO DEV openerp.modules.loading: loading stock/stock_location_demo_cpu3.yml
+2018-02-22 03:49:37,260 1131 INFO DEV openerp.modules.module: module l10n_us: creating or updating database tables
+2018-02-22 03:49:37,266 1131 INFO DEV openerp.modules.loading: loading l10n_us/data/res_company.xml
+2018-02-22 03:49:37,437 1131 INFO DEV openerp.modules.module: module stock_account: creating or updating database tables
+2018-02-22 03:49:37,772 1131 INFO DEV openerp.modules.loading: loading stock_account/security/stock_account_security.xml
+2018-02-22 03:49:37,949 1131 INFO DEV openerp.modules.loading: loading stock_account/security/ir.model.access.csv
+2018-02-22 03:49:38,022 1131 INFO DEV openerp.modules.loading: loading stock_account/stock_account_data.xml
+2018-02-22 03:49:38,029 1131 INFO DEV openerp.modules.loading: loading stock_account/wizard/stock_change_standard_price_view.xml
+2018-02-22 03:49:38,050 1131 INFO DEV openerp.modules.loading: loading stock_account/wizard/stock_valuation_history_view.xml
+2018-02-22 03:49:38,143 1131 INFO DEV openerp.modules.loading: loading stock_account/product_data.xml
+2018-02-22 03:49:38,150 1131 INFO DEV openerp.modules.loading: loading stock_account/product_view.xml
+2018-02-22 03:49:38,255 1131 INFO DEV openerp.modules.loading: loading stock_account/stock_account_view.xml
+2018-02-22 03:49:38,351 1131 INFO DEV openerp.modules.loading: loading stock_account/res_config_view.xml
+2018-02-22 03:49:38,377 1131 INFO DEV openerp.modules.loading: loading stock_account/stock_account_post_install.yml
+2018-02-22 03:49:38,388 1131 INFO DEV openerp.modules.loading: loading stock_account/stock_account_demo.yml
+2018-02-22 03:49:38,728 1131 INFO DEV openerp.modules.module: module sale_stock: creating or updating database tables
+2018-02-22 03:49:39,087 1131 INFO DEV openerp.modules.loading: loading sale_stock/security/sale_stock_security.xml
+2018-02-22 03:49:39,169 1131 INFO DEV openerp.modules.loading: loading sale_stock/security/ir.model.access.csv
+2018-02-22 03:49:39,312 1131 INFO DEV openerp.modules.loading: loading sale_stock/company_view.xml
+2018-02-22 03:49:39,348 1131 INFO DEV openerp.modules.loading: loading sale_stock/sale_stock_view.xml
+2018-02-22 03:49:39,433 1131 INFO DEV openerp.modules.loading: loading sale_stock/stock_view.xml
+2018-02-22 03:49:39,469 1131 INFO DEV openerp.modules.loading: loading sale_stock/res_config_view.xml
+2018-02-22 03:49:39,499 1131 INFO DEV openerp.modules.loading: loading sale_stock/account_invoice_view.xml
+2018-02-22 03:49:39,567 1131 INFO DEV openerp.modules.loading: loading sale_stock/sale_stock_demo.xml
+2018-02-22 03:49:39,581 1131 INFO DEV openerp.addons.base.ir.ir_translation: module sale_stock: loading base translation file en for language en_US
+2018-02-22 03:49:39,582 1131 INFO DEV openerp.tools.translate: loading /home/odoo/odoo-dev/desertbrothers/src/odoo/addons/sale_stock/i18n/en.po
+2018-02-22 03:49:39,903 1131 INFO DEV openerp.modules.module: module point_of_sale: creating or updating database tables
+2018-02-22 03:49:40,256 1131 INFO DEV openerp.addons.auth_crypt.auth_crypt: Hashing passwords, may be slow for databases with many users...
+2018-02-22 03:49:40,361 1131 INFO DEV openerp.modules.loading: loading point_of_sale/data/report_paperformat.xml
+2018-02-22 03:49:40,368 1131 INFO DEV openerp.modules.loading: loading point_of_sale/data/default_barcode_patterns.xml
+2018-02-22 03:49:40,469 1131 INFO DEV openerp.modules.loading: loading point_of_sale/security/point_of_sale_security.xml
+2018-02-22 03:49:40,708 1131 INFO DEV openerp.modules.loading: loading point_of_sale/security/ir.model.access.csv
+2018-02-22 03:49:41,052 1131 INFO DEV openerp.modules.loading: loading point_of_sale/wizard/pos_box.xml
+2018-02-22 03:49:41,060 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [366]
+2018-02-22 03:49:41,068 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [367]
+2018-02-22 03:49:41,070 1131 INFO DEV openerp.modules.loading: loading point_of_sale/wizard/pos_confirm.xml
+2018-02-22 03:49:41,087 1131 INFO DEV openerp.modules.loading: loading point_of_sale/wizard/pos_details.xml
+2018-02-22 03:49:41,107 1131 INFO DEV openerp.modules.loading: loading point_of_sale/wizard/pos_discount.xml
+2018-02-22 03:49:41,127 1131 INFO DEV openerp.modules.loading: loading point_of_sale/wizard/pos_open_statement.xml
+2018-02-22 03:49:41,150 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [368]
+2018-02-22 03:49:41,155 1131 INFO DEV openerp.modules.loading: loading point_of_sale/wizard/pos_payment.xml
+2018-02-22 03:49:41,175 1131 INFO DEV openerp.modules.loading: loading point_of_sale/views/templates.xml
+2018-02-22 03:49:41,193 1131 INFO DEV openerp.modules.loading: loading point_of_sale/point_of_sale.xml
+2018-02-22 03:49:41,247 1131 INFO DEV openerp.modules.loading: loading point_of_sale/point_of_sale_report.xml
+2018-02-22 03:49:41,256 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [369]
+2018-02-22 03:49:41,267 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [370]
+2018-02-22 03:49:41,279 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [371]
+2018-02-22 03:49:41,290 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [372]
+2018-02-22 03:49:41,306 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [373]
+2018-02-22 03:49:41,316 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [374]
+2018-02-22 03:49:41,320 1131 INFO DEV openerp.modules.loading: loading point_of_sale/point_of_sale_view.xml
+2018-02-22 03:49:41,926 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [375]
+2018-02-22 03:49:41,942 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [376]
+2018-02-22 03:49:42,038 1131 INFO DEV openerp.modules.loading: loading point_of_sale/point_of_sale_sequence.xml
+2018-02-22 03:49:42,042 1131 INFO DEV openerp.modules.loading: loading point_of_sale/point_of_sale_data.xml
+2018-02-22 03:49:42,061 1131 INFO DEV openerp.modules.loading: loading point_of_sale/report/pos_order_report_view.xml
+2018-02-22 03:49:42,118 1131 INFO DEV openerp.modules.loading: loading point_of_sale/point_of_sale_workflow.xml
+2018-02-22 03:49:42,176 1131 INFO DEV openerp.modules.loading: loading point_of_sale/account_statement_view.xml
+2018-02-22 03:49:42,209 1131 INFO DEV openerp.modules.loading: loading point_of_sale/account_statement_report.xml
+2018-02-22 03:49:42,218 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [377]
+2018-02-22 03:49:42,229 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.values records with IDs: [378]
+2018-02-22 03:49:42,233 1131 INFO DEV openerp.modules.loading: loading point_of_sale/res_users_view.xml
+2018-02-22 03:49:42,332 1131 INFO DEV openerp.modules.loading: loading point_of_sale/res_partner_view.xml
+2018-02-22 03:49:42,387 1131 INFO DEV openerp.modules.loading: loading point_of_sale/res_config_view.xml
+2018-02-22 03:49:42,413 1131 INFO DEV openerp.modules.loading: loading point_of_sale/views/report_statement.xml
+2018-02-22 03:49:42,433 1131 INFO DEV openerp.modules.loading: loading point_of_sale/views/report_usersproduct.xml
+2018-02-22 03:49:42,451 1131 INFO DEV openerp.modules.loading: loading point_of_sale/views/report_receipt.xml
+2018-02-22 03:49:42,469 1131 INFO DEV openerp.modules.loading: loading point_of_sale/views/report_saleslines.xml
+2018-02-22 03:49:42,488 1131 INFO DEV openerp.modules.loading: loading point_of_sale/views/report_detailsofsales.xml
+2018-02-22 03:49:42,509 1131 INFO DEV openerp.modules.loading: loading point_of_sale/views/report_payment.xml
+2018-02-22 03:49:42,528 1131 INFO DEV openerp.modules.loading: loading point_of_sale/views/report_sessionsummary.xml
+2018-02-22 03:49:42,548 1131 INFO DEV openerp.modules.loading: loading point_of_sale/views/report_userlabel.xml
+2018-02-22 03:49:42,566 1131 INFO DEV openerp.modules.loading: loading point_of_sale/views/point_of_sale.xml
+2018-02-22 03:49:42,586 1131 INFO DEV openerp.modules.loading: loading point_of_sale/point_of_sale_dashboard.xml
+2018-02-22 03:49:42,618 1131 INFO DEV openerp.modules.loading: loading point_of_sale/point_of_sale_demo.xml
+2018-02-22 03:49:43,487 1131 INFO DEV openerp.modules.module: module portal_stock: creating or updating database tables
+2018-02-22 03:49:43,492 1131 INFO DEV openerp.modules.loading: loading portal_stock/security/portal_security.xml
+2018-02-22 03:49:43,497 1131 INFO DEV openerp.modules.loading: loading portal_stock/security/ir.model.access.csv
+2018-02-22 03:49:43,664 1131 INFO DEV openerp.modules.module: module procurement_jit: creating or updating database tables
+2018-02-22 03:49:43,821 1131 INFO DEV openerp.modules.module: module pos_discount: creating or updating database tables
+2018-02-22 03:49:43,866 1131 INFO DEV openerp.modules.loading: loading pos_discount/views/views.xml
+2018-02-22 03:49:43,899 1131 INFO DEV openerp.modules.loading: loading pos_discount/views/templates.xml
+2018-02-22 03:49:44,077 1131 INFO DEV openerp.modules.module: module pos_mercury: creating or updating database tables
+2018-02-22 03:49:44,291 1131 INFO DEV openerp.modules.loading: loading pos_mercury/data/pos_mercury_data.xml
+2018-02-22 03:49:44,303 1131 INFO DEV openerp.modules.loading: loading pos_mercury/security/ir.model.access.csv
+2018-02-22 03:49:44,318 1131 INFO DEV openerp.modules.loading: loading pos_mercury/views/pos_mercury_templates.xml
+2018-02-22 03:49:44,343 1131 INFO DEV openerp.modules.loading: loading pos_mercury/views/pos_mercury_views.xml
+2018-02-22 03:49:44,453 1131 INFO DEV openerp.modules.loading: loading pos_mercury/views/pos_mercury_transaction_templates.xml
+2018-02-22 03:49:44,513 1131 INFO DEV openerp.modules.loading: loading pos_mercury/data/pos_mercury_demo.xml
+2018-02-22 03:49:44,726 1131 INFO DEV openerp.modules.module: module pos_reprint: creating or updating database tables
+2018-02-22 03:49:44,771 1131 INFO DEV openerp.modules.loading: loading pos_reprint/views/templates.xml
+2018-02-22 03:49:44,798 1131 INFO DEV openerp.modules.loading: loading pos_reprint/views/views.xml
+2018-02-22 03:49:44,984 1131 INFO DEV openerp.modules.module: module pos_store_draft_order: creating or updating database tables
+2018-02-22 03:49:45,074 1131 INFO DEV openerp.modules.loading: loading pos_store_draft_order/view/view.xml
+2018-02-22 03:49:45,129 1131 INFO DEV openerp.modules.loading: loading pos_store_draft_order/demo/pos_config.yml
+2018-02-22 03:49:45,174 1131 INFO DEV openerp.modules.loading: 46 modules loaded in 36.22s, 205 queries
+2018-02-22 03:49:45,288 1131 WARNING DEV openerp.modules.loading: The model ahb_recipes.ahb_recipes has no access rules, consider adding one. E.g. access_ahb_recipes_ahb_recipes,access_ahb_recipes_ahb_recipes,model_ahb_recipes_ahb_recipes,,1,0,0,0
+2018-02-22 03:49:45,288 1131 WARNING DEV openerp.modules.loading: The model ahb_recipes.styles has no access rules, consider adding one. E.g. access_ahb_recipes_styles,access_ahb_recipes_styles,model_ahb_recipes_styles,,1,0,0,0
+2018-02-22 03:49:45,365 1131 WARNING DEV openerp.modules.loading: Model afr is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2018-02-22 03:49:45,367 1131 WARNING DEV openerp.modules.loading: Model wizard.report is declared but cannot be loaded! (Perhaps a module was partially removed or renamed)
+2018-02-22 03:49:45,441 1131 INFO DEV openerp.addons.base.ir.ir_model: Deleting 241@ir.ui.menu (base.menu_config)
+2018-02-22 03:49:45,466 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.model.data records with IDs: [9527]
+2018-02-22 03:49:45,467 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.ui.menu records with IDs: [241]
+2018-02-22 03:49:45,470 1131 INFO DEV openerp.modules.loading: Modules loaded.
+2018-02-22 03:49:45,471 1131 INFO DEV openerp.models: Computing parent left and right for table ir_ui_menu...
+2018-02-22 03:49:45,527 1131 INFO DEV openerp.addons.base.ir.ir_http: Generating routing map
+2018-02-22 03:50:35,674 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:50:35] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 03:51:25,758 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:51:25] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 03:52:15,948 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:52:15] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 03:53:06,078 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:53:06] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 03:53:56,202 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:53:56] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 03:54:46,294 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:54:46] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 03:55:36,471 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:55:36] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 03:56:25,946 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:25] "POST /web/dataset/call_kw/pos.config/write HTTP/1.1" 200 -
+2018-02-22 03:56:26,072 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:26] "POST /web/dataset/call_kw/pos.config/search_read HTTP/1.1" 200 -
+2018-02-22 03:56:26,166 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:26] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 03:56:26,230 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:26] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-02-22 03:56:26,244 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:26] "POST /web/dataset/call_kw/account.journal/read HTTP/1.1" 200 -
+2018-02-22 03:56:26,627 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:26] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 03:56:28,178 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:28] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-02-22 03:56:28,179 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:28] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 03:56:28,328 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:28] "POST /web_settings_dashboard/data HTTP/1.1" 200 -
+2018-02-22 03:56:28,499 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:28] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 03:56:32,477 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:32] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-02-22 03:56:32,554 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:32] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 03:56:32,662 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:32] "POST /web/dataset/call_kw/ir.module.module/fields_view_get HTTP/1.1" 200 -
+2018-02-22 03:56:32,688 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:32] "POST /web/dataset/call_kw/ir.module.module/fields_view_get HTTP/1.1" 200 -
+2018-02-22 03:56:32,768 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:32] "POST /web/dataset/call_kw/ir.module.module/fields_get HTTP/1.1" 200 -
+2018-02-22 03:56:32,777 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:32] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 03:56:33,357 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:33] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 03:56:37,712 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:37] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-02-22 03:56:37,730 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:37] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 03:56:37,911 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:37] "POST /web/dataset/call_kw/ir.module.module/fields_view_get HTTP/1.1" 200 -
+2018-02-22 03:56:37,920 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:37] "POST /web/dataset/call_kw/ir.module.module/fields_view_get HTTP/1.1" 200 -
+2018-02-22 03:56:38,053 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:38] "POST /web/dataset/call_kw/ir.module.module/fields_get HTTP/1.1" 200 -
+2018-02-22 03:56:38,057 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:38] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 03:56:38,251 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:38] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 03:56:39,859 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:39] "GET /web HTTP/1.1" 200 -
+2018-02-22 03:56:40,406 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:40] "POST /web/dataset/call HTTP/1.1" 200 -
+2018-02-22 03:56:40,446 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:40] "POST /mail/chat_init HTTP/1.1" 200 -
+2018-02-22 03:56:40,451 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:40] "POST /mail/client_action HTTP/1.1" 200 -
+2018-02-22 03:56:40,546 1131 INFO DEV openerp.service.common: successful login from 'admin' using database 'dev'
+2018-02-22 03:56:40,548 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:40] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2018-02-22 03:56:40,553 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:40] "POST /web/dataset/call_kw/ir.model.data/xmlid_to_res_id HTTP/1.1" 200 -
+2018-02-22 03:56:40,557 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:40] "POST /web/dataset/call_kw/ir.model.data/xmlid_to_res_id HTTP/1.1" 200 -
+2018-02-22 03:56:40,631 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:40] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-02-22 03:56:40,725 1131 INFO DEV openerp.http: Generating nondb routing
+2018-02-22 03:56:40,860 1131 INFO ? werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:40] "GET /web/static/src/img/favicon.ico HTTP/1.1" 200 -
+2018-02-22 03:56:40,952 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:40] "POST /web/proxy/load HTTP/1.1" 200 -
+2018-02-22 03:56:41,337 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:41] "POST /web/session/modules HTTP/1.1" 200 -
+2018-02-22 03:56:41,453 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:41] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 03:56:41,457 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:41] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-02-22 03:56:42,102 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:42] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2018-02-22 03:56:42,113 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:42] "POST /web/dataset/call_kw/ir.config_parameter/get_param HTTP/1.1" 200 -
+2018-02-22 03:56:42,138 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:42] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 03:56:42,148 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:42] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 03:56:42,156 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:42] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 03:56:42,192 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:42] "GET /web/image?model=res.users&field=image_small&id=1 HTTP/1.1" 200 -
+2018-02-22 03:56:42,253 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:42] "POST /web/dataset/call_kw/ir.module.module/fields_view_get HTTP/1.1" 200 -
+2018-02-22 03:56:42,268 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:42] "POST /web/dataset/call_kw/ir.module.module/fields_view_get HTTP/1.1" 200 -
+2018-02-22 03:56:42,316 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:42] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-02-22 03:56:42,339 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:42] "POST /web/dataset/call_kw/ir.module.module/fields_get HTTP/1.1" 200 -
+2018-02-22 03:56:42,371 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:42] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 03:56:42,476 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:56:42] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 03:57:05,502 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:05] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 03:57:07,397 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:07] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 03:57:09,167 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:09] "POST /web/dataset/call_kw/ir.module.module/fields_view_get HTTP/1.1" 200 -
+2018-02-22 03:57:09,475 1131 WARNING DEV openerp.addons.base.module.module: docutils' system message present: <system_message level="1" line="7" source="<string>" type="INFO"><paragraph>Enumerated list start value not ordinal-1: "2" (ordinal 2)</paragraph></system_message>
+2018-02-22 03:57:09,475 1131 WARNING DEV openerp.addons.base.module.module: docutils' system message present: <system_message level="2" line="40" source="<string>" type="WARNING"><paragraph>Bullet list ends without a blank line; unexpected unindent.</paragraph></system_message>
+2018-02-22 03:57:09,475 1131 WARNING DEV openerp.addons.base.module.module: docutils' system message present: <system_message level="2" line="43" source="<string>" type="WARNING"><paragraph>Bullet list ends without a blank line; unexpected unindent.</paragraph></system_message>
+2018-02-22 03:57:09,476 1131 WARNING DEV openerp.addons.base.module.module: docutils' system message present: <system_message level="2" line="46" source="<string>" type="WARNING"><paragraph>Bullet list ends without a blank line; unexpected unindent.</paragraph></system_message>
+2018-02-22 03:57:09,488 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:09] "POST /web/dataset/call_kw/ir.module.module/read HTTP/1.1" 200 -
+2018-02-22 03:57:09,610 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:09] "POST /web/dataset/call_kw/ir.module.category/name_search HTTP/1.1" 200 -
+2018-02-22 03:57:09,635 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:09] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 03:57:09,677 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:09] "GET /web/image?model=ir.module.module&id=304&field=icon_image&unique=20180222034945 HTTP/1.1" 200 -
+2018-02-22 03:57:09,685 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:09] "GET /static/description/pos_order_states.png HTTP/1.1" 404 -
+2018-02-22 03:57:09,687 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:09] "GET /static/description/1_before_closing.png HTTP/1.1" 404 -
+2018-02-22 03:57:09,696 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:09] "GET /static/description/2_after_closing.png HTTP/1.1" 404 -
+2018-02-22 03:57:09,770 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:09] "POST /web/dataset/call_kw/ir.module.module.dependency/read HTTP/1.1" 200 -
+2018-02-22 03:57:09,772 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:09] "GET /static/description/3_after_opening.png HTTP/1.1" 404 -
+2018-02-22 03:57:11,737 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:11] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-02-22 03:57:11,778 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:11] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 03:57:11,938 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:11] "POST /web/dataset/call_kw/pos.config/fields_view_get HTTP/1.1" 200 -
+2018-02-22 03:57:11,964 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:11] "POST /web/dataset/call_kw/pos.config/fields_view_get HTTP/1.1" 200 -
+2018-02-22 03:57:12,069 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:12] "POST /web/dataset/call_kw/pos.config/fields_get HTTP/1.1" 200 -
+2018-02-22 03:57:12,102 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:12] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 03:57:12,288 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:12] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 03:57:14,995 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:14] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 03:57:15,196 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:15] "POST /web/dataset/call_kw/pos.config/fields_view_get HTTP/1.1" 200 -
+2018-02-22 03:57:15,202 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:15] "POST /web/dataset/call_kw/pos.config/fields_view_get HTTP/1.1" 200 -
+2018-02-22 03:57:15,358 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:15] "POST /web/dataset/call_kw/pos.config/fields_get HTTP/1.1" 200 -
+2018-02-22 03:57:15,378 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:15] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 03:57:15,563 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:15] "POST /web/dataset/call_kw/pos.config/fields_view_get HTTP/1.1" 200 -
+2018-02-22 03:57:15,729 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:15] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 03:57:16,718 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:16] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 03:57:17,317 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:17] "POST /web/dataset/call_kw/pos.config/fields_view_get HTTP/1.1" 200 -
+2018-02-22 03:57:17,556 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:17] "POST /web/dataset/call_kw/pos.config/read HTTP/1.1" 200 -
+2018-02-22 03:57:17,677 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:17] "POST /web/dataset/call_kw/stock.picking.type/name_search HTTP/1.1" 200 -
+2018-02-22 03:57:17,685 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:17] "POST /web/dataset/call_kw/account.fiscal.position/fields_get HTTP/1.1" 200 -
+2018-02-22 03:57:17,687 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:17] "POST /web/dataset/call_kw/account.journal/name_search HTTP/1.1" 200 -
+2018-02-22 03:57:17,781 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:17] "POST /web/dataset/call_kw/account.journal/read HTTP/1.1" 200 -
+2018-02-22 03:57:17,791 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:17] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 03:57:21,530 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:21] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 03:57:21,651 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:21] "POST /web/dataset/call_kw/report.pos.order/fields_view_get HTTP/1.1" 200 -
+2018-02-22 03:57:21,658 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:21] "POST /web/pivot/check_xlwt HTTP/1.1" 200 -
+2018-02-22 03:57:21,764 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:21] "POST /web/dataset/call_kw/report.pos.order/fields_get HTTP/1.1" 200 -
+2018-02-22 03:57:21,777 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:21] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 03:57:21,784 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:21] "POST /web/dataset/call_kw/report.pos.order/fields_get HTTP/1.1" 200 -
+2018-02-22 03:57:21,795 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:21] "POST /web/dataset/call_kw/report.pos.order/fields_view_get HTTP/1.1" 200 -
+2018-02-22 03:57:22,035 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:22] "POST /web/dataset/call_kw/report.pos.order/read_group HTTP/1.1" 200 -
+2018-02-22 03:57:22,052 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:22] "POST /web/dataset/call_kw/report.pos.order/read_group HTTP/1.1" 200 -
+2018-02-22 03:57:22,056 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:22] "POST /web/dataset/call_kw/report.pos.order/read_group HTTP/1.1" 200 -
+2018-02-22 03:57:22,061 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:22] "POST /web/dataset/call_kw/report.pos.order/read_group HTTP/1.1" 200 -
+2018-02-22 03:57:23,322 1131 INFO ? werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:23] "GET /web/static/src/img/graph_background.png HTTP/1.1" 200 -
+2018-02-22 03:57:25,402 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:25] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 03:57:25,496 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:25] "POST /web/dataset/call_kw/pos.order/fields_view_get HTTP/1.1" 200 -
+2018-02-22 03:57:25,538 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:25] "POST /web/dataset/call_kw/pos.order/fields_view_get HTTP/1.1" 200 -
+2018-02-22 03:57:25,583 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:25] "POST /web/dataset/call_kw/pos.order/fields_get HTTP/1.1" 200 -
+2018-02-22 03:57:25,588 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:25] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 03:57:30,869 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:57:30] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 03:58:21,021 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:58:21] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 03:58:24,518 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:58:24] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 03:58:24,587 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:58:24] "POST /web/dataset/call_kw/report.pos.order/fields_view_get HTTP/1.1" 200 -
+2018-02-22 03:58:24,634 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:58:24] "POST /web/pivot/check_xlwt HTTP/1.1" 200 -
+2018-02-22 03:58:24,710 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:58:24] "POST /web/dataset/call_kw/report.pos.order/fields_get HTTP/1.1" 200 -
+2018-02-22 03:58:24,717 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:58:24] "POST /web/dataset/call_kw/report.pos.order/fields_view_get HTTP/1.1" 200 -
+2018-02-22 03:58:25,059 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:58:25] "POST /web/dataset/call_kw/report.pos.order/fields_get HTTP/1.1" 200 -
+2018-02-22 03:58:25,062 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:58:25] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 03:58:25,234 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:58:25] "POST /web/dataset/call_kw/report.pos.order/read_group HTTP/1.1" 200 -
+2018-02-22 03:58:25,238 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:58:25] "POST /web/dataset/call_kw/report.pos.order/read_group HTTP/1.1" 200 -
+2018-02-22 03:58:25,243 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:58:25] "POST /web/dataset/call_kw/report.pos.order/read_group HTTP/1.1" 200 -
+2018-02-22 03:58:25,246 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:58:25] "POST /web/dataset/call_kw/report.pos.order/read_group HTTP/1.1" 200 -
+2018-02-22 03:59:11,099 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:11] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 03:59:41,215 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:41] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-02-22 03:59:41,223 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:41] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 03:59:41,366 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:41] "POST /web/dataset/call_kw/pos.config/fields_view_get HTTP/1.1" 200 -
+2018-02-22 03:59:41,371 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:41] "POST /web/dataset/call_kw/pos.config/fields_view_get HTTP/1.1" 200 -
+2018-02-22 03:59:41,489 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:41] "POST /web/dataset/call_kw/pos.config/fields_get HTTP/1.1" 200 -
+2018-02-22 03:59:41,508 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:41] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 03:59:41,604 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:41] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 03:59:43,274 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:43] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2018-02-22 03:59:43,426 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:43] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-02-22 03:59:43,571 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.attachment records with IDs: [751]
+2018-02-22 03:59:43,656 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.attachment records with IDs: [752]
+2018-02-22 03:59:43,661 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:43] "GET /pos/web/ HTTP/1.1" 200 -
+2018-02-22 03:59:44,129 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:44] "GET /web/content/756-0da3118/point_of_sale.assets.0.css HTTP/1.1" 200 -
+2018-02-22 03:59:44,155 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:44] "GET /web/content/757-0da3118/point_of_sale.assets.js HTTP/1.1" 200 -
+2018-02-22 03:59:44,583 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:44] "POST /web/dataset/call_kw/ir.model.data/xmlid_to_res_id HTTP/1.1" 200 -
+2018-02-22 03:59:44,588 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:44] "POST /web/dataset/call_kw/ir.model.data/xmlid_to_res_id HTTP/1.1" 200 -
+2018-02-22 03:59:44,593 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:44] "POST /web/dataset/call HTTP/1.1" 200 -
+2018-02-22 03:59:44,594 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:44] "POST /mail/client_action HTTP/1.1" 200 -
+2018-02-22 03:59:44,597 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:44] "POST /mail/chat_init HTTP/1.1" 200 -
+2018-02-22 03:59:44,697 1131 INFO DEV openerp.service.common: successful login from 'admin' using database 'dev'
+2018-02-22 03:59:44,700 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:44] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2018-02-22 03:59:44,716 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:44] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-02-22 03:59:44,986 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:44] "POST /web/proxy/load HTTP/1.1" 200 -
+2018-02-22 03:59:45,334 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:45] "POST /web/session/modules HTTP/1.1" 200 -
+2018-02-22 03:59:45,521 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:45] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-02-22 03:59:45,524 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:45] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 03:59:45,782 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:45] "POST /web/webclient/version_info HTTP/1.1" 200 -
+2018-02-22 03:59:45,953 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:45] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2018-02-22 03:59:46,106 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:46] "POST /web/dataset/call_kw/res.company/read HTTP/1.1" 200 -
+2018-02-22 03:59:46,259 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:46] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 03:59:46,427 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:46] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 03:59:46,589 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:46] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 03:59:46,755 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:46] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 03:59:46,922 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:46] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 03:59:47,090 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:47] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 03:59:47,286 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:47] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 03:59:47,450 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:47] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 03:59:47,649 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:47] "POST /web/dataset/call_kw/stock.location/read HTTP/1.1" 200 -
+2018-02-22 03:59:47,814 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:47] "POST /web/dataset/call_kw/product.pricelist/read HTTP/1.1" 200 -
+2018-02-22 03:59:47,977 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:47] "POST /web/dataset/call_kw/res.currency/read HTTP/1.1" 200 -
+2018-02-22 03:59:48,068 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:48] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 03:59:48,182 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:48] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 03:59:48,405 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:48] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 03:59:48,553 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:48] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 03:59:48,638 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:48] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 03:59:48,715 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:48] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 03:59:48,798 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:48] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 03:59:48,899 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:48] "GET /web/binary/company_logo?dbname=DEV&_0.9388059467831293 HTTP/1.1" 200 -
+2018-02-22 03:59:48,983 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:48] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 03:59:49,079 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:49] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 03:59:49,342 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:49] "GET /web/image?model=product.product&field=image_medium&id=83 HTTP/1.1" 200 -
+2018-02-22 03:59:49,346 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:49] "GET /web/image?model=product.product&field=image_medium&id=104 HTTP/1.1" 200 -
+2018-02-22 03:59:49,346 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:49] "GET /web/image?model=product.product&field=image_medium&id=80 HTTP/1.1" 200 -
+2018-02-22 03:59:49,346 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:49] "GET /web/image?model=product.product&field=image_medium&id=103 HTTP/1.1" 200 -
+2018-02-22 03:59:49,349 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:49] "GET /web/image?model=product.product&field=image_medium&id=92 HTTP/1.1" 200 -
+2018-02-22 03:59:49,482 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:49] "GET /web/image?model=product.product&field=image_medium&id=121 HTTP/1.1" 200 -
+2018-02-22 03:59:49,486 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:49] "GET /web/image?model=product.product&field=image_medium&id=111 HTTP/1.1" 200 -
+2018-02-22 03:59:49,503 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:49] "GET /web/image?model=product.product&field=image_medium&id=122 HTTP/1.1" 200 -
+2018-02-22 03:59:49,508 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:49] "GET /web/image?model=product.product&field=image_medium&id=95 HTTP/1.1" 200 -
+2018-02-22 03:59:49,511 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:49] "GET /web/image?model=product.product&field=image_medium&id=70 HTTP/1.1" 200 -
+2018-02-22 03:59:49,723 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:49] "GET /web/image?model=product.product&field=image_medium&id=78 HTTP/1.1" 200 -
+2018-02-22 03:59:49,730 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:49] "GET /web/image?model=product.product&field=image_medium&id=91 HTTP/1.1" 200 -
+2018-02-22 03:59:49,734 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:49] "GET /web/image?model=product.product&field=image_medium&id=93 HTTP/1.1" 200 -
+2018-02-22 03:59:49,739 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:49] "GET /web/image?model=product.product&field=image_medium&id=116 HTTP/1.1" 200 -
+2018-02-22 03:59:49,740 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:49] "GET /web/image?model=product.product&field=image_medium&id=94 HTTP/1.1" 200 -
+2018-02-22 03:59:49,819 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:49] "GET /web/image?model=product.product&field=image_medium&id=119 HTTP/1.1" 200 -
+2018-02-22 03:59:49,819 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:49] "GET /web/image?model=pos.category&field=image_medium&id=1 HTTP/1.1" 200 -
+2018-02-22 03:59:49,829 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:49] "GET /web/image?model=pos.category&field=image_medium&id=4 HTTP/1.1" 200 -
+2018-02-22 03:59:49,838 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:49] "GET /web/image?model=product.product&field=image_medium&id=69 HTTP/1.1" 200 -
+2018-02-22 03:59:49,840 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:49] "GET /web/image?model=pos.category&field=image_medium&id=5 HTTP/1.1" 200 -
+2018-02-22 03:59:49,920 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:49] "GET /web/image?model=product.product&field=image_medium&id=102 HTTP/1.1" 200 -
+2018-02-22 03:59:49,927 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:49] "GET /web/image?model=product.product&field=image_medium&id=117 HTTP/1.1" 200 -
+2018-02-22 03:59:49,932 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:49] "GET /web/image?model=product.product&field=image_medium&id=123 HTTP/1.1" 200 -
+2018-02-22 03:59:49,935 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:49] "GET /web/image?model=product.product&field=image_medium&id=118 HTTP/1.1" 200 -
+2018-02-22 03:59:49,957 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:49] "GET /web/image?model=product.product&field=image_medium&id=101 HTTP/1.1" 200 -
+2018-02-22 03:59:50,042 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=3 HTTP/1.1" 200 -
+2018-02-22 03:59:50,063 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=82 HTTP/1.1" 200 -
+2018-02-22 03:59:50,074 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=98 HTTP/1.1" 200 -
+2018-02-22 03:59:50,083 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=97 HTTP/1.1" 200 -
+2018-02-22 03:59:50,089 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=96 HTTP/1.1" 200 -
+2018-02-22 03:59:50,138 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=99 HTTP/1.1" 200 -
+2018-02-22 03:59:50,173 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=100 HTTP/1.1" 200 -
+2018-02-22 03:59:50,181 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=77 HTTP/1.1" 200 -
+2018-02-22 03:59:50,202 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=75 HTTP/1.1" 200 -
+2018-02-22 03:59:50,234 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=87 HTTP/1.1" 200 -
+2018-02-22 03:59:50,246 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=110 HTTP/1.1" 200 -
+2018-02-22 03:59:50,288 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=84 HTTP/1.1" 200 -
+2018-02-22 03:59:50,292 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=76 HTTP/1.1" 200 -
+2018-02-22 03:59:50,313 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=89 HTTP/1.1" 200 -
+2018-02-22 03:59:50,347 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=113 HTTP/1.1" 200 -
+2018-02-22 03:59:50,368 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=112 HTTP/1.1" 200 -
+2018-02-22 03:59:50,386 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=72 HTTP/1.1" 200 -
+2018-02-22 03:59:50,388 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=109 HTTP/1.1" 200 -
+2018-02-22 03:59:50,398 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=85 HTTP/1.1" 200 -
+2018-02-22 03:59:50,447 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=71 HTTP/1.1" 200 -
+2018-02-22 03:59:50,463 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=114 HTTP/1.1" 200 -
+2018-02-22 03:59:50,475 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=79 HTTP/1.1" 200 -
+2018-02-22 03:59:50,492 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=81 HTTP/1.1" 200 -
+2018-02-22 03:59:50,493 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=1 HTTP/1.1" 200 -
+2018-02-22 03:59:50,569 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=74 HTTP/1.1" 200 -
+2018-02-22 03:59:50,587 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=86 HTTP/1.1" 200 -
+2018-02-22 03:59:50,595 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=115 HTTP/1.1" 200 -
+2018-02-22 03:59:50,629 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=105 HTTP/1.1" 200 -
+2018-02-22 03:59:50,657 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=107 HTTP/1.1" 200 -
+2018-02-22 03:59:50,668 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=106 HTTP/1.1" 200 -
+2018-02-22 03:59:50,685 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=73 HTTP/1.1" 200 -
+2018-02-22 03:59:50,740 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=108 HTTP/1.1" 200 -
+2018-02-22 03:59:50,742 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=120 HTTP/1.1" 200 -
+2018-02-22 03:59:50,774 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=90 HTTP/1.1" 200 -
+2018-02-22 03:59:50,778 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 03:59:50] "GET /web/image?model=product.product&field=image_medium&id=88 HTTP/1.1" 200 -
+2018-02-22 04:00:01,253 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:01] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:00:09,877 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:09] "GET /web HTTP/1.1" 200 -
+2018-02-22 04:00:10,401 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:10] "POST /web/dataset/call HTTP/1.1" 200 -
+2018-02-22 04:00:10,457 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:10] "POST /mail/client_action HTTP/1.1" 200 -
+2018-02-22 04:00:10,458 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:10] "POST /web/dataset/call_kw/ir.model.data/xmlid_to_res_id HTTP/1.1" 200 -
+2018-02-22 04:00:10,468 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:10] "POST /web/dataset/call_kw/ir.model.data/xmlid_to_res_id HTTP/1.1" 200 -
+2018-02-22 04:00:10,469 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:10] "POST /mail/chat_init HTTP/1.1" 200 -
+2018-02-22 04:00:10,542 1131 INFO DEV openerp.service.common: successful login from 'admin' using database 'dev'
+2018-02-22 04:00:10,545 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:10] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2018-02-22 04:00:10,594 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:10] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-02-22 04:00:10,812 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:10] "POST /web/proxy/load HTTP/1.1" 200 -
+2018-02-22 04:00:11,249 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:11] "POST /web/session/modules HTTP/1.1" 200 -
+2018-02-22 04:00:11,426 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:11] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:00:11,429 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:11] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-02-22 04:00:11,622 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:11] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2018-02-22 04:00:11,641 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:11] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 04:00:11,642 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:11] "POST /web/dataset/call_kw/ir.config_parameter/get_param HTTP/1.1" 200 -
+2018-02-22 04:00:11,655 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:11] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:00:11,667 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:11] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:00:11,850 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:11] "GET /web/image?model=res.users&field=image_small&id=1 HTTP/1.1" 200 -
+2018-02-22 04:00:11,956 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:11] "GET /web? HTTP/1.1" 200 -
+2018-02-22 04:00:12,392 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:12] "POST /web/dataset/call HTTP/1.1" 200 -
+2018-02-22 04:00:12,432 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:12] "POST /mail/client_action HTTP/1.1" 200 -
+2018-02-22 04:00:12,440 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:12] "POST /web/dataset/call_kw/ir.model.data/xmlid_to_res_id HTTP/1.1" 200 -
+2018-02-22 04:00:12,445 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:12] "POST /mail/chat_init HTTP/1.1" 200 -
+2018-02-22 04:00:12,449 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:12] "POST /web/dataset/call_kw/ir.model.data/xmlid_to_res_id HTTP/1.1" 200 -
+2018-02-22 04:00:12,529 1131 INFO DEV openerp.service.common: successful login from 'admin' using database 'dev'
+2018-02-22 04:00:12,532 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:12] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2018-02-22 04:00:12,536 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:12] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-02-22 04:00:12,864 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:12] "POST /web/proxy/load HTTP/1.1" 200 -
+2018-02-22 04:00:13,245 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:13] "POST /web/session/modules HTTP/1.1" 200 -
+2018-02-22 04:00:13,396 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:13] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:00:13,408 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:13] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-02-22 04:00:13,624 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:13] "POST /web/dataset/call_kw/ir.config_parameter/get_param HTTP/1.1" 200 -
+2018-02-22 04:00:13,625 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:13] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2018-02-22 04:00:13,637 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:13] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:00:13,651 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:13] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:00:13,873 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:13] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-02-22 04:00:13,874 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:13] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 04:00:13,897 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:13] "GET /web/image?model=res.users&field=image_small&id=1 HTTP/1.1" 304 -
+2018-02-22 04:00:14,144 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:14] "POST /web/dataset/call_kw/pos.config/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:00:14,144 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:14] "POST /web/dataset/call_kw/pos.config/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:00:14,312 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:14] "POST /web/dataset/call_kw/pos.config/fields_get HTTP/1.1" 200 -
+2018-02-22 04:00:14,321 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:14] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 04:00:14,526 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:14] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:00:20,029 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:20] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 04:00:20,253 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:20] "POST /web/dataset/call_kw/pos.order/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:00:20,254 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:20] "POST /web/dataset/call_kw/pos.order/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:00:20,445 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:20] "POST /web/dataset/call_kw/pos.order/fields_get HTTP/1.1" 200 -
+2018-02-22 04:00:20,451 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:20] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 04:00:23,819 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:23] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-02-22 04:00:23,835 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:23] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 04:00:24,044 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:24] "POST /web/dataset/call_kw/ir.module.module/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:00:24,047 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:24] "POST /web/dataset/call_kw/ir.module.module/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:00:24,225 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:24] "POST /web/dataset/call_kw/ir.module.module/fields_get HTTP/1.1" 200 -
+2018-02-22 04:00:24,228 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:24] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 04:00:24,388 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:24] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:00:25,943 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:25] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:00:27,907 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:27] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:00:33,941 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:33] "POST /web/dataset/call_kw/ir.module.module/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:00:34,124 1131 WARNING DEV openerp.addons.base.module.module: docutils' system message present: <system_message level="1" line="7" source="<string>" type="INFO"><paragraph>Enumerated list start value not ordinal-1: "2" (ordinal 2)</paragraph></system_message>
+2018-02-22 04:00:34,125 1131 WARNING DEV openerp.addons.base.module.module: docutils' system message present: <system_message level="2" line="40" source="<string>" type="WARNING"><paragraph>Bullet list ends without a blank line; unexpected unindent.</paragraph></system_message>
+2018-02-22 04:00:34,125 1131 WARNING DEV openerp.addons.base.module.module: docutils' system message present: <system_message level="2" line="43" source="<string>" type="WARNING"><paragraph>Bullet list ends without a blank line; unexpected unindent.</paragraph></system_message>
+2018-02-22 04:00:34,125 1131 WARNING DEV openerp.addons.base.module.module: docutils' system message present: <system_message level="2" line="46" source="<string>" type="WARNING"><paragraph>Bullet list ends without a blank line; unexpected unindent.</paragraph></system_message>
+2018-02-22 04:00:34,136 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:34] "POST /web/dataset/call_kw/ir.module.module/read HTTP/1.1" 200 -
+2018-02-22 04:00:34,243 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:34] "POST /web/dataset/call_kw/ir.module.category/name_search HTTP/1.1" 200 -
+2018-02-22 04:00:34,266 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:34] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:00:34,294 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:34] "GET /static/description/pos_order_states.png HTTP/1.1" 404 -
+2018-02-22 04:00:34,306 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:34] "GET /static/description/2_after_closing.png HTTP/1.1" 404 -
+2018-02-22 04:00:34,308 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:34] "GET /static/description/1_before_closing.png HTTP/1.1" 404 -
+2018-02-22 04:00:34,333 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:34] "GET /static/description/3_after_opening.png HTTP/1.1" 404 -
+2018-02-22 04:00:34,391 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:34] "POST /web/dataset/call_kw/ir.module.module.dependency/read HTTP/1.1" 200 -
+2018-02-22 04:00:34,809 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:34] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:00:37,041 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:37] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2018-02-22 04:00:37,196 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:37] "POST /web/dataset/call_kw/base.module.upgrade/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:00:37,330 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:37] "POST /web/dataset/call_kw/base.module.upgrade/default_get HTTP/1.1" 200 -
+2018-02-22 04:00:37,558 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:37] "POST /web/dataset/call_kw/base.module.upgrade/onchange HTTP/1.1" 200 -
+2018-02-22 04:00:37,636 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:37] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-02-22 04:00:40,261 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:40] "POST /web/dataset/call_kw/base.module.upgrade/create HTTP/1.1" 200 -
+2018-02-22 04:00:40,337 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:40] "POST /web/dataset/call_kw/base.module.upgrade/search_read HTTP/1.1" 200 -
+2018-02-22 04:00:40,417 1131 INFO DEV openerp.modules.loading: loading 1 modules...
+2018-02-22 04:00:40,425 1131 INFO DEV openerp.modules.loading: 1 modules loaded in 0.01s, 0 queries
+2018-02-22 04:00:40,483 1131 INFO DEV openerp.modules.loading: loading 46 modules...
+2018-02-22 04:00:40,520 1131 INFO DEV openerp.modules.loading: 46 modules loaded in 0.04s, 0 queries
+2018-02-22 04:00:40,664 1131 INFO DEV openerp.addons.base.ir.ir_model: Deleting 707@ir.ui.view
+2018-02-22 04:00:40,672 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.model.data records with IDs: [9526]
+2018-02-22 04:00:40,673 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.ui.view records with IDs: [707]
+2018-02-22 04:00:40,673 1131 INFO DEV openerp.addons.base.ir.ir_model: Deleting 706@ir.ui.view
+2018-02-22 04:00:40,678 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.model.data records with IDs: [9525]
+2018-02-22 04:00:40,679 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.ui.view records with IDs: [706]
+2018-02-22 04:00:40,685 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.model.constraint records with IDs: [1348]
+2018-02-22 04:00:40,688 1131 INFO DEV openerp.addons.base.ir.ir_model: Deleting 4932@ir.model.fields
+2018-02-22 04:00:40,709 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.model.data records with IDs: [9513]
+2018-02-22 04:00:40,710 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.model.fields records with IDs: [4932]
+2018-02-22 04:00:40,711 1131 INFO DEV openerp.addons.base.ir.ir_model: Deleting 4931@ir.model.fields
+2018-02-22 04:00:40,720 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.model.data records with IDs: [9510]
+2018-02-22 04:00:40,721 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.model.fields records with IDs: [4931]
+2018-02-22 04:00:40,726 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.model.relation records with IDs: [214, 213, 212]
+2018-02-22 04:00:40,731 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.model.data records with IDs: [9526, 9525, 9513, 9512, 9511, 9510, 9509]
+2018-02-22 04:00:40,738 1131 INFO DEV openerp.modules.loading: Reloading registry once more after uninstalling modules
+2018-02-22 04:00:40,741 1131 INFO DEV openerp.modules.loading: loading 1 modules...
+2018-02-22 04:00:40,748 1131 INFO DEV openerp.modules.loading: 1 modules loaded in 0.01s, 0 queries
+2018-02-22 04:00:40,808 1131 INFO DEV openerp.modules.loading: loading 45 modules...
+2018-02-22 04:00:40,843 1131 INFO DEV openerp.modules.loading: 45 modules loaded in 0.04s, 0 queries
+2018-02-22 04:00:41,151 1131 INFO DEV openerp.modules.loading: Modules loaded.
+2018-02-22 04:00:41,153 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:41] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2018-02-22 04:00:41,238 1131 INFO DEV openerp.addons.base.ir.ir_http: Generating routing map
+2018-02-22 04:00:41,260 1131 INFO DEV openerp.addons.base.ir.ir_http: Generating routing map
+2018-02-22 04:00:41,292 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:41] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-02-22 04:00:41,437 1131 WARNING DEV openerp.addons.base.module.module: docutils' system message present: <system_message level="1" line="7" source="<string>" type="INFO"><paragraph>Enumerated list start value not ordinal-1: "2" (ordinal 2)</paragraph></system_message>
+2018-02-22 04:00:41,437 1131 WARNING DEV openerp.addons.base.module.module: docutils' system message present: <system_message level="2" line="40" source="<string>" type="WARNING"><paragraph>Bullet list ends without a blank line; unexpected unindent.</paragraph></system_message>
+2018-02-22 04:00:41,437 1131 WARNING DEV openerp.addons.base.module.module: docutils' system message present: <system_message level="2" line="43" source="<string>" type="WARNING"><paragraph>Bullet list ends without a blank line; unexpected unindent.</paragraph></system_message>
+2018-02-22 04:00:41,437 1131 WARNING DEV openerp.addons.base.module.module: docutils' system message present: <system_message level="2" line="46" source="<string>" type="WARNING"><paragraph>Bullet list ends without a blank line; unexpected unindent.</paragraph></system_message>
+2018-02-22 04:00:41,448 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:41] "POST /web/dataset/call_kw/ir.module.module/search_read HTTP/1.1" 200 -
+2018-02-22 04:00:41,560 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:41] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:00:41,567 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:41] "POST /web/dataset/call_kw/ir.module.module.dependency/read HTTP/1.1" 200 -
+2018-02-22 04:00:41,581 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:41] "GET /web/image?model=ir.module.module&id=304&field=icon_image&unique=20180222040040 HTTP/1.1" 200 -
+2018-02-22 04:00:45,593 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:45] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-02-22 04:00:45,627 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:45] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 04:00:45,721 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:45] "POST /web/dataset/call_kw/pos.config/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:00:45,745 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:45] "POST /web/dataset/call_kw/pos.config/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:00:45,823 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:45] "POST /web/dataset/call_kw/pos.config/fields_get HTTP/1.1" 200 -
+2018-02-22 04:00:45,825 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:45] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 04:00:45,929 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:45] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:00:47,647 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:47] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 04:00:47,783 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:47] "POST /web/dataset/call_kw/pos.config/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:00:47,791 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:47] "POST /web/dataset/call_kw/pos.config/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:00:47,905 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:47] "POST /web/dataset/call_kw/pos.config/fields_get HTTP/1.1" 200 -
+2018-02-22 04:00:47,910 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:47] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 04:00:48,074 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:48] "POST /web/dataset/call_kw/pos.config/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:00:48,276 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:48] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:00:50,270 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:50] "POST /web/dataset/call_kw/pos.config/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:00:50,585 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:50] "POST /web/dataset/call_kw/pos.config/read HTTP/1.1" 200 -
+2018-02-22 04:00:50,754 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:50] "POST /web/dataset/call_kw/stock.picking.type/name_search HTTP/1.1" 200 -
+2018-02-22 04:00:50,758 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:50] "POST /web/dataset/call_kw/account.journal/name_search HTTP/1.1" 200 -
+2018-02-22 04:00:50,767 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:50] "POST /web/dataset/call_kw/account.fiscal.position/fields_get HTTP/1.1" 200 -
+2018-02-22 04:00:50,851 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:50] "POST /web/dataset/call_kw/account.journal/read HTTP/1.1" 200 -
+2018-02-22 04:00:50,937 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:50] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:00:55,613 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:55] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 04:00:55,819 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:55] "POST /web/dataset/call_kw/pos.order/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:00:55,834 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:55] "POST /web/dataset/call_kw/pos.order/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:00:56,068 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:56] "POST /web/dataset/call_kw/pos.order/fields_get HTTP/1.1" 200 -
+2018-02-22 04:00:56,071 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:56] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 04:00:56,298 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:56] "POST /web/dataset/call_kw/pos.order/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:00:56,486 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:00:56] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:01:00,724 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:00] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:01:01,724 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.attachment records with IDs: [754, 753]
+2018-02-22 04:01:02,603 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:02] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:01:02,788 1131 INFO DEV openerp.models.unlink: User #1 deleted ir.attachment records with IDs: [755]
+2018-02-22 04:01:02,914 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:02] "GET /web? HTTP/1.1" 200 -
+2018-02-22 04:01:03,030 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:03] "GET /web/content/759-798463c/web.assets_backend.1.css HTTP/1.1" 200 -
+2018-02-22 04:01:03,045 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:03] "GET /web/content/758-798463c/web.assets_backend.0.css HTTP/1.1" 200 -
+2018-02-22 04:01:03,110 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:03] "GET /web/content/760-798463c/web.assets_backend.js HTTP/1.1" 200 -
+2018-02-22 04:01:04,046 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:04] "POST /web/dataset/call HTTP/1.1" 200 -
+2018-02-22 04:01:04,058 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:04] "POST /web/dataset/call_kw/ir.model.data/xmlid_to_res_id HTTP/1.1" 200 -
+2018-02-22 04:01:04,060 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:04] "POST /web/dataset/call_kw/ir.model.data/xmlid_to_res_id HTTP/1.1" 200 -
+2018-02-22 04:01:04,064 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:04] "POST /mail/client_action HTTP/1.1" 200 -
+2018-02-22 04:01:04,073 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:04] "POST /mail/chat_init HTTP/1.1" 200 -
+2018-02-22 04:01:04,168 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:04] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-02-22 04:01:04,194 1131 INFO DEV openerp.service.common: successful login from 'admin' using database 'dev'
+2018-02-22 04:01:04,197 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:04] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2018-02-22 04:01:04,248 1131 INFO ? werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:04] "GET /web/static/src/img/favicon.ico HTTP/1.1" 200 -
+2018-02-22 04:01:04,455 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:04] "POST /web/proxy/load HTTP/1.1" 200 -
+2018-02-22 04:01:04,759 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:04] "POST /web/session/modules HTTP/1.1" 200 -
+2018-02-22 04:01:04,931 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:04] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:01:04,933 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:04] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-02-22 04:01:05,125 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:05] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2018-02-22 04:01:05,149 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:05] "POST /web/dataset/call_kw/ir.config_parameter/get_param HTTP/1.1" 200 -
+2018-02-22 04:01:05,178 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:05] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:01:05,197 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:05] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 04:01:05,198 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:05] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:01:05,274 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:05] "POST /web/dataset/call_kw/pos.order/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:01:05,347 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:05] "POST /web/dataset/call_kw/pos.order/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:01:05,376 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:05] "POST /web/dataset/call_kw/pos.order/fields_get HTTP/1.1" 200 -
+2018-02-22 04:01:05,445 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:05] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-02-22 04:01:05,446 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:05] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 04:01:05,499 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:05] "GET /web/image?model=res.users&field=image_small&id=1 HTTP/1.1" 200 -
+2018-02-22 04:01:05,608 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:05] "POST /web/dataset/call_kw/pos.order/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:01:05,786 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:05] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:01:08,157 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:08] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 04:01:08,382 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:08] "POST /web/dataset/call_kw/pos.order/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:01:08,383 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:08] "POST /web/dataset/call_kw/pos.order/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:01:08,555 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:08] "POST /web/dataset/call_kw/pos.order/fields_get HTTP/1.1" 200 -
+2018-02-22 04:01:08,558 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:08] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 04:01:08,734 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:08] "POST /web/dataset/call_kw/pos.order/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:01:08,921 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:08] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:01:11,134 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:11] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 04:01:11,241 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:11] "POST /web/dataset/call_kw/pos.order/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:01:11,248 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:11] "POST /web/dataset/call_kw/pos.order/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:01:11,340 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:11] "POST /web/dataset/call_kw/pos.order/fields_get HTTP/1.1" 200 -
+2018-02-22 04:01:11,343 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:11] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 04:01:11,444 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:11] "POST /web/dataset/call_kw/pos.order/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:01:11,545 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:11] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:01:24,478 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:24] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 04:01:24,655 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:24] "POST /web/dataset/call_kw/pos.config/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:01:24,673 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:24] "POST /web/dataset/call_kw/pos.config/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:01:24,798 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:24] "POST /web/dataset/call_kw/pos.config/fields_get HTTP/1.1" 200 -
+2018-02-22 04:01:24,802 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:24] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 04:01:24,972 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:24] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:01:26,505 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:26] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2018-02-22 04:01:26,714 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:26] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-02-22 04:01:26,834 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:26] "GET /pos/web/ HTTP/1.1" 200 -
+2018-02-22 04:01:27,408 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:27] "POST /web/dataset/call_kw/ir.model.data/xmlid_to_res_id HTTP/1.1" 200 -
+2018-02-22 04:01:27,417 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:27] "POST /web/dataset/call_kw/ir.model.data/xmlid_to_res_id HTTP/1.1" 200 -
+2018-02-22 04:01:27,419 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:27] "POST /web/dataset/call HTTP/1.1" 200 -
+2018-02-22 04:01:27,420 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:27] "POST /mail/client_action HTTP/1.1" 200 -
+2018-02-22 04:01:27,424 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:27] "POST /mail/chat_init HTTP/1.1" 200 -
+2018-02-22 04:01:27,541 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:27] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-02-22 04:01:27,560 1131 INFO DEV openerp.service.common: successful login from 'admin' using database 'dev'
+2018-02-22 04:01:27,563 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:27] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2018-02-22 04:01:27,815 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:27] "POST /web/proxy/load HTTP/1.1" 200 -
+2018-02-22 04:01:28,082 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:28] "POST /web/session/modules HTTP/1.1" 200 -
+2018-02-22 04:01:28,170 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:28] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:01:28,176 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:28] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-02-22 04:01:28,368 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:28] "POST /web/webclient/version_info HTTP/1.1" 200 -
+2018-02-22 04:01:28,465 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:28] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2018-02-22 04:01:28,554 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:28] "POST /web/dataset/call_kw/res.company/read HTTP/1.1" 200 -
+2018-02-22 04:01:28,630 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:28] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:01:28,726 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:28] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:01:28,809 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:28] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:01:28,906 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:28] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:01:29,005 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:29] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:01:29,098 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:29] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:01:29,198 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:29] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:01:29,274 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:29] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:01:29,360 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:29] "POST /web/dataset/call_kw/stock.location/read HTTP/1.1" 200 -
+2018-02-22 04:01:29,439 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:29] "POST /web/dataset/call_kw/product.pricelist/read HTTP/1.1" 200 -
+2018-02-22 04:01:29,518 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:29] "POST /web/dataset/call_kw/res.currency/read HTTP/1.1" 200 -
+2018-02-22 04:01:29,601 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:29] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:01:29,707 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:29] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:01:30,033 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:30] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:01:30,173 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:30] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:01:30,333 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:30] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:01:30,417 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:30] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:01:30,497 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:30] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:01:30,572 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:30] "GET /web/binary/company_logo?dbname=DEV&_0.3912330993818225 HTTP/1.1" 200 -
+2018-02-22 04:01:30,659 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:30] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:01:30,792 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:30] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:01:31,041 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=product.product&field=image_medium&id=80 HTTP/1.1" 200 -
+2018-02-22 04:01:31,050 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=product.product&field=image_medium&id=104 HTTP/1.1" 200 -
+2018-02-22 04:01:31,070 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=product.product&field=image_medium&id=111 HTTP/1.1" 200 -
+2018-02-22 04:01:31,075 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=product.product&field=image_medium&id=93 HTTP/1.1" 200 -
+2018-02-22 04:01:31,079 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=product.product&field=image_medium&id=119 HTTP/1.1" 200 -
+2018-02-22 04:01:31,158 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=product.product&field=image_medium&id=95 HTTP/1.1" 200 -
+2018-02-22 04:01:31,186 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=product.product&field=image_medium&id=83 HTTP/1.1" 200 -
+2018-02-22 04:01:31,236 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=product.product&field=image_medium&id=94 HTTP/1.1" 200 -
+2018-02-22 04:01:31,251 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=product.product&field=image_medium&id=116 HTTP/1.1" 200 -
+2018-02-22 04:01:31,252 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=product.product&field=image_medium&id=103 HTTP/1.1" 200 -
+2018-02-22 04:01:31,348 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=product.product&field=image_medium&id=78 HTTP/1.1" 200 -
+2018-02-22 04:01:31,350 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=product.product&field=image_medium&id=121 HTTP/1.1" 200 -
+2018-02-22 04:01:31,374 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=product.product&field=image_medium&id=92 HTTP/1.1" 200 -
+2018-02-22 04:01:31,393 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=product.product&field=image_medium&id=70 HTTP/1.1" 200 -
+2018-02-22 04:01:31,395 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=product.product&field=image_medium&id=91 HTTP/1.1" 200 -
+2018-02-22 04:01:31,496 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=product.product&field=image_medium&id=122 HTTP/1.1" 200 -
+2018-02-22 04:01:31,498 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=pos.category&field=image_medium&id=1 HTTP/1.1" 200 -
+2018-02-22 04:01:31,510 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=pos.category&field=image_medium&id=4 HTTP/1.1" 200 -
+2018-02-22 04:01:31,531 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=pos.category&field=image_medium&id=5 HTTP/1.1" 200 -
+2018-02-22 04:01:31,536 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=product.product&field=image_medium&id=69 HTTP/1.1" 200 -
+2018-02-22 04:01:31,621 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=product.product&field=image_medium&id=102 HTTP/1.1" 200 -
+2018-02-22 04:01:31,634 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=product.product&field=image_medium&id=117 HTTP/1.1" 200 -
+2018-02-22 04:01:31,650 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=product.product&field=image_medium&id=123 HTTP/1.1" 200 -
+2018-02-22 04:01:31,668 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=product.product&field=image_medium&id=118 HTTP/1.1" 200 -
+2018-02-22 04:01:31,672 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=product.product&field=image_medium&id=101 HTTP/1.1" 200 -
+2018-02-22 04:01:31,751 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=product.product&field=image_medium&id=3 HTTP/1.1" 200 -
+2018-02-22 04:01:31,789 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=product.product&field=image_medium&id=82 HTTP/1.1" 200 -
+2018-02-22 04:01:31,818 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=product.product&field=image_medium&id=98 HTTP/1.1" 200 -
+2018-02-22 04:01:31,829 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=product.product&field=image_medium&id=97 HTTP/1.1" 200 -
+2018-02-22 04:01:31,829 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=product.product&field=image_medium&id=96 HTTP/1.1" 200 -
+2018-02-22 04:01:31,892 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=product.product&field=image_medium&id=99 HTTP/1.1" 200 -
+2018-02-22 04:01:31,937 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=product.product&field=image_medium&id=100 HTTP/1.1" 200 -
+2018-02-22 04:01:31,960 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=product.product&field=image_medium&id=77 HTTP/1.1" 200 -
+2018-02-22 04:01:31,968 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=product.product&field=image_medium&id=75 HTTP/1.1" 200 -
+2018-02-22 04:01:31,972 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:31] "GET /web/image?model=product.product&field=image_medium&id=87 HTTP/1.1" 200 -
+2018-02-22 04:01:32,031 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:32] "GET /web/image?model=product.product&field=image_medium&id=110 HTTP/1.1" 200 -
+2018-02-22 04:01:32,087 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:32] "GET /web/image?model=product.product&field=image_medium&id=84 HTTP/1.1" 200 -
+2018-02-22 04:01:32,100 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:32] "GET /web/image?model=product.product&field=image_medium&id=76 HTTP/1.1" 200 -
+2018-02-22 04:01:32,163 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:32] "GET /web/image?model=product.product&field=image_medium&id=89 HTTP/1.1" 200 -
+2018-02-22 04:01:32,166 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:32] "GET /web/image?model=product.product&field=image_medium&id=113 HTTP/1.1" 200 -
+2018-02-22 04:01:32,181 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:32] "GET /web/image?model=product.product&field=image_medium&id=112 HTTP/1.1" 200 -
+2018-02-22 04:01:32,328 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:32] "GET /web/image?model=product.product&field=image_medium&id=72 HTTP/1.1" 200 -
+2018-02-22 04:01:32,329 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:32] "GET /web/image?model=product.product&field=image_medium&id=109 HTTP/1.1" 200 -
+2018-02-22 04:01:32,413 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:32] "GET /web/image?model=product.product&field=image_medium&id=85 HTTP/1.1" 200 -
+2018-02-22 04:01:32,417 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:32] "GET /web/image?model=product.product&field=image_medium&id=71 HTTP/1.1" 200 -
+2018-02-22 04:01:32,450 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:32] "GET /web/image?model=product.product&field=image_medium&id=114 HTTP/1.1" 200 -
+2018-02-22 04:01:32,505 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:32] "GET /web/image?model=product.product&field=image_medium&id=79 HTTP/1.1" 200 -
+2018-02-22 04:01:32,509 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:32] "GET /web/image?model=product.product&field=image_medium&id=81 HTTP/1.1" 200 -
+2018-02-22 04:01:32,551 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:32] "GET /web/image?model=product.product&field=image_medium&id=1 HTTP/1.1" 200 -
+2018-02-22 04:01:32,564 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:32] "GET /web/image?model=product.product&field=image_medium&id=74 HTTP/1.1" 200 -
+2018-02-22 04:01:32,585 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:32] "GET /web/image?model=product.product&field=image_medium&id=86 HTTP/1.1" 200 -
+2018-02-22 04:01:32,657 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:32] "GET /web/image?model=product.product&field=image_medium&id=115 HTTP/1.1" 200 -
+2018-02-22 04:01:32,660 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:32] "GET /web/image?model=product.product&field=image_medium&id=105 HTTP/1.1" 200 -
+2018-02-22 04:01:32,691 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:32] "GET /web/image?model=product.product&field=image_medium&id=107 HTTP/1.1" 200 -
+2018-02-22 04:01:32,724 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:32] "GET /web/image?model=product.product&field=image_medium&id=106 HTTP/1.1" 200 -
+2018-02-22 04:01:32,766 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:32] "GET /web/image?model=product.product&field=image_medium&id=73 HTTP/1.1" 200 -
+2018-02-22 04:01:32,838 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:32] "GET /web/image?model=product.product&field=image_medium&id=108 HTTP/1.1" 200 -
+2018-02-22 04:01:32,839 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:32] "GET /web/image?model=product.product&field=image_medium&id=120 HTTP/1.1" 200 -
+2018-02-22 04:01:32,894 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:32] "GET /web/image?model=product.product&field=image_medium&id=88 HTTP/1.1" 200 -
+2018-02-22 04:01:32,924 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:32] "GET /web/image?model=product.product&field=image_medium&id=90 HTTP/1.1" 200 -
+2018-02-22 04:01:44,665 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:44] "POST /web/dataset/call_kw/pos.order/create_from_ui HTTP/1.1" 200 -
+2018-02-22 04:01:52,666 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:52] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:01:53,893 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:53] "GET /web HTTP/1.1" 200 -
+2018-02-22 04:01:54,421 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:54] "POST /web/dataset/call HTTP/1.1" 200 -
+2018-02-22 04:01:54,473 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:54] "POST /web/dataset/call_kw/ir.model.data/xmlid_to_res_id HTTP/1.1" 200 -
+2018-02-22 04:01:54,482 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:54] "POST /mail/client_action HTTP/1.1" 200 -
+2018-02-22 04:01:54,485 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:54] "POST /web/dataset/call_kw/ir.model.data/xmlid_to_res_id HTTP/1.1" 200 -
+2018-02-22 04:01:54,488 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:54] "POST /mail/chat_init HTTP/1.1" 200 -
+2018-02-22 04:01:54,572 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:54] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-02-22 04:01:54,580 1131 INFO DEV openerp.service.common: successful login from 'admin' using database 'dev'
+2018-02-22 04:01:54,583 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:54] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2018-02-22 04:01:54,618 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:54] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:01:55,385 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:55] "POST /web/proxy/load HTTP/1.1" 200 -
+2018-02-22 04:01:56,043 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:56] "POST /web/session/modules HTTP/1.1" 200 -
+2018-02-22 04:01:56,134 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:56] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:01:56,144 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:56] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-02-22 04:01:56,268 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:56] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2018-02-22 04:01:56,286 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:56] "POST /web/dataset/call_kw/ir.config_parameter/get_param HTTP/1.1" 200 -
+2018-02-22 04:01:56,296 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:56] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 04:01:56,300 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:56] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:01:56,313 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:56] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:01:56,425 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:56] "GET /web/image?model=res.users&field=image_small&id=1 HTTP/1.1" 200 -
+2018-02-22 04:01:56,488 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:56] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-02-22 04:01:56,578 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:56] "GET /web? HTTP/1.1" 200 -
+2018-02-22 04:01:56,976 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:56] "POST /web/dataset/call HTTP/1.1" 200 -
+2018-02-22 04:01:57,009 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:57] "POST /web/dataset/call_kw/ir.model.data/xmlid_to_res_id HTTP/1.1" 200 -
+2018-02-22 04:01:57,014 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:57] "POST /web/dataset/call_kw/ir.model.data/xmlid_to_res_id HTTP/1.1" 200 -
+2018-02-22 04:01:57,015 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:57] "POST /mail/client_action HTTP/1.1" 200 -
+2018-02-22 04:01:57,023 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:57] "POST /mail/chat_init HTTP/1.1" 200 -
+2018-02-22 04:01:57,055 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:57] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-02-22 04:01:57,115 1131 INFO DEV openerp.service.common: successful login from 'admin' using database 'dev'
+2018-02-22 04:01:57,118 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:57] "POST /web/session/get_session_info HTTP/1.1" 200 -
+2018-02-22 04:01:57,734 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:57] "POST /web/proxy/load HTTP/1.1" 200 -
+2018-02-22 04:01:58,375 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:58] "POST /web/session/modules HTTP/1.1" 200 -
+2018-02-22 04:01:58,495 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:58] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:01:58,497 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:58] "POST /web/webclient/translations HTTP/1.1" 200 -
+2018-02-22 04:01:58,755 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:58] "POST /web/dataset/call_kw/res.users/read HTTP/1.1" 200 -
+2018-02-22 04:01:58,766 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:58] "POST /web/dataset/call_kw/ir.config_parameter/get_param HTTP/1.1" 200 -
+2018-02-22 04:01:58,777 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:58] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:01:58,791 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:58] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:01:58,836 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:58] "GET /web/image?model=res.users&field=image_small&id=1 HTTP/1.1" 200 -
+2018-02-22 04:01:58,915 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:58] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 04:01:58,941 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:58] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-02-22 04:01:59,046 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:59] "POST /web/dataset/call_kw/pos.config/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:01:59,052 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:59] "POST /web/dataset/call_kw/pos.config/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:01:59,142 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:59] "POST /web/dataset/call_kw/pos.config/fields_get HTTP/1.1" 200 -
+2018-02-22 04:01:59,151 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:59] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 04:01:59,292 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:01:59] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:02:00,632 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:02:00] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 04:02:00,788 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:02:00] "POST /web/dataset/call_kw/pos.order/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:02:00,789 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:02:00] "POST /web/dataset/call_kw/pos.order/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:02:01,014 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:02:01] "POST /web/dataset/call_kw/pos.order/fields_get HTTP/1.1" 200 -
+2018-02-22 04:02:01,017 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:02:01] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 04:02:01,161 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:02:01] "POST /web/dataset/call_kw/pos.order/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:02:01,357 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:02:01] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:02:07,853 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:02:07] "POST /web/dataset/call_kw/pos.order/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:02:08,102 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:02:08] "POST /web/dataset/call_kw/pos.order/read HTTP/1.1" 200 -
+2018-02-22 04:02:08,220 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:02:08] "POST /web/dataset/call_kw/stock.location/name_search HTTP/1.1" 200 -
+2018-02-22 04:02:08,363 1131 INFO ? werkzeug: 45.49.96.233 - - [22/Feb/2018 04:02:08] "GET /web/static/src/img/icons/gtk-print.png HTTP/1.1" 200 -
+2018-02-22 04:02:08,435 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:02:08] "POST /web/dataset/call_kw/pos.order.line/read HTTP/1.1" 200 -
+2018-02-22 04:02:08,528 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:02:08] "POST /web/dataset/call_kw/account.bank.statement.line/read HTTP/1.1" 200 -
+2018-02-22 04:02:08,548 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:02:08] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:02:17,526 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:02:17] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:02:40,272 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:02:40] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 04:02:40,439 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:02:40] "POST /web/dataset/call_kw/pos.config/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:02:40,451 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:02:40] "POST /web/dataset/call_kw/pos.config/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:02:40,653 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:02:40] "POST /web/dataset/call_kw/pos.config/fields_get HTTP/1.1" 200 -
+2018-02-22 04:02:40,704 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:02:40] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 04:02:40,875 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:02:40] "POST /web/dataset/call_kw/pos.config/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:02:41,049 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:02:41] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:02:44,720 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:02:44] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:02:47,172 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:02:47] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:02:50,773 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:02:50] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 04:02:50,976 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:02:50] "POST /web/dataset/call_kw/pos.config/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:02:50,984 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:02:50] "POST /web/dataset/call_kw/pos.config/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:02:51,198 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:02:51] "POST /web/dataset/call_kw/pos.config/fields_get HTTP/1.1" 200 -
+2018-02-22 04:02:51,202 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:02:51] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 04:02:51,392 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:02:51] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:03:17,558 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:03:17] "POST /web/dataset/call_button HTTP/1.1" 200 -
+2018-02-22 04:03:17,908 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:03:17] "POST /web/dataset/call_kw/pos.session/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:03:17,958 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:03:17] "POST /web/dataset/call_kw/pos.session/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:03:18,078 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:03:18] "POST /web/dataset/call_kw/pos.session/fields_get HTTP/1.1" 200 -
+2018-02-22 04:03:18,081 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:03:18] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 04:03:18,317 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:03:18] "POST /web/dataset/call_kw/pos.session/read HTTP/1.1" 200 -
+2018-02-22 04:03:18,507 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:03:18] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:03:18,526 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:03:18] "POST /web/menu/load_needaction HTTP/1.1" 200 -
+2018-02-22 04:03:18,609 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:03:18] "POST /web/dataset/call_kw/account.bank.statement/read HTTP/1.1" 200 -
+2018-02-22 04:03:37,310 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:03:37] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:03:59,842 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:03:59] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:04:06,371 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:04:06] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 04:04:06,466 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:04:06] "POST /web/dataset/call_kw/pos.session/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:04:06,472 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:04:06] "POST /web/dataset/call_kw/pos.session/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:04:06,559 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:04:06] "POST /web/dataset/call_kw/pos.session/fields_get HTTP/1.1" 200 -
+2018-02-22 04:04:06,570 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:04:06] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 04:04:06,657 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:04:06] "POST /web/dataset/call_kw/pos.config/name_get HTTP/1.1" 200 -
+2018-02-22 04:04:06,751 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:04:06] "POST /web/dataset/call_kw/pos.session/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:04:06,856 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:04:06] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:04:08,111 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:04:08] "POST /web/dataset/call_kw/pos.session/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:04:08,405 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:04:08] "POST /web/dataset/call_kw/pos.session/read HTTP/1.1" 200 -
+2018-02-22 04:04:08,566 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:04:08] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:04:08,616 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:04:08] "POST /web/dataset/call_kw/account.bank.statement/read HTTP/1.1" 200 -
+2018-02-22 04:04:14,447 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:04:14] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 04:04:14,544 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:04:14] "POST /report/check_wkhtmltopdf HTTP/1.1" 200 -
+2018-02-22 04:04:16,159 1131 INFO DEV werkzeug: 13.57.226.79 - - [22/Feb/2018 04:04:16] "GET /web/content/766-37137a7/report.assets_pdf.0.css HTTP/1.1" 200 -
+2018-02-22 04:04:16,166 1131 INFO DEV werkzeug: 13.57.226.79 - - [22/Feb/2018 04:04:16] "GET /web/content/761-78d5898/report.assets_common.0.css HTTP/1.1" 200 -
+2018-02-22 04:04:16,512 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:04:16] "POST /report/download HTTP/1.1" 200 -
+2018-02-22 04:04:16,700 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:04:16] "POST /web/dataset/call_kw/pos.session/search_read HTTP/1.1" 200 -
+2018-02-22 04:04:16,849 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:04:16] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:04:16,914 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:04:16] "POST /web/dataset/call_kw/account.bank.statement/read HTTP/1.1" 200 -
+2018-02-22 04:04:27,413 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:04:27] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:05:17,504 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:05:17] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:06:07,591 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:06:07] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:06:08,078 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:06:08] "POST /web/dataset/call_kw/pos.session/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:06:08,236 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:06:08] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:06:10,093 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:06:10] "POST /web/dataset/call_kw/pos.session/read HTTP/1.1" 200 -
+2018-02-22 04:06:10,256 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:06:10] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:06:10,310 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:06:10] "POST /web/dataset/call_kw/account.bank.statement/read HTTP/1.1" 200 -
+2018-02-22 04:06:12,017 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:06:12] "POST /web/dataset/exec_workflow HTTP/1.1" 200 -
+2018-02-22 04:06:12,123 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:06:12] "POST /web/dataset/call_kw/pos.session/search_read HTTP/1.1" 200 -
+2018-02-22 04:06:12,202 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:06:12] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:06:12,239 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:06:12] "POST /web/dataset/call_kw/account.bank.statement/read HTTP/1.1" 200 -
+2018-02-22 04:06:23,850 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:06:23] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 04:06:23,965 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:06:23] "POST /web/dataset/call_kw/pos.config/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:06:23,965 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:06:23] "POST /web/dataset/call_kw/pos.config/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:06:24,052 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:06:24] "POST /web/dataset/call_kw/pos.config/fields_get HTTP/1.1" 200 -
+2018-02-22 04:06:24,055 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:06:24] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 04:06:24,153 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:06:24] "POST /web/dataset/call_kw/pos.config/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:06:24,258 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:06:24] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:06:25,552 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:06:25] "POST /web/dataset/call_kw/pos.config/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:06:25,814 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:06:25] "POST /web/dataset/call_kw/pos.config/read HTTP/1.1" 200 -
+2018-02-22 04:06:25,993 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:06:25] "POST /web/dataset/call_kw/account.fiscal.position/fields_get HTTP/1.1" 200 -
+2018-02-22 04:06:25,996 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:06:25] "POST /web/dataset/call_kw/stock.picking.type/name_search HTTP/1.1" 200 -
+2018-02-22 04:06:25,997 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:06:25] "POST /web/dataset/call_kw/account.journal/name_search HTTP/1.1" 200 -
+2018-02-22 04:06:26,053 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:06:26] "POST /web/dataset/call_kw/account.journal/read HTTP/1.1" 200 -
+2018-02-22 04:06:26,153 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:06:26] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:06:47,044 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:06:47] "POST /web/dataset/call_kw/account.fiscal.position/name_search HTTP/1.1" 200 -
+2018-02-22 04:06:57,713 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:06:57] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:07:13,647 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:13] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 04:07:13,827 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:13] "POST /web/dataset/call_kw/pos.config/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:07:13,831 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:13] "POST /web/dataset/call_kw/pos.config/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:07:13,966 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:13] "POST /web/dataset/call_kw/pos.config/fields_get HTTP/1.1" 200 -
+2018-02-22 04:07:13,970 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:13] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 04:07:14,128 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:14] "POST /web/dataset/call_kw/pos.config/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:07:14,286 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:14] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:07:15,166 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:15] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 04:07:15,392 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:15] "POST /web/dataset/call_kw/pos.config.settings/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:07:15,556 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:15] "POST /web/dataset/call_kw/pos.config.settings/default_get HTTP/1.1" 200 -
+2018-02-22 04:07:15,637 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:15] "POST /web/dataset/call_kw/pos.config.settings/onchange HTTP/1.1" 200 -
+2018-02-22 04:07:18,292 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:18] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 04:07:18,380 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:18] "POST /web/dataset/call_kw/pos.category/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:07:18,392 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:18] "POST /web/dataset/call_kw/pos.category/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:07:18,463 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:18] "POST /web/dataset/call_kw/pos.category/fields_get HTTP/1.1" 200 -
+2018-02-22 04:07:18,475 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:18] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 04:07:18,566 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:18] "POST /web/dataset/call_kw/pos.category/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:07:18,688 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:18] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:07:21,336 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:21] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 04:07:21,507 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:21] "POST /web/dataset/call_kw/account.journal/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:07:21,532 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:21] "POST /web/dataset/call_kw/account.journal/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:07:21,641 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:21] "POST /web/dataset/call_kw/account.journal/fields_get HTTP/1.1" 200 -
+2018-02-22 04:07:21,646 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:21] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 04:07:21,827 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:21] "POST /web/dataset/call_kw/account.journal/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:07:21,975 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:21] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:07:23,509 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:23] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 04:07:23,671 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:23] "POST /web/dataset/call_kw/barcode.nomenclature/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:07:23,692 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:23] "POST /web/dataset/call_kw/barcode.nomenclature/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:07:23,822 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:23] "POST /web/dataset/call_kw/barcode.nomenclature/fields_get HTTP/1.1" 200 -
+2018-02-22 04:07:23,825 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:23] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 04:07:23,995 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:23] "POST /web/dataset/call_kw/barcode.nomenclature/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:07:24,264 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:24] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:07:25,062 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:25] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 04:07:25,156 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:25] "POST /web/dataset/call_kw/pos_mercury.configuration/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:07:25,186 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:25] "POST /web/dataset/call_kw/pos_mercury.configuration/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:07:25,236 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:25] "POST /web/dataset/call_kw/pos_mercury.configuration/fields_get HTTP/1.1" 200 -
+2018-02-22 04:07:25,243 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:25] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 04:07:25,329 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:25] "POST /web/dataset/call_kw/pos_mercury.configuration/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:07:25,469 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:25] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:07:29,222 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:29] "POST /web/dataset/call_kw/pos_mercury.configuration/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:07:29,378 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:29] "POST /web/dataset/call_kw/pos_mercury.configuration/read HTTP/1.1" 200 -
+2018-02-22 04:07:29,520 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:29] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:07:32,290 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:32] "POST /web/dataset/call_kw/pos_mercury.configuration/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:07:32,470 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:32] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:07:35,299 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:35] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 04:07:35,417 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:35] "POST /web/dataset/call_kw/pos.order/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:07:35,420 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:35] "POST /web/dataset/call_kw/pos.order/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:07:35,506 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:35] "POST /web/dataset/call_kw/pos.order/fields_get HTTP/1.1" 200 -
+2018-02-22 04:07:35,511 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:35] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 04:07:35,599 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:35] "POST /web/dataset/call_kw/pos.order/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:07:35,700 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:35] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:07:38,376 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:38] "POST /web/dataset/call_kw/pos.order/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:07:38,626 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:38] "POST /web/dataset/call_kw/pos.order/read HTTP/1.1" 200 -
+2018-02-22 04:07:38,798 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:38] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:07:38,807 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:38] "POST /web/dataset/call_kw/stock.location/name_search HTTP/1.1" 200 -
+2018-02-22 04:07:38,932 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:38] "POST /web/dataset/call_kw/pos.order.line/read HTTP/1.1" 200 -
+2018-02-22 04:07:39,128 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:39] "POST /web/dataset/call_kw/account.bank.statement.line/read HTTP/1.1" 200 -
+2018-02-22 04:07:43,756 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:43] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 04:07:43,863 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:43] "POST /web/dataset/call_kw/pos.session/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:07:43,871 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:43] "POST /web/dataset/call_kw/pos.session/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:07:43,951 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:43] "POST /web/dataset/call_kw/pos.session/fields_get HTTP/1.1" 200 -
+2018-02-22 04:07:43,955 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:43] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 04:07:44,069 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:44] "POST /web/dataset/call_kw/pos.session/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:07:44,157 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:44] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:07:45,889 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:45] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 04:07:46,015 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:46] "POST /web/dataset/call_kw/product.template/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:07:46,022 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:46] "POST /web/dataset/call_kw/product.template/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:07:46,123 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:46] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 04:07:46,124 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:46] "POST /web/dataset/call_kw/product.template/fields_get HTTP/1.1" 200 -
+2018-02-22 04:07:46,224 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:46] "POST /web/dataset/call_kw/product.template/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:07:46,379 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:46] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:07:47,905 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:07:47] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:08:38,097 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:08:38] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:09:28,250 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:09:28] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:10:18,337 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:10:18] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:11:08,501 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:11:08] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:11:58,609 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:11:58] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:12:48,709 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:12:48] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:13:38,801 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:13:38] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:14:28,876 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:14:28] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:15:04,952 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:15:04] "POST /web/action/load HTTP/1.1" 200 -
+2018-02-22 04:15:05,064 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:15:05] "POST /web/dataset/call_kw/pos.order/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:15:05,065 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:15:05] "POST /web/dataset/call_kw/pos.order/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:15:05,162 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:15:05] "POST /web/dataset/call_kw/pos.order/fields_get HTTP/1.1" 200 -
+2018-02-22 04:15:05,201 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:15:05] "POST /web/dataset/call_kw/ir.filters/get_filters HTTP/1.1" 200 -
+2018-02-22 04:15:05,295 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:15:05] "POST /web/dataset/call_kw/pos.order/fields_view_get HTTP/1.1" 200 -
+2018-02-22 04:15:05,405 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:15:05] "POST /web/dataset/search_read HTTP/1.1" 200 -
+2018-02-22 04:15:18,966 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:15:18] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:16:09,055 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:16:09] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:16:59,174 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:16:59] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:17:49,271 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:17:49] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:18:39,407 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:18:39] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:19:29,544 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:19:29] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:20:19,630 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:20:19] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:21:09,721 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:21:09] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:22:00,157 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:22:00] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:22:50,244 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:22:50] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:23:40,333 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:23:40] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:24:30,418 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:24:30] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:25:20,508 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:25:20] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:26:10,596 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:26:10] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:27:00,697 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:27:00] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:27:50,780 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:27:50] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:28:40,866 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:28:40] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:29:30,957 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:29:30] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:30:21,096 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:30:21] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:31:11,175 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:31:11] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:32:01,288 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:32:01] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:32:51,378 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:32:51] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:33:41,531 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:33:41] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:34:31,710 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:34:31] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:35:21,883 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:35:21] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:36:12,082 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:36:12] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:37:02,165 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:37:02] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:37:52,266 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:37:52] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:38:42,356 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:38:42] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:39:32,563 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:39:32] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:40:22,646 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:40:22] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:41:12,830 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:41:12] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:42:02,915 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:42:02] "POST /longpolling/poll HTTP/1.1" 200 -
+2018-02-22 04:42:53,065 1131 INFO DEV werkzeug: 45.49.96.233 - - [22/Feb/2018 04:42:53] "POST /longpolling/poll HTTP/1.1" 200 -

@@ -1,6 +1,6 @@
 <openerp>
     <data>
-      <template id="login_screen" name="pos_login_screen" inherit_id="point_of_sale.>
+      <template id="login_screen" name="pos_login_screen" inherit_id="point_of_sale.Chrome">
           <xpath expr="//div[contains(@class, 'pos')]" position="inside">
             <div class="pos_login_screen">
             </div>

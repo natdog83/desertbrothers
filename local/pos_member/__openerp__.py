@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "pos_member",
-
+    'name': "updates to the POS for Angry Horse",
     'summary': """
         Short (1 phrase/line) summary of the module's purpose, used as
         subtitle on modules listing or apps.openerp.com""",

@@ -1,5 +1,11 @@
 <openerp>
     <data>
+      <template id="login_screen" name="pos_login_screen" inherit_id="point_of_sale.pos">
+          <xpath expr="//div[contains(@class, 'pos')]" position="inside">
+            <div class="pos_login_screen">
+            </div>
+          </xpath>
+      </template>
         <!-- <template id="listing"> -->
         <!--   <ul> -->
         <!--     <li t-foreach="objects" t-as="object"> -->

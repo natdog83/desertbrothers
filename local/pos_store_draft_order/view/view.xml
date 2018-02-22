@@ -10,7 +10,7 @@
                 <field name="state" position="after">
                     <field name="is_partial_paid" invisible="1" />
                 </field>
-                <xpath expr="//tree" position="attributes">
+                <xpath expr="//tree[last()]" position="attributes">
                     <attribute>decoration-danger="is_partial_paid=='True'" decoration-info="state == 'draft'" decoration-muted="state in ('done','cancel')" decoration-warning="state not in ('done','cancel')"</attribute>
                 </xpath>
             </field>
@@ -26,6 +26,5 @@
                 </field>
             </field>
         </record>
-
     </data>
 </openerp>

@@ -26,7 +26,7 @@
         # 'security/ir.model.access.csv',
         # 'views/views.xml',
         # 'views/templates.xml',
-        'view/pos_2_order.xml',
+        #'view/pos_2_order.xml',
         'view/pos_order_view.xml',
     ],
     'qweb': [

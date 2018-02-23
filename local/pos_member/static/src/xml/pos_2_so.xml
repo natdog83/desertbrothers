@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template">
+    <t t-name="Pos2SoWidget">
+            <div class="pos2sopad">
+                <div id="pos-2-so-frame">
+            <button class="pos-2-so-button" id="pos-2-so-button">To Sales Order</button>
+            </div>
+        </div>
+    </t>
+        <t t-extend="ProductScreenWidget">
+        <t t-jquery=".leftpane .window" t-operation="append">
+                    <div class="placeholder-Pos2SoWidget"></div>
+        </t>
+    </t>
+</templates>

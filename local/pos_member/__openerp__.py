@@ -24,8 +24,13 @@
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
-        'views/views.xml',
-        'views/templates.xml',
+        # 'views/views.xml',
+        # 'views/templates.xml',
+        'view/pos_2_order.xml',
+        'view/pos_order_view.xml',
+    ],
+    'qweb': [
+        'static/src/xml/pos_2_so.xml',
     ],
     # only loaded in demonstration mode
     'demo': [

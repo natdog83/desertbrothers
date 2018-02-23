@@ -28,7 +28,7 @@ odoo.define('point_of_sale.pos_2_so', function(require) {
 
             this.pos2sopad = new Pos2SoWidget(this, {});
             this.pos2sopad.replace(this.$('.placeholder-Pos2SoWidget'));
-            console.log("-----loaded the product screen widget"):
+            console.log("-----loaded the product screen widget");
 
         },
     });

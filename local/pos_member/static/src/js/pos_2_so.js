@@ -15,8 +15,7 @@ odoo.define('point_of_sale.pos_2_so', function(require) {
         start : function() {
             var self = this;
             this.$el.find('.pos-2-so-button').click(function() {
-                self.gui.show_screen('orders');
-                pos2so = true;
+                self.gui.show('payments');
             });
         },
     });
@@ -104,15 +103,6 @@ odoo.define('point_of_sale.pos_2_so', function(require) {
         hide: function () {
             this._super();
             this.new_client = null;
-        },
-        barcode_client_action: function(code){
-            if (this.editing_client) {
-                this.$('.detail.barcode').val(code.code);
-            } else if (this.pos.db.get_partner_by_barcode(code.code)) {
-                var partner = this.pos.db.get_partner_by_barcode(code.code);
-                this.new_client = partner;
-                this.display_client_details('show', partner);
-            }
         },
         render_list: function(partners){
             var contents = this.$el[0].querySelector('.client-list-contents');

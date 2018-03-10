@@ -13,7 +13,7 @@
     </t>
   </t>
 
-  <t t-name="OrderScreenWidget">
+  <t t-name="TabScreenWidget">
       <div class="clientlist-screen screen">
           <div class="screen-content">
               <section class="top-content">

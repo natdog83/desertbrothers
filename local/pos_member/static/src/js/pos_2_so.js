@@ -47,20 +47,20 @@ odoo.define('point_of_sale.pos_2_so', function(require) {
     gui.define_screen({
         'name': 'orders',
         'widget': OrderScreenWidget,
-        'condition': function(){
-            return this.pos.config.iface_orders;
-        },
+        // 'condition': function(){
+        //     return this.pos.config.iface_orders;
+        // },
     });
 
-    // Add the OrderScreen to the GUI, and set it as the default screen
-    chrome.Chrome.include({
-        build_widgets: function(){
-            this._super();
-            if (this.pos.config.iface_orders) {
-                this.gui.set_startup_screen('orders');
-            }
-        },
-    });
+    // // Add the OrderScreen to the GUI, and set it as the default screen
+    // chrome.Chrome.include({
+    //     build_widgets: function(){
+    //         this._super();
+    //         if (this.pos.config.iface_orders) {
+    //             this.gui.set_startup_screen('orders');
+    //         }
+    //     },
+    // });
 
 
 });

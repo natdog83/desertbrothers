@@ -34,15 +34,15 @@ odoo.define('point_of_sale.pos_2_so', function(require) {
 
     // The screen that allows you to select the orders, see and select the table,
     // as well as edit them.
-    var OrderScreenWidget = screens.ScreenWidget.extend({
-        template: 'OrderScreenWidget',
-
-        init: function(parent, options){
-            this._super(parent, options);
-            this.partner_cache = new DomCache();
-        },
-
-    });
+    // var OrderScreenWidget = screens.ScreenWidget.extend({
+    //     template: 'OrderScreenWidget',
+    //
+    //     init: function(parent, options){
+    //         this._super(parent, options);
+    //         this.partner_cache = new DomCache();
+    //     },
+    //
+    // });
 
     gui.define_screen({
         'name': 'orders',

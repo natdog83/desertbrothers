@@ -35,7 +35,7 @@ odoo.define('point_of_sale.pos_2_so', function(require) {
 
     // The screen that allows you to select the orders, see and select the table,
     // as well as edit them.
-    var FloorScreenWidget = screens.ScreenWidget.extend({
+    var OrderScreenWidget = screens.ScreenWidget.extend({
         template: 'OrderScreenWidget',
         show_leftpane: false,
 

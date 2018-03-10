@@ -46,10 +46,7 @@ odoo.define('point_of_sale.pos_2_so', function(require) {
 
     gui.define_screen({
         name: 'orders',
-        widget: OrderScreenWidget,
-        // 'condition': function(){
-        //     return this.pos.config.iface_orders;
-        // },
+        widget: OrderScreenWidget
     });
 
     // // Add the OrderScreen to the GUI, and set it as the default screen

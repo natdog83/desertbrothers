@@ -448,9 +448,9 @@ odoo.define('point_of_sale.pos_2_so', function(require) {
     chrome.Chrome.include({
         build_widgets: function(){
             this._super();
-            if (this.pos.config.iface_orders) {
-                this.gui.set_startup_screen('orders');
-            }
+            // if (this.pos.config.iface_orders) {
+            //     this.gui.set_startup_screen('orders');
+            // }
         },
     });
 

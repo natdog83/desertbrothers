@@ -15,7 +15,7 @@ odoo.define('point_of_sale.pos_2_so', function(require) {
         start : function() {
             var self = this;
             this.$el.find('.pos-2-so-button').click(function() {
-                self.gui.show_screen('payment');
+                self.gui.show_screen('orders');
             });
         },
     });
@@ -45,8 +45,8 @@ odoo.define('point_of_sale.pos_2_so', function(require) {
     // });
 
     gui.define_screen({
-        'name': 'orders',
-        'widget': OrderScreenWidget,
+        name: 'orders',
+        widget: OrderScreenWidget,
         // 'condition': function(){
         //     return this.pos.config.iface_orders;
         // },

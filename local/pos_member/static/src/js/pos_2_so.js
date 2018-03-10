@@ -15,7 +15,7 @@ odoo.define('point_of_sale.pos_2_so', function(require) {
         start : function() {
             var self = this;
             this.$el.find('.pos-2-so-button').click(function() {
-                self.gui.show_screen('payment');
+                self.gui.show_screen('orders');
                 pos2so = true;
             });
         },

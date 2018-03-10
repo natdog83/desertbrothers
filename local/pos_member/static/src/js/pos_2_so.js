@@ -38,10 +38,10 @@ odoo.define('point_of_sale.pos_2_so', function(require) {
     var TabScreenWidget = screens.ScreenWidget.extend({
         template: 'OrderScreenWidget',
 
-        init: function(parent, options){
-            this._super(parent, options);
-            this.partner_cache = new DomCache();
-        },
+        // init: function(parent, options){
+        //     this._super(parent, options);
+        //     this.partner_cache = new DomCache();
+        // },
 
     });
 

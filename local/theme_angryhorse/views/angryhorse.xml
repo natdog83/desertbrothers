@@ -54,7 +54,7 @@
                     <div class="center_image row justify-content-md-center">
                         <div class="col col-lg-2">
                         </div>
-                        <div class="col-md-auto">
+                        <div class="col-md-8">
                           <img src="/theme_angryhorse/static/src/img/large_logo.png" class="img-fluid" alt="Angry Horse Logo"/>
                         </div>
                         <div class="col col-lg-2">
@@ -74,7 +74,7 @@
                     <div class="row justify-content-md-center">
                         <div class="col col-lg-2">
                         </div>
-                        <div class="col-md-7">
+                        <div class="col-md-8">
                             <div class="content">
                                 <h3>
                                         about us
@@ -100,7 +100,21 @@
                     </div>
                 </div>
             </div>
-
+            <!-- Featured Beer -->
+            <div id="featured">
+                <div class="container">
+                    <div class="row justify-content-md-center">
+                        <div class="col col-lg-2"></div>
+                        <div class="col-md-7">
+                            <div class="content">
+                                <h3>Featured</h3>
+                            </div>
+                        </div>
+                        <div class="col col-lg-2"></div>
+                    </div>
+                </div>
+            </div>
+            
           </div>  
         </xpath>
     </template>

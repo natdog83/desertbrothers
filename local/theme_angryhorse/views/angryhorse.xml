@@ -54,8 +54,10 @@
                     <div class="center_image row justify-content-md-center">
                         <div class="col col-lg-2">
                         </div>
-                        <div class="col-md-auto">
-                            <img src="/theme_angryhorse/static/src/img/large_logo.png" class="img-fluid" alt="Angry Horse Logo"/>
+                        <div class="text-center">
+                            <div class="col-md-auto">
+                                <img src="images/large_logo.png" class="img-fluid" alt="Angry Horse Logo"/>
+                            </div>
                         </div>
                         <div class="col col-lg-2">
                         </div>

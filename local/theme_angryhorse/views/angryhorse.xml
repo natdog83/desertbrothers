@@ -2,7 +2,7 @@
 <openerp>
   <data>
     <template id="theme_angryhorse_menu" inherit_id="website.layout" name="theme_angryhorse menu">
-        <xpath expr="/html/body/header" position="replace">
+        <xpath expr="//header//" position="replace">
           <header>
               <div class="navbar navbar-default navbar-static-top">
                   <div class="container">

@@ -17,7 +17,7 @@ h3{
 #header_area{
     border-top: 11px solid #e6cb32;
     border-bottom: 10px solid #000000;
-    background-image: url(/img/wood_background.jpg);
+    background-image: url(/theme_angryhorse/static/src/img/wood_background.jpg);
     height: 190px;
     font: 40px;
 }

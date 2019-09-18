@@ -13,10 +13,14 @@
                               <span class="icon-bar"/>
                               <span class="icon-bar"/>
                           </button>
-                          <a class="navbar-brand" href="/" t-if="website" t-field="website.name">My Website</a>
                       </div>
                       <div class="collapse navbar-collapse navbar-top-collapse">
-                          <ul class="nav navbar-nav navbar-right" id="top_menu">
+                          <ul class="nav navbar-nav navbar-right main_menu" id="top_menu">
+                            <li>
+                                <a href="">
+                                    <img class="img-fluid" src="theme_angryhorse/static/src/img/logo.png" />
+                                </a>
+                            </li>
                               <t t-foreach="website.menu_id.child_id" t-as="submenu">
                                   <t t-call="website.submenu"/>
                               </t>

@@ -14,8 +14,8 @@
                               <span class="icon-bar"/>
                           </button>
                       </div>
-                      <div class="collapse navbar-collapse navbar-top-collapse">
-                          <ul class="nav navbar-nav navbar-right main_menu" id="top_menu">
+                      <div class="collapse navbar-collapse navbar-top-collapse main_menu">
+                          <ul class="nav navbar-nav navbar-right" id="top_menu">
                             <li>
                                 <a href="">
                                     <img class="img-fluid" src="theme_angryhorse/static/src/img/logo.png" />

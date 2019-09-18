@@ -56,7 +56,7 @@
                         </div>
                           <div class="col-md-auto">
                             <div class="text-center">
-                              <img src="images/large_logo.png" class="img-fluid" alt="Angry Horse Logo"/>
+                              <img src="/theme_angryhorse/static/src/img/large_logo.png" class="img-fluid" alt="Angry Horse Logo"/>
                             </div>
                         </div>
                         <div class="col col-lg-2">

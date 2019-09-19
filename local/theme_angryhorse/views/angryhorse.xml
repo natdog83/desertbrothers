@@ -203,10 +203,8 @@
                     </div>
                 </div>
             </div>
-            <div id="instagram">
-              <div class="row justify-content-center">
-                s
-              </div>
+            <div id="instagram" class="row justify-content-center">
+              s
             </div>
           </div>  
         </xpath>

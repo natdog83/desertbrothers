@@ -46,26 +46,32 @@
         <div class="oe_structure" id="footer">
             <section>
                 <div class="container">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <h4 class="mt16">NEW SUBTITLE</h4>
+                    <div class="row justify-content-md-center footer_content">
+                    <div class="col col-md-2"></div>
+                        <div class="col-lg-1"></div>
+                        <div class="col-lg-3 find_us">
+                            <h3>Find Us</h3>
+                            <p>info@angryhorsebrewing.com<br />
+                            (323) 530-0015 | <a href="https://www.google.com/maps/place/Angry+Horse+Brewing/@34.0095025,-118.1063756,15z/data=!4m5!3m4!1s0x0:0xb6b1bb60ac274273!8m2!3d34.0095025!4d-118.1063756" target="_blank">MAP IT</a></p>
+                            <div class="social">
+                                <a href="https://www.instagram.com/angryhorsebrewing/" target="_blank"><img src="./images/instagram_icon.png"></a>
+                                <a href="https://www.facebook.com/angryhorsebrewing" target="_blank"><img src="./images/facebook_icon.png"></a>
+                                <a href="https://twitter.com/angryhorsebrew" target="_blank"><img src="./images/twitter_icon.png" ></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <h3>HOURS</h3>
                             <p>
-                                <a href="/">My HOMEPAGE</a>
+                                M-T 2:00 PM - 10:00 PM<br />
+                                Friday 2:00 PM - 12:00 AM <br />
+                                Saturday 12:00 PM - 12:00 AM<br />
+                                Sunday 12:00 PM - 10:00 PM
                             </p>
                         </div>
-                        <div class="col-md-4">
-                            <h4 class="mt16">Subtitle 2</h4>
-                            <p>
-                                ...
-                            </p>
-                        </div>
-                        <div class="col-md-4">
-                            <h4 class="mt16">Subtitle 3</h4>
-                            <p>
-                                ...
-                            </p>
-                        </div>
-                    </div>
+                        <div class="col-lg-1"><img src="./images/independant_logo.png"></div>
+                    
+                    <div class="col col-md-2"></div>
+                </div>
                 </div>
             </section>
         </div>

@@ -77,9 +77,7 @@
         </div>
         </xpath>
 
-        <xpath expr="//footer[@class='container mt16 mb8']" position="replace">
-         test
-        </xpath>
+
 
     </template>
 

@@ -42,6 +42,35 @@
               </div>
           </header>
         </xpath>
+        <xpath expr="//div[@id='footer']" position="replace">
+        <div class="oe_structure" id="footer">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h4 class="mt16">NEW SUBTITLE</h4>
+                            <p>
+                                <a href="/">My HOMEPAGE</a>
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <h4 class="mt16">Subtitle 2</h4>
+                            <p>
+                                ...
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <h4 class="mt16">Subtitle 3</h4>
+                            <p>
+                                ...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        </xpath>
     </template>
 
     <template id="theme_angryhorse_homepage" name="Angry Horse Homepage" inherit_id="website.homepage" >
@@ -130,5 +159,14 @@
             <link rel='stylesheet' href='/theme_angryhorse/static/src/css/main.css' />
         </xpath>
     </template>
+
+    <template id="theme_angryhorse_footer" name="Angry Horse Footer" inherit_id="website.footer" >
+        <xpath expr="." position="inside">
+            <!-- Bootstrap CSS -->
+            <link rel='stylesheet' href='/theme_angryhorse/static/src/css/main.css' />
+        </xpath>
+    </template>
+
+
   </data>
 </openerp>

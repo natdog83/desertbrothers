@@ -101,30 +101,6 @@
         })	
         (jQuery);
         </script>
-        <script>
-            $(document).ready(function(){
-                var token = '1724092469.1224e11.2c87438160974393bc5f3c1c74d45234', // learn how to obtain it below
-                    userid = 1724092469, // User ID - get it in source HTML of your Instagram profile or look at the next example :)
-                    num_photos = 18; // how much photos do you want to get
-                
-                $.ajax({
-                    url: 'https://api.instagram.com/v1/users/' + userid + '/media/recent', // or /users/self/media/recent for Sandbox
-                    dataType: 'jsonp',
-                    type: 'GET',
-                    data: {access_token: token, count: num_photos},
-                    success: function(data){
-                        console.log(data);
-                        for( x in data.data ){
-                            $('#instagram').append('<div class="intagram_image"><img class="img-fluid" src="'+data.data[x].images.standard_resolution.url +'"></div'); 
-                        }
-                    },
-                    error: function(data){
-                        console.log(data); // send the error notifications to console
-                    }
-                });
-            });
-        </script>
-
         </xpath>
     </template>
 

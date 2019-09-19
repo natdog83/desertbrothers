@@ -76,6 +76,11 @@
           </section>
         </div>
         </xpath>
+
+        <xpath expr="//footer[@class='container mt16 mb8']" position="replace">
+         test
+        </xpath>
+
     </template>
 
     <template id="theme_angryhorse_homepage" name="Angry Horse Homepage" inherit_id="website.homepage" >

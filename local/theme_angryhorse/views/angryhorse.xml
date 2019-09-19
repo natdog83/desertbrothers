@@ -159,13 +159,13 @@
             <link rel='stylesheet' href='/theme_angryhorse/static/src/css/main.css' />
         </xpath>
     </template>
-
+    <!--
     <template id="theme_angryhorse_footer" name="Angry Horse Footer" inherit_id="website.footer" >
         <xpath expr="." position="inside">
-            <!-- Bootstrap CSS -->
+            
             <link rel='stylesheet' href='/theme_angryhorse/static/src/css/main.css' />
         </xpath>
-    </template>
+    </template>-->
 
 
   </data>

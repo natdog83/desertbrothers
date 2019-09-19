@@ -75,6 +75,19 @@
             </div>
           </section>
         </div>
+
+        <div id="copywrite">
+          <div class="container">
+            <div class="row justify-content-md-center">
+              <div class="col col-lg-2"></div>
+                <div class="col-md-7 copywrite_content"><img src="/theme_angryhorse/static/src/img/AHB_SubLogo.png" />
+                  Copyright &amp;copy; <span t-field="res_company.name">Company name</span>
+                </div>
+                <div class="col col-lg-2"></div>
+              </div>
+          </div>
+        </div>
+
         </xpath>
     </template>
 
@@ -173,13 +186,5 @@
             <link rel='stylesheet' href='/theme_angryhorse/static/src/css/main.css' />
         </xpath>
     </template>-->
-
-    <template id="theme_angryhorse_copywrite" name="Angry Horse copywrite" inherit_id="website.layout_footer_copyright" >
-      <xpath expr="." position="replace">
-        <p>test</p>
-      </xpath>
-    </tempate> 
-
-
   </data>
 </openerp>

@@ -175,6 +175,9 @@
     </template>-->
 
     <template id="theme_angryhorse_copywrite" name="Angry Horse copywrite" inherit_id="website.layout_footer_copyright" >
+      <xpath expr="." position="replace">
+        <p>test</p>
+      </xpath>
     </tempate> 
 
 

@@ -78,11 +78,7 @@
         </xpath>
     </template>
 
-    <template id="theme_angryhorse_copywrite" name="Angry Horse copywrite" inherit_id="website.layout_footer_copyright" >
-      <xpath expr="//div[@class='container mt16 mb8']" position="replace">
-        <p>test</p>
-      </xpath>
-    </tempate>  
+ 
 
     <template id="theme_angryhorse_homepage" name="Angry Horse Homepage" inherit_id="website.homepage" >
         <xpath expr="//div[@id='wrap']" position="replace">

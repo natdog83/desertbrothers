@@ -221,6 +221,30 @@
                         <div class="white_line"></div>
                         <div class="employee_more">Learn More</div>
                       </div> 
+
+                      <section class="container" id="team">
+            <div class="col-sm-12 text-center" t-if="len(employee_ids)">
+                <h2>Our Team</h2>
+            </div>
+            <div t-foreach="employee_ids" t-as="employee" class="col-sm-3 col-lg-2 mt16 text-center o_avatar_info_container">
+                <t t-call="website.publish_management" class="text-center">
+                    <t t-set="object" t-value="employee"/>
+                    <t t-set="publish_edit" t-value="True"/>
+                </t>
+                <div class="clearfix"/>
+                <img t-att-src="website.image_url(employee, 'image_medium')" class="img shadow img-rounded"/>
+                <div class="mt8">
+                    <strong t-field="employee.name"/>
+                </div>
+                <div t-field="employee.job_id"/>
+                <div t-field="employee.public_info" class="text-muted mt16 center-block"/>
+            </div>
+        </section>
+
+
+
+
+
                     </div>
                   </div>
                   <div class="col col-lg-2"></div>

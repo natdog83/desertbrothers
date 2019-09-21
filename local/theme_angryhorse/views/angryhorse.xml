@@ -125,7 +125,7 @@
 
     <template id="theme_angryhorse_homepage" name="Angry Horse Homepage" inherit_id="website.homepage" >
         <xpath expr="//div[@id='wrap']" position="replace">
-          <div id="wrap" class="oe_structure oe_empty">
+          <div id="wrap" class="">
 
             <!-- Intro -->
             <div id="intro">

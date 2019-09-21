@@ -15,7 +15,8 @@ class AngryHorseHomepage(http.Controller):
             'employee_ids': hr_obj.browse(request.cr, request.uid, employee_ids,
                                           request.context),
         }
-        print values
+        for value in values:
+            print value.employee_ids
         return request.website.render("theme_angryhorse.index", values)
 
 

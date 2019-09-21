@@ -6,9 +6,16 @@ from openerp.http import request
 class AngryHorseHomepage(http.Controller):
     @http.route('/academy/academy/', auth='public', website=True)
     def index(self, **kw):
-        return http.request.render('theme_angryhorse.index', {
-            'teachers': ["Diana Padilla", "Jody Caroll", "Lester Vaughn"],
-        })
+        employee_ids = hr_obj.search(request.cr, request.uid, [('website_published', '=', True)], context=request.context)
+        values = {
+            'employee_ids': hr_obj.browse(request.cr, request.uid, employee_ids,
+                                          request.context),
+        }
+        print values
+        return request.website.render("theme_angryhorse.index", values)
+        # return http.request.render('theme_angryhorse.index', {
+        #     'teachers': ["Diana Padilla", "Jody Caroll", "Lester Vaughn"],
+        # })
 
 # class AngryHorseHomepage(http.Controller):
 #     @http.route('/page/angryhorse/', auth='public', website=True)

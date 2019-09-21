@@ -10,5 +10,5 @@ openerp.theme_angryhorse = function(instance, local) {
     });
 
     instance.web.client_actions.add(
-        'petstore.homepage', 'instance.oepetstore.HomePage');
+        'theme_angryhorse.homepage', 'instance.theme_angryhorse.HomePage');
 }

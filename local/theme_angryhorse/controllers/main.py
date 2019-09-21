@@ -7,5 +7,5 @@ class CustomWebsite(Website):  # Inherit in your custom class
     @http.route('/', type='http', auth="public", website=True)
     def index(self):
         res = super(CustomWebsite, self).index()
-        print('TEST')
+        print [1,2]
         return res

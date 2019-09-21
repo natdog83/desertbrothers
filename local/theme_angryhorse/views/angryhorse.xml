@@ -238,7 +238,6 @@
         <xpath expr="." position="inside">
             <!-- Bootstrap CSS -->
             <link rel='stylesheet' href='/theme_angryhorse/static/src/css/main.css' />
-            <script type="text/javascript" src="/theme_angryhorse/static/src/js/theme_angryhorse.js"/>
         </xpath>
     </template>
     

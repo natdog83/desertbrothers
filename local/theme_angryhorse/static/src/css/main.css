@@ -172,9 +172,9 @@ h3{
     display: inline-block;
 }
 
-#instagram .row{
-    margin: 0px;
-    padding: 0px;
+#instagram.row{
+    margin-left: -15px;
+    margin-right: -15px;
 
 }
 

@@ -206,12 +206,12 @@
             <div id="team">
             <div class="container">
                 <div class="row justify-content-md-center">
-                    <div class="col col-lg-1"></div>
-                    <div class="col-md-9">
+                    <div class="col col-lg-2"></div>
+                    <div class="col-md-10">
                         <div class="content">
                             <h3>Our Team</h3>
                             <div class="white_line"></div>
-                            <div class="col col-md-3 team col-centered">
+                            <div class="col col-md-3 team">
                                 <img class="img-responsive empoyee_image" src="/theme_angryhorse/static/src/img/mark.jpg" />
                                 <div class="employee_name">Mark Gilbert</div>
                                 <div class="employee_title">Founder</div>
@@ -219,7 +219,7 @@
                                 <div class="employee_more">Learn More</div>
                             </div> 
 
-                            <div class="col col-md-3 team col-centered">
+                            <div class="col col-md-3 team">
                                 <img class="img-responsive empoyee_image" src="/theme_angryhorse/static/src/img/marcia.jpg" />
                                 <div class="employee_name">Marcia Gilbert</div>
                                 <div class="employee_title">Founder</div>
@@ -227,7 +227,7 @@
                                 <div class="employee_more">Learn More</div>
                             </div> 
 
-                            <div class="col col-md-3 team col-centered">
+                            <div class="col col-md-3 team">
                                     <img class="img-responsive empoyee_image" src="/theme_angryhorse/static/src/img/marcia.jpg" />
                                     <div class="employee_name">Marcia Gilbert</div>
                                     <div class="employee_title">Founder</div>
@@ -237,7 +237,7 @@
 
                         </div>
                     </div>
-                    <div class="col col-lg-1"></div>
+                    <div class="col col-lg-2"></div>
                 </div>
             </div>
         </div>

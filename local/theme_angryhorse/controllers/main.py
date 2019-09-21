@@ -6,7 +6,7 @@ from openerp.http import request
 class AngryHorseHomepage(http.Controller):
     @http.route('/academy/academy/', auth='public', website=True)
     def index(self, **kw):
-                hr_obj = request.registry['hr.employee']
+        hr_obj = request.registry['hr.employee']
         if request.registry['res.users'].has_group(request.cr, request.uid, 'base.group_website_publisher'):
             employee_ids = hr_obj.search(request.cr, request.uid, [], context=request.context)
         else:

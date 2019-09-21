@@ -172,6 +172,12 @@ h3{
     display: inline-block;
 }
 
+#instagram .row{
+    margin: 0px;
+    padding: 0px;
+
+}
+
 .intagram_image {
     display: inline-block;
     width: 16.666666666666667%;

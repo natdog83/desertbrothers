@@ -133,6 +133,11 @@ h3{
     color: #ffffff;
 }
 
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
 
 #team .white_line {
     border-bottom: #ffffff solid;

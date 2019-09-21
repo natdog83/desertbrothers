@@ -175,8 +175,8 @@ h3{
 .intagram_image {
     display: inline-block;
     width: 16.666666666666667%;
-    /* padding-left: 10px;
-    margin-left: -10px; */
+    padding-left: 10px;
+    margin-left: -10px;
 }
 
 

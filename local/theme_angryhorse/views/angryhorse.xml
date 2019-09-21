@@ -90,7 +90,7 @@
             $('.prev').click(function(){ $('.carousel').carousel('prev');return false; });
         })	
         (jQuery);
-        </script>
+        </script>-->
         <script>
             $(document).ready(function(){
                 var token = '1724092469.1224e11.2c87438160974393bc5f3c1c74d45234', // learn how to obtain it below
@@ -117,7 +117,7 @@
                     }
                 });
             });
-        </script>-->
+        </script>
         </xpath>
     </template>
 

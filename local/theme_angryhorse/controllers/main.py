@@ -12,7 +12,8 @@ class AngryHorseHomepage(http.Controller):
             'employee_ids': staff.browse(request.cr, request.uid, employee_ids,
                                           request.context),
         }
-        #print values
+        for value in values
+            print value
         return request.website.render("theme_angryhorse.index", values)
         # return http.request.render('theme_angryhorse.index', {
         #     'teachers': ["Diana Padilla", "Jody Caroll", "Lester Vaughn"],

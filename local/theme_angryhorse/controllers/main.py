@@ -16,7 +16,7 @@ class AngryHorseHomepage(http.Controller):
                                           request.context),
         }
         for value in values:
-            print value.str
+            print value
         return request.website.render("theme_angryhorse.index", values)
 
 

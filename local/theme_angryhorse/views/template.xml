@@ -12,6 +12,7 @@
                 </div>
                 <div t-field="employee.job_id"/>
                 <div t-field="employee.public_info" class="text-muted mt16 center-block"/>
+                <div t-field="employee.notes" class="text-muted mt16 center-block"/>
             </div>
         </template>
     </data>

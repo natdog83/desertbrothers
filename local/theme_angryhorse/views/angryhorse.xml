@@ -43,7 +43,7 @@
           </header>
         </xpath>
         <xpath expr="//div[@id='footer']" position="replace">
-        <div class="oe_structure" id="footer">
+        <div class="" id="footer">
           <section>
             <div class="container"> 
                 <div class="row justify-content-md-center footer_content">

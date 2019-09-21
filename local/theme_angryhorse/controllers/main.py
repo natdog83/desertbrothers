@@ -6,7 +6,9 @@ from openerp.http import request
 class AngryHorseHomepage(http.Controller):
     @http.route('/academy/academy/', auth='public', website=True)
     def index(self, **kw):
-        return "Hello, world"
+        return http.request.render('academy.index', {
+            'teachers': ["Diana Padilla", "Jody Caroll", "Lester Vaughn"],
+        })
 
 # class AngryHorseHomepage(http.Controller):
 #     @http.route('/page/angryhorse/', auth='public', website=True)

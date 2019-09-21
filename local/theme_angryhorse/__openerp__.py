@@ -10,7 +10,7 @@
     'depends': ['website'],
     'data': [
         'views/angryhorse.xml',
-        'template.xml'
+        'views/template.xml'
     ],
     'qweb': ['static/src/xml/*.xml'],
     'application': False,

@@ -9,5 +9,6 @@
     'images': ['images/angryhorse-thumbnail.png'],
     'depends': ['website'],
     'data': ['views/angryhorse.xml'],
+    'qweb': ['static/src/xml/*.xml'],
     'application': False,
 }

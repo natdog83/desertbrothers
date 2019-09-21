@@ -238,6 +238,7 @@
         <xpath expr="." position="inside">
             <!-- Bootstrap CSS -->
             <link rel='stylesheet' href='/theme_angryhorse/static/src/css/main.css' />
+            <script type="text/javascript" src="/oepetstore/static/src/js/petstore.js"/>
         </xpath>
     </template>
     

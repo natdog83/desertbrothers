@@ -3,7 +3,7 @@ from openerp import http
 from openerp.http import request
 
 class AngryHorseHomepage(http.Controller):
-    @http.route('/page/angryhorse/', auth='public')
+    @http.route('/page/angryhorse/', , auth='public', website=True)
     def index(self, **kw):
         employee_ids = hr_obj.search(request.cr, request.uid, [('website_published', '=', True)], context=request.context)
         values = {

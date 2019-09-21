@@ -19,5 +19,5 @@ class AngryHorseHomepage(http.Controller):
         return request.website.render("website.aboutus", values)
         return "Hello, world"
 
-    @http.route('/academy/academy/objects/', auth='public')
-    def list(self, **kw):
+    # @http.route('/academy/academy/objects/', auth='public')
+    # def list(self, **kw):

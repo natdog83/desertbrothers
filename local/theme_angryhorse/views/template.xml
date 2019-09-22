@@ -81,24 +81,10 @@
                   <div class="col-md-8">
                     <div class="row content">                        <h3>Our Team</h3>
                       <div class="white_line"></div>
-                      <div class="col col-md-4 team">
-                        <img class="img-responsive empoyee_image" src="/theme_angryhorse/static/src/img/mark.jpg" />
-                        <div class="employee_name">Mark Gilbert</div>
-                        <div class="employee_title">Founder</div>
-                        <div class="white_line"></div>
-                        <div class="employee_more">Learn More</div>
-                      </div> 
-                      <div class="col col-md-4 team">
-                        <img class="img-responsive empoyee_image" src="/theme_angryhorse/static/src/img/marcia.jpg" />
-                        <div class="employee_name">Marcia Gilbert</div>
-                        <div class="employee_title">Founder</div>
-                        <div class="white_line"></div>
-                        <div class="employee_more">Learn More</div>
-                      </div> 
-                      <div class="col col-md-4 team">
-                        <img class="img-responsive empoyee_image" src="/theme_angryhorse/static/src/img/marcia.jpg" />
-                        <div class="employee_name">Marcia Gilbert</div>
-                        <div class="employee_title">Founder</div>
+                      <div t-foreach="employee_ids" t-as="employee" class="col col-md-4 team">
+                        <img t-att-src="website.image_url(employee, 'image_medium')" class="img-responsive empoyee_image" />
+                        <div t-field="employee.name" class="employee_name" />
+                        <div t-field="employee.job_id" class="employee_title" />
                         <div class="white_line"></div>
                         <div class="employee_more">Learn More</div>
                       </div> 

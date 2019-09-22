@@ -86,7 +86,7 @@
                         <div t-field="employee.name" class="employee_name" />
                         <div t-field="employee.job_id" class="employee_title" />
                         <div class="white_line"></div>
-                        <div class="employee_more">Learn More</div>
+                        <!--<div class="employee_more">Learn More</div>-->
                       </div> 
                     </div>
                   </div>

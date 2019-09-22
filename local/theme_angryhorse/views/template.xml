@@ -82,7 +82,7 @@
                     <div class="row content">                        <h3>Our Team</h3>
                       <div class="white_line"></div>
                       <div t-foreach="employee_ids" t-as="employee" class="col col-md-4 team">
-                        <span itemprop="image" t-field="employee, 'image_medium'" t-options="{'widget': 'image', 'style':'maxwidth: 400px', 'alt-field': 'kco_alt'}" t-att-alt="employee_name" />
+                        <span itemprop="image" t-field="employee, image_medium" t-options="{'widget': 'image', 'style':'maxwidth: 400px', 'alt-field': 'kco_alt'}" t-att-alt="employee_name" />
                         <img t-att-src="website.image_url(employee, 'image_medium')" class="img-responsive empoyee_image" />
                         <div t-field="employee.name" class="employee_name" />
                         <div t-field="employee.job_id" class="employee_title" />

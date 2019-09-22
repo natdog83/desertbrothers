@@ -261,6 +261,7 @@
         <xpath expr="." position="inside">
             <!-- Bootstrap CSS -->
             <link rel='stylesheet' href='/theme_angryhorse/static/src/css/main.css' />
+            <link rel='stylesheet' href='/theme_angryhorse/static/src/css/main.less' />
         </xpath>
     </template>
     

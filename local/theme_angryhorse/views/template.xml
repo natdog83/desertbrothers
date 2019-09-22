@@ -112,7 +112,7 @@
                                 <div class="white_line"></div>
                                 <!--<div class="employee_more">Learn More</div>-->
                             </div> 
-                            <!-- <div class="item active">
+                            <!--<div class="item active">
                                 <div class="col-xs-4"><a href="#1"><img src="https://source.unsplash.com/300x300/?perth,australia" class="img-responsive" /></a></div>
                             </div>
                             <div class="item">
@@ -130,12 +130,9 @@
                             <div class="item">
                                 <div class="col-xs-4"><a href="#1"><img src="https://source.unsplash.com/300x300/?margaretriver,australia" class="img-responsive" /></a></div>
                             </div>
-                            <!-- add  more items here -->
-                            <!-- Example item start:  -->
-                            
                             <div class="item">
                                 <div class="col-xs-4"><a href="#1"><img src="https://source.unsplash.com/300x300/?margaretriver,australia" class="img-responsive"  /></a></div>
-                            </div> -->
+                            </div>-->
                             
                         <!--  Example item end -->
                         </div>

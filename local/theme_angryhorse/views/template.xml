@@ -82,7 +82,7 @@
                     <div class="row content">                        <h3>Our Team</h3>
                       <div class="white_line"></div>
                       <div t-foreach="employee_ids" t-as="employee" class="col col-md-4 team">
-                        <img t-att-src="website.image_url(employee, 'image_medium')" class="img-responsive empoyee_image" />
+                        <img t-att-src="website.image_url(employee, 'image_medium')" t-att-alt=”employee_name” class="img-responsive empoyee_image" />
                         <div t-field="employee.name" class="employee_name" />
                         <div t-field="employee.job_id" class="employee_title" />
                         <div class="white_line"></div>

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from openerp import http
 from openerp.http import request
-from odoo.addons.website.controllers import main
+from openerp.addons.website.controllers.main import Website
 
 
 class Home(main.Website):

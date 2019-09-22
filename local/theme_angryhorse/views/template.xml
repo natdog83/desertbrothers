@@ -4,6 +4,118 @@
         <template id="index">
             <t t-call="website.layout">
                 <t t-set="title">Academy</t>
+
+
+          <div id="wrap" class="">
+
+            <!-- Intro -->
+            <div id="intro">
+                <div class="container">
+                    <div class="center_image row justify-content-md-center">
+                        <div class="col col-lg-2">
+                        </div>
+                        <div class="col-md-8">
+                          <img src="/theme_angryhorse/static/src/img/large_logo.png" class="center_image img-responsive" alt="Angry Horse Logo"/>
+                        </div>
+                        <div class="col col-lg-2">
+                        </div>
+                    </div>
+                    <div class="row justify-content-md-center">
+                        <div class="tagline">
+                            BREWING EXCEPTIONAL CRAFT BEER IN THE HEART OF MONTEBELLO
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- About Us -->
+            <div id="about_us">
+                <div class="container">
+                    <div class="row justify-content-md-center">
+                        <div class="col col-lg-2">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="content">
+                                <h3>
+                                        about us
+                                </h3>
+                                <p>
+                                    In March of 2017, the Desert Brothers opened their first taproom and are now brewing
+                                    and serving independent craft beer in Montebello CA.
+                                </p>
+                                <p>
+                                    We pride ourselves on our classic, yet distint flavors; embracing the old world of
+                                    beer, through the lens of a new world approach. We aim to innovate and produce a 
+                                    quality, hand crafted product for any occation or culinary experience.
+                                </p>
+                                <p>
+                                    We strive to be a benefit corporation and purveyors of our community by embracing it 
+                                    and revitalizing it, through one craft beer at a time.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col col-lg-2">
+                                  
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Featured Beer -->
+            <div id="featured">
+                <div class="container">
+                    <div class="row justify-content-md-center">
+                        <div class="col col-lg-2"></div>
+                        <div class="col-md-8">
+                            <div class="content">
+                                <h3>Featured</h3>
+                            </div>
+                        </div>
+                        <div class="col col-lg-2"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="team">
+            <div class="container">
+              <div class="row justify-content-md-center">
+                <div class="col col-lg-2"></div>
+                  <div class="col-md-8">
+                    <div class="row content">                        <h3>Our Team</h3>
+                      <div class="white_line"></div>
+                      <div class="col col-md-4 team">
+                        <img class="img-responsive empoyee_image" src="/theme_angryhorse/static/src/img/mark.jpg" />
+                        <div class="employee_name">Mark Gilbert</div>
+                        <div class="employee_title">Founder</div>
+                        <div class="white_line"></div>
+                        <div class="employee_more">Learn More</div>
+                      </div> 
+                      <div class="col col-md-4 team">
+                        <img class="img-responsive empoyee_image" src="/theme_angryhorse/static/src/img/marcia.jpg" />
+                        <div class="employee_name">Marcia Gilbert</div>
+                        <div class="employee_title">Founder</div>
+                        <div class="white_line"></div>
+                        <div class="employee_more">Learn More</div>
+                      </div> 
+                      <div class="col col-md-4 team">
+                        <img class="img-responsive empoyee_image" src="/theme_angryhorse/static/src/img/marcia.jpg" />
+                        <div class="employee_name">Marcia Gilbert</div>
+                        <div class="employee_title">Founder</div>
+                        <div class="white_line"></div>
+                        <div class="employee_more">Learn More</div>
+                      </div> 
+                    </div>
+                  </div>
+                  <div class="col col-lg-2"></div>
+                </div>
+              </div>
+            </div>
+          <div id="instagram" class="row justify-content-center">
+          </div>
+        </div>  
+
+
+
+
+
                 <h1>STAFF</h1>
                 <div t-foreach="employee_ids" t-as="employee" class="col-sm-3 col-lg-2 mt16 text-center o_avatar_info_container">
                     <div class="clearfix"/>

@@ -263,7 +263,7 @@ h3{
         }
       }
     }
-    .carouse-control{
+    .carousel-control{
       &.left, &.right{
         background-image: none;
       }

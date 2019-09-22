@@ -105,7 +105,14 @@
                 <div class="col-md-8">
                     <div class="carousel slide multi-item-carousel" id="theCarousel">
                         <div class="carousel-inner">
-                            <div class="item active">
+                            <div t-foreach="employee_ids" t-as="employee" class="item active col col-md-4 team">
+                                <img t-att-src="website.image_url(employee, 'image')" class="img-responsive empoyee_image" />
+                                <div t-field="employee.name" class="employee_name" />
+                                <div t-field="employee.job_id" class="employee_title" />
+                                <div class="white_line"></div>
+                                <!--<div class="employee_more">Learn More</div>-->
+                            </div> 
+                            <!-- <div class="item active">
                                 <div class="col-xs-4"><a href="#1"><img src="https://source.unsplash.com/300x300/?perth,australia" class="img-responsive" /></a></div>
                             </div>
                             <div class="item">
@@ -128,7 +135,7 @@
                             
                             <div class="item">
                                 <div class="col-xs-4"><a href="#1"><img src="https://source.unsplash.com/300x300/?margaretriver,australia" class="img-responsive"  /></a></div>
-                            </div>
+                            </div> -->
                             
                         <!--  Example item end -->
                         </div>

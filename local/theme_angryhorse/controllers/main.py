@@ -4,7 +4,7 @@ from openerp.http import request
 from openerp.addons.website.controllers.main import Website
 
 
-class Home(main.Website):
+class Home(Website):
 
     @http.route(['/', '/index', '/home'], type='http', website=True, auth='public')
     def index(self, **kw):

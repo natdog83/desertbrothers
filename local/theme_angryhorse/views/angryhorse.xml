@@ -126,9 +126,7 @@
 
         // for every slide in carousel, copy the next slide's item in the slide.
         // Do the same for the next, next item.
-        var menuLink = $('.multi-item-carousel .item');
-        console.log(menuLink);
-        menuLink.className += ' active';
+        $('.multi-item-carousel .item:first').addClass("intro");
         $('.multi-item-carousel .item').each(function(){
             var next = $(this).next();
             if (!next.length) {

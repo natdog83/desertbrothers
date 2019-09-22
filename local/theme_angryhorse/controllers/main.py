@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 from openerp import http
 from openerp.http import request
-from odoo.addons.website.controllers.main import Website
+from odoo.addons.website.controllers.main as main
 
 
-class Home(Website):
+class Home(main.Website):
 
     @http.route(['/', '/index', '/home'], type='http', website=True, auth='public')
     def index(self, **kw):

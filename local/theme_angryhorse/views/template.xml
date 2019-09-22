@@ -105,11 +105,13 @@
                 <div class="col-md-8">
                     <div class="carousel slide multi-item-carousel" id="theCarousel">
                         <div class="carousel-inner">
-                            <div t-foreach="employee_ids" t-as="employee" class="item active col col-md-4 team">
-                                <img t-att-src="website.image_url(employee, 'image')" class="img-responsive empoyee_image" />
-                                <div t-field="employee.name" class="employee_name" />
-                                <div t-field="employee.job_id" class="employee_title" />
-                                <div class="white_line"></div>
+                            <div t-foreach="employee_ids" t-as="employee" class="item active">
+                                 <div class=" col col-md-4 team">
+                                    <img t-att-src="website.image_url(employee, 'image')" class="img-responsive empoyee_image" />
+                                    <div t-field="employee.name" class="employee_name" />
+                                    <div t-field="employee.job_id" class="employee_title" />
+                                    <div class="white_line"></div>
+                                </div>
                                 <!--<div class="employee_more">Learn More</div>-->
                             </div> 
                             <!--<div class="item active">

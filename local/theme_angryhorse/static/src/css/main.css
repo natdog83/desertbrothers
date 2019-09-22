@@ -264,8 +264,6 @@ h3{
       }
     }
     .carousel-control{
-      &.left, &.right{
         background-image: none;
-      }
     }
   }

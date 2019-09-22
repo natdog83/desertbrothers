@@ -14,7 +14,7 @@ class Home(Website):
             'employee_ids': hr_obj.browse(request.cr, request.uid, employee_ids,
                                             request.context),
         }
-        return self(values)
+        return request.website.render("theme_angryhorse.index", values)
 
     # super(Website, self).index(**kw)
     # return http.request.render('my_website.home')

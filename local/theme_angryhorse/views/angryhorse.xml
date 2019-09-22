@@ -262,6 +262,7 @@
             <!-- Bootstrap CSS -->
             <link rel='stylesheet' href='/theme_angryhorse/static/src/css/main.css' />
             <link rel='stylesheet' href='/theme_angryhorse/static/src/css/main.less' />
+            <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
             <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
         </xpath>
     </template>

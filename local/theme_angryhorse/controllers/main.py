@@ -19,7 +19,6 @@ class Home(Website):
     # super(Website, self).index(**kw)
     # return http.request.render('my_website.home')
 
-
 class AngryHorseHomepage(http.Controller):
     @http.route('/academy/academy/', auth='public', website=True)
     def index(self, **kw):

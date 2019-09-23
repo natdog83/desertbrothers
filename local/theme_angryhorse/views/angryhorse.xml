@@ -260,6 +260,7 @@
     <template id="theme_angryhorse_header" name="Angry Horse" inherit_id="website.assets_frontend" >
         <xpath expr="." position="inside">
             <!-- Bootstrap CSS -->
+            <link rel="shortcut icon" href="/theme_angryhorse/static/src/img/favicon.ico" type="image/x-icon" />
             <link rel='stylesheet' href='/theme_angryhorse/static/src/css/main.css' />
             <link rel='stylesheet' href='/theme_angryhorse/static/src/css/main.less' />
             <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet" />

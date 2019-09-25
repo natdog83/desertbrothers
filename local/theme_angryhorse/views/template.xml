@@ -39,7 +39,7 @@
                                 <h3>
                                         about us
                                 </h3>
-                                <p>
+                                <!--<p>
                                     In March of 2017, the Desert Brothers opened their first taproom and are now brewing
                                     and serving independent craft beer in Montebello CA.
                                 </p>
@@ -51,6 +51,37 @@
                                 <p>
                                     We strive to be a benefit corporation and purveyors of our community by embracing it 
                                     and revitalizing it, through one craft beer at a time.
+                                </p>-->
+                                <p><strong>cultivators</strong></p>
+                                <div class="white_line"></div>
+                                <p>
+                                    In 2016, the Desert Brothers launched Angry Horse Brewing. 
+                                    In March of 2017 they opened up their first taproom and 
+                                    are now brewing and serving artisan craft beer in 
+                                    Montebello, CA.
+                                </p>
+                                <p>
+                                    We are cultivators of classic, yet distinct flavors. We 
+                                    pride ourselves on our artisanal approach and aim to 
+                                    innovate. We aspire to produce a quality product that 
+                                    enhances any occasion or culinary experience. 
+                                </p>
+                                <p><strong>Purveyors</strong></p>
+                                <div class="white_line"></div>
+                                <p>
+                                    Angry Horse was founded on the idea of community and 
+                                    giving back. We are purveyors of our community. We are 
+                                    promoters of engagement amongst our community members. 
+                                    Together we continue to grow, to learn and support one 
+                                    another. 
+                                </p>
+                                <p><strong>Contributors</strong></p>
+                                <div class="white_line"></div>
+                                <p>
+                                    We are contributors to the Independent Beer Movement. 
+                                    We are revitalizing, shaping and building our community 
+                                    one craft beer at a time while striving to develop 
+                                    local and sustainable brewing practices. 
                                 </p>
                             </div>
                         </div>
@@ -67,7 +98,7 @@
                         <div class="col col-lg-2"></div>
                         <div class="col-md-8">
                             <div class="content">
-                                <h3>OnTap</h3>
+                                <h3>On Tap</h3>
                                 
                             </div>
                         </div>

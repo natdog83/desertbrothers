@@ -145,5 +145,8 @@
 
             </t>
         </template>
+        <template id="untappdmenu">
+        <div t-field="r" class="employee_name" />
+        </template>
     </data>
 </odoo>

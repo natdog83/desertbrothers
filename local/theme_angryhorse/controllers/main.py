@@ -30,10 +30,3 @@ class AngryHorseHomepage(http.Controller):
                                           request.context),
         }
         return self(values)
-
-class WebsiteAPI(Website):
-    @http.route('/api/menu', auth='public', website=True)
-    def untappdmenu(self, **kw):
-        r = requests.get('https://business.untappd.com/api/v1/menus/20670?full=true', auth=('nmccusker@angryhorsebrewing.com', '15TG6vxCrAtyLVWWUsrv'))
-        print(r.text)
-        return request.website.render("theme_angryhorse.untappdmenu", r)

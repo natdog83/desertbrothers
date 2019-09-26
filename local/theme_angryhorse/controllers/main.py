@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import requests
 from openerp import http
 from openerp.http import request
 from openerp.addons.website.controllers.main import Website
@@ -32,6 +33,6 @@ class AngryHorseHomepage(http.Controller):
 
     @http.route('/api/menu', auth='public', website=True)
     def untappdmenu(self, **kw):
-        r = request.get('https://business.untappd.com/api/v1/menus/20670?full=true', auth=('nmccusker@angryhorsebrewing.com', '15TG6vxCrAtyLVWWUsrv'))
+        r = requests.get('https://business.untappd.com/api/v1/menus/20670?full=true', auth=('nmccusker@angryhorsebrewing.com', '15TG6vxCrAtyLVWWUsrv'))
         print(r.text)
         return self(r)

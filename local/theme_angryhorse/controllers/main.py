@@ -29,3 +29,9 @@ class AngryHorseHomepage(http.Controller):
                                           request.context),
         }
         return self(values)
+
+    @http.route('/api/menu', auth='public', website=True)
+    def index(self, **kw):
+        r = requests.get('https://business.untappd.com/api/v1/menus/20670?full=true', auth=('nmccusker@angryhorsebrewing.com', '15TG6vxCrAtyLVWWUsrv'))
+        print(r.text)
+        return self(r)

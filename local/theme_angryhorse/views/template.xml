@@ -103,7 +103,7 @@
                                     <div class="beer_brands">
                                         <p>
                                             <span t-esc="item['name']" class="beer_title" /> 
-                                            <span t-esc="item['style']" class="beer_style" /><span class="glyphicon glyphicon-certificate" aria-hidden="true"></span>
+                                            <span t-esc="item['style']" class="beer_style" /><span class="beer_style beer_abv glyphicon glyphicon-certificate" aria-hidden="true"></span>
                                             <span t-esc="item['abv']" class="beer_abv" />% ABV <br />
                                             <span t-esc="item['description']" class="beer_description" />
                                         </p>

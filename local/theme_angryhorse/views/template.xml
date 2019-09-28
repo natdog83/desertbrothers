@@ -102,10 +102,11 @@
                                 <div id="menu-container">
 
                                     <div t-foreach="menus['menu']" t-as="item" class="item">
-                                        <div t-foreach="item['sections']" t-as="item"
+                                        <div t-foreach="item['sections']" t-as="item">
                                                 <div class=" col col-md-4 team">
                                                     <div t-esc="item" class="employee_title" />
                                                     <div class="white_line"></div>
+                                                </div>
                                         </div>
                                         <!--<div class="employee_more">Learn More</div>-->
                                     </div> 

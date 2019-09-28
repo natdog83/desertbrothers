@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 import requests
+from requests.auth import HTTPBasicAuth
 from openerp import http
 from openerp.http import request
 from openerp.addons.website.controllers.main import Website
-
 
 class Home(Website):
 
@@ -32,9 +32,15 @@ class Home(Website):
 #         return self(values)
 
 class BeerAPI(Website):
-
-    @http.route('/api/brand/', type='http', website=True, auth='public')
+    @http.route(['/api/brand'], type="json", auth="public", website="True")
     def apibrand(self, **kw):
-        values={}
-
+        r = requests.get('https://business.untappd.com/api/v1/menus/20670?full=true', auth=('nmccusker@angryhorsebrewing.com', '15TG6vxCrAtyLVWWUsrv'))
+        values = r.json()
+        print values
         return request.website.render("theme_angryhorse.apibrand", values)
+
+class MyTheme(http.Controller):
+    @http.route(['/api/brand'], type="json", auth="public", website="True")
+    def list(self, **kw):
+       result = request.env['product.product'].search([])
+       return request.render('my_theme.latest_products_list',{'values' : result })

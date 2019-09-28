@@ -148,6 +148,7 @@
         
         <template id="apibrand">
             <p>test</p>
+            <div t-field="value" class="employee_title" />
         </template>
     </data>
 </odoo>

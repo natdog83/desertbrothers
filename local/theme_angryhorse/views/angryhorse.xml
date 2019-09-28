@@ -3,52 +3,52 @@
   <data>
     <template id="theme_angryhorse_menu" inherit_id="website.layout" name="theme_angryhorse menu">
         <xpath expr="//header" position="replace">
-          <header>
-              <div id="header_area" class="navbar navbar-default navbar-static-top">
-                  <div class="container">
-                      <!--<div class="navbar-header">
-                          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-top-collapse">
-                              <span class="sr-only">Toggle navigation</span>
-                              <span class="icon-bar"/>
-                              <span class="icon-bar"/>
-                              <span class="icon-bar"/>
-                          </button>-->
-                      </div>
-                      <div class="d-sm-none collapse navbar-collapse navbar-top-collapse main_menu">
-                          <ul class="nav navbar-nav navbar-right" id="top_menu">
-                            <li>
-                                <a href="/">
-                                    <img class="img-fluid" src="/../theme_angryhorse/static/src/img/AHB_SubLogo_color.png" />
-                                </a>
-                            </li>
-                              <t t-foreach="website.menu_id.child_id" t-as="submenu">
-                                  <t t-call="website.submenu"/>
-                              </t>
-                              <li>
-                                <button type="button" class="navbar-icon" >
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span class="icon-bar"/>
-                                    <span class="icon-bar"/>
-                                    <span class="icon-bar"/>
-                                </button>
-                            </li>
-                              <!--<li class="divider" t-ignore="true" t-if="website.user_id != user_id"/>
-                              <li class="dropdown" t-ignore="true" t-if="website.user_id != user_id">
-                                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                      <b>
-                                          <span t-esc="(len(user_id.name)&gt;25) and (user_id.name[:23]+'...') or user_id.name"/>
-                                          <span class="caret"/>
-                                      </b>
-                                  </a>
-                                  <ul class="dropdown-menu js_usermenu" role="menu">
-                                      <li id="o_logout"><a t-attf-href="/web/session/logout?redirect=/" role="menuitem">Logout</a></li>
-                                  </ul>
-                              </li> -->
-                          </ul>
-                      </div>
-                  </div>
-              </div>
-          </header>
+            <header>
+                <div id="header_area" class="navbar navbar-default navbar-static-top">
+                    <div class="container">
+                        <!--<div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-top-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"/>
+                                <span class="icon-bar"/>
+                                <span class="icon-bar"/>
+                            </button>-->
+                        </div>
+                        <div class="d-sm-none collapse navbar-collapse navbar-top-collapse main_menu">
+                            <ul class="nav navbar-nav navbar-right" id="top_menu">
+                                <li>
+                                    <a href="/">
+                                        <img class="img-fluid" src="/../theme_angryhorse/static/src/img/AHB_SubLogo_color.png" />
+                                    </a>
+                                </li>
+                                <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                                    <t t-call="website.submenu"/>
+                                </t>
+                                <li>
+                                    <button type="button" class="navbar-icon" >
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"/>
+                                        <span class="icon-bar"/>
+                                        <span class="icon-bar"/>
+                                    </button>
+                                </li>
+                                <!--<li class="divider" t-ignore="true" t-if="website.user_id != user_id"/>
+                                <li class="dropdown" t-ignore="true" t-if="website.user_id != user_id">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                        <b>
+                                            <span t-esc="(len(user_id.name)&gt;25) and (user_id.name[:23]+'...') or user_id.name"/>
+                                            <span class="caret"/>
+                                        </b>
+                                    </a>
+                                    <ul class="dropdown-menu js_usermenu" role="menu">
+                                        <li id="o_logout"><a t-attf-href="/web/session/logout?redirect=/" role="menuitem">Logout</a></li>
+                                    </ul>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
         </xpath>
         <xpath expr="//div[@id='footer']" position="replace">
         <div class="" id="footer">

@@ -70,6 +70,25 @@ h3{
     border-color: #faf9e5 !important;
 }
 
+.main_menu .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.main_menu .icon-bar {
+    background-color: #888888;
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+
 
 
 #intro{

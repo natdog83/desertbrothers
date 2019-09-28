@@ -30,3 +30,10 @@ class Home(Website):
 #                                           request.context),
 #         }
 #         return self(values)
+class BeerAPI(Website):
+
+    @http.route('/api/brand/', type='http', website=True, auth='public')
+    def index(self, **kw):
+        values={}
+
+        return request.website.render("theme_angryhorse.apibrand", values)

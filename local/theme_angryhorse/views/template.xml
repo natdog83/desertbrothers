@@ -3,7 +3,7 @@
     <data>
         <template id="index">
             <t t-call="website.layout">
-                <t t-set="title">Academy</t>
+                <t t-set="title">Home</t>
 
 
           <div id="wrap" class="">
@@ -144,6 +144,10 @@
 
 
             </t>
+        </template>
+        
+        <template id="apibeer">
+            <p>test</p>
         </template>
     </data>
 </odoo>

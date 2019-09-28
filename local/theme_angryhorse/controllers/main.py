@@ -9,7 +9,7 @@ class Home(Website):
 
     @http.route(['/', '/index', '/home'], type='http', website=True, auth='public')
     def index(self, **kw):
-        brands = requests.get('https://business.untappd.com/api/v1/menus/20670?full=true', auth=('nmccusker@angryhorsebrewing.com', '15TG6vxCrAtyLVWWUsrv')).json
+        brands = requests.get('https://business.untappd.com/api/v1/menus/20670?full=true', auth=('nmccusker@angryhorsebrewing.com', '15TG6vxCrAtyLVWWUsrv')).json()
         print brands
         hr_obj = request.registry['hr.employee']
         employee_ids = hr_obj.search(request.cr, request.uid, [('website_published', '=', True)], context=request.context)

@@ -128,6 +128,7 @@ h3{
 
 .beer_title{
     color:#553829;
+    text-transform: uppercase;
 }
 
 .beer_style .beer_abv .beer_description {

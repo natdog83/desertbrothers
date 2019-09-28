@@ -103,10 +103,12 @@
 
                                     <div t-foreach="menus['items']" t-as="item">
                                         <div class="beer_brands">
-                                            <span t-esc="item['name']" class="beer_title" /> 
-                                            <span t-esc="item['style']" class="beer_style" /> * 
-                                            <span t-esc="item['abv']" class="beer_abv" />
-                                            <span t-esc="item['description']" class="beer_description" />
+                                            <p>
+                                                <span t-esc="item['name']" class="beer_title" /> 
+                                                <span t-esc="item['style']" class="beer_style" /> * 
+                                                <span t-esc="item['abv']" class="beer_abv" /> ABV <br />
+                                                <span t-esc="item['description']" class="beer_description" />
+                                            </p>
                                         </div>
                                     </div> 
                                 </div>

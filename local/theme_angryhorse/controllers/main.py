@@ -34,13 +34,12 @@ class Home(Website):
 class BeerAPI(Website):
     @http.route(['/api/brand'], type="json", auth="public", website="True")
     def apibrand(self, **kw):
-        r = requests.get('https://business.untappd.com/api/v1/menus/20670?full=true', auth=('nmccusker@angryhorsebrewing.com', '15TG6vxCrAtyLVWWUsrv'))
-        values = r.json()
+        value = request.json('https://business.untappd.com/api/v1/menus/20670?full=true', auth=('nmccusker@angryhorsebrewing.com', '15TG6vxCrAtyLVWWUsrv'))
         print values
         return request.website.render("theme_angryhorse.apibrand", values)
 
 class MyTheme(http.Controller):
-    @http.route(['/api/brand'], type="json", auth="public", website="True")
+    @http.route(['/api/other'], type="json", auth="public", website="True")
     def list(self, **kw):
        result = request.env['product.product'].search([])
        return request.render('my_theme.latest_products_list',{'values' : result })

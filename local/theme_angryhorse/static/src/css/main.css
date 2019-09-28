@@ -134,6 +134,7 @@ h3{
 
 .beer_style .beer_abv .beer_description {
     display: inline;
+    margin-right: 20px;
 }
 
 /* TEAM AREA */

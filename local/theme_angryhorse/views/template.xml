@@ -101,9 +101,9 @@
                                 <h3>On Tap</h3>
                                 <div id="menu-container">
 
-                                    <div t-foreach="menu" t-as="menus" class="item">
+                                    <div t-foreach="menus" t-as="menu" class="item">
                                         <div class=" col col-md-4 team">
-                                            <div t-esc="menus" class="employee_title" />
+                                            <div t-esc="menu.name" class="employee_title" />
                                             <div class="white_line"></div>
                                         </div>
                                         <!--<div class="employee_more">Learn More</div>-->

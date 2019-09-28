@@ -9,6 +9,8 @@ class Home(Website):
 
     @http.route(['/', '/index', '/home'], type='http', website=True, auth='public')
     def index(self, **kw):
+        brands = request.json('https://business.untappd.com/api/v1/menus/20670?full=true', auth=('nmccusker@angryhorsebrewing.com', '15TG6vxCrAtyLVWWUsrv'))
+        print brands
         hr_obj = request.registry['hr.employee']
         employee_ids = hr_obj.search(request.cr, request.uid, [('website_published', '=', True)], context=request.context)
         values = {
@@ -37,9 +39,3 @@ class BeerAPI(Website):
         value = request.json('https://business.untappd.com/api/v1/menus/20670?full=true', auth=('nmccusker@angryhorsebrewing.com', '15TG6vxCrAtyLVWWUsrv'))
         print values
         return request.website.render("theme_angryhorse.apibrand", values)
-
-class MyTheme(http.Controller):
-    @http.route(['/api/other'], type="json", auth="public", website="True")
-    def list(self, **kw):
-       result = request.env['product.product'].search([])
-       return request.render('my_theme.latest_products_list',{'values' : result })

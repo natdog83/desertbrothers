@@ -123,6 +123,7 @@ h3{
 #beer_brands{
     font-family: sans-serif;
     font-size: 22PX;
+    display: inline;
 }
 
 #beer_title{

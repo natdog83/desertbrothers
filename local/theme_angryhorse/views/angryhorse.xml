@@ -18,7 +18,7 @@
                           <ul class="nav navbar-nav navbar-right" id="top_menu">
                             <li>
                                 <a href="/">
-                                    <img class="img-fluid" src="/../theme_angryhorse/static/src/img/ABH_SubLogo.png" />
+                                    <img class="img-fluid" src="/../theme_angryhorse/static/src/img/ABH_SubLogo_color.png" />
                                 </a>
                             </li>
                               <t t-foreach="website.menu_id.child_id" t-as="submenu">

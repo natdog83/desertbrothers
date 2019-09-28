@@ -103,7 +103,8 @@
 
                                     <div t-foreach="menus" t-as="menu" class="item">
                                         <div class=" col col-md-4 team">
-                                            <div t-esc="menu" class="employee_title" />
+                                            <div t-foreach="sections" t-as="section" class="item">
+                                            <div t-esc="sections" class="employee_title" />
                                             <div class="white_line"></div>
                                         </div>
                                         <!--<div class="employee_more">Learn More</div>-->

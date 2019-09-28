@@ -103,8 +103,8 @@
                                     <div class="beer_brands">
                                         <p>
                                             <span t-esc="item['name']" class="beer_title" /> 
-                                            <span t-esc="item['style']" class="beer_style" /> * 
-                                            <span t-esc="item['abv']" class="beer_abv" /> ABV <br />
+                                            <span t-esc="item['style']" class="beer_style" /><i class="fas fa-circle"></i>
+                                            <span t-esc="item['abv']" class="beer_abv" />% ABV <br />
                                             <span t-esc="item['description']" class="beer_description" />
                                         </p>
                                     </div>

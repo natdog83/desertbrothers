@@ -130,6 +130,10 @@ h3{
     color:#553829;
 }
 
+.beer_style .beer_abv .beer_description {
+    display: inline;
+}
+
 /* TEAM AREA */
 #team {
     background-image: 

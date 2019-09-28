@@ -6,15 +6,15 @@
             <header>
                 <div id="header_area" class="navbar navbar-default navbar-static-top" >
                     <div class="container">
-                        <div class="navbar-header">
+                        <!--<div class="navbar-header">
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-top-collapse">
                                 <span class="sr-only">Toggle navigation</span>
                                 <span class="icon-bar"/>
                                 <span class="icon-bar"/>
                                 <span class="icon-bar"/>
                             </button>
-                        </div>
-                        <div class="d-sm-none collapse navbar-collapse navbar-top-collapse main_menu">
+                        </div>-->
+                        <div class="d-md-none collapse navbar-collapse navbar-top-collapse main_menu">
                             <ul class="nav navbar-nav navbar-right" id="top_menu">
                                 <li>
                                     <a href="/">

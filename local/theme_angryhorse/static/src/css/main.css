@@ -123,12 +123,13 @@ h3{
     font-family: sans-serif;
     font-size: 22PX;
     display: inline;
-    margin: 25px 10px 25px 100px;
+    margin: 20px 10px 20px 10px;
 }
 
 .beer_title{
     color:#553829;
     text-transform: uppercase;
+    margin-right: 20px;
 }
 
 .beer_style .beer_abv .beer_description {

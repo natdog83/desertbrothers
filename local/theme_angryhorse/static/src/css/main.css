@@ -202,6 +202,10 @@ h3{
     margin: 20px auto;
 }
 
+#team .glyphicon{
+    color:#888888;
+}
+
 .employee_image {
     margin: 10px;
 }

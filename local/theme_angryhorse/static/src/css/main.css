@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Sign Painter";
+    font-family: "SignPainter";
     src: url("/theme_angryhorse/static/src/fonts/signpainterhouseslantregular-webfont.woff") format("woff"),
 }
 
@@ -110,7 +110,7 @@ h3{
 }
 
 #intro .tagline{
-    font-family: 'Sign Painter', Arial, sans-serif;
+    font-family: 'SignPainter', Arial, sans-serif;
     text-align: center;
     font-size: 1.75rem;
     margin-bottom: .5rem;

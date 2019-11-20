@@ -9,13 +9,13 @@ class Home(Website):
 
     @http.route(['/', '/index', '/home'], type='http', website=True, auth='public')
     def index(self, **kw):
-        #menus = requests.get('https://business.untappd.com/api/v1/sections/82681/items', auth=('nmccusker@angryhorsebrewing.com', '15TG6vxCrAtyLVWWUsrv')).json()
+        menus = requests.get('https://business.untappd.com/api/v1/sections/82681/items', auth=('nmccusker@angryhorsebrewing.com', '15TG6vxCrAtyLVWWUsrv')).json()
         hr_obj = request.registry['hr.employee']
         employee_ids = hr_obj.search(request.cr, request.uid, [('website_published', '=', True)], context=request.context)
         values = {
             'employee_ids': hr_obj.browse(request.cr, request.uid, employee_ids,
                                             request.context),
-            #'menus': menus,
+            'menus': menus,
         }
         return request.website.render("theme_angryhorse.index", values)
 

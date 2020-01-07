@@ -1,6 +1,7 @@
 @font-face {
     font-family: "SignPainter";
-    src: url("/theme_angryhorse/static/src/fonts/signpainterhouseslantregular-webfont.woff") format("woff"),
+    src: url("/theme_angryhorse/static/src/fonts/signpainter_housescript_regular-webfont.woff") format("woff"),
+        url("/theme_angryhorse/static/src/fonts/signpainter_housescript_regular-webfont.woff2") format("woff2");
 }
 
 body{

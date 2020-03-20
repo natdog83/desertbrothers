@@ -6,15 +6,7 @@
             <header>
                 <div id="header_area" class="navbar navbar-default navbar-static-top" >
                     <div class="container">
-                        <!--<div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-top-collapse">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"/>
-                                <span class="icon-bar"/>
-                                <span class="icon-bar"/>
-                            </button>
-                        </div>-->
-                        <div class="d-md-none collapse navbar-collapse navbar-top-collapse main_menu">
+                        <div class="collapse navbar-collapse navbar-top-collapse main_menu ">
                             <ul class="nav navbar-nav navbar-right" id="top_menu">
                                 <li>
                                     <a href="/">
@@ -25,26 +17,22 @@
                                     <t t-call="website.submenu"/>
                                 </t>
                                 <li>
-                                    <button type="button" class="navbar-icon" >
+                                    <button type="button" class="navbar-icon" onclick="openNav()" >
                                         <span class="sr-only">Toggle navigation</span>
                                         <span class="icon-bar"/>
                                         <span class="icon-bar"/>
                                         <span class="icon-bar"/>
                                     </button>
                                 </li>
-                                <!--<li class="divider" t-ignore="true" t-if="website.user_id != user_id"/>
-                                <li class="dropdown" t-ignore="true" t-if="website.user_id != user_id">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                        <b>
-                                            <span t-esc="(len(user_id.name)&gt;25) and (user_id.name[:23]+'...') or user_id.name"/>
-                                            <span class="caret"/>
-                                        </b>
-                                    </a>
-                                    <ul class="dropdown-menu js_usermenu" role="menu">
-                                        <li id="o_logout"><a t-attf-href="/web/session/logout?redirect=/" role="menuitem">Logout</a></li>
-                                    </ul>
-                                </li> -->
                             </ul>
+                        </div>
+                        <div class="small_menu hidden-lg hidden-md hidden-sm">
+                        <button type="button" class="navbar-icon" onclick="openNav()" >
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"/>
+                            <span class="icon-bar"/>
+                            <span class="icon-bar"/>
+                        </button>
                         </div>
                     </div>
                 </div>
@@ -113,7 +101,7 @@
                     success: function(data){
                         console.log(data);
                         for( x in data.data ){
-                            $('#instagram').append('<div class="intagram_image"><img class="img-responsive" src="'+data.data[x].images.standard_resolution.url +'" /></div>'); 
+                            $('#instagram').append('<div class="intagram_image"> <img class="img-responsive" src="'+data.data[x].images.standard_resolution.url +'" /></div>');
                             // data.data[x].images.low_resolution.url - URL of image, 306х306
                             // data.data[x].images.thumbnail.url - URL of image 150х150
                             // data.data[x].images.standard_resolution.url - URL of image 612х612
@@ -149,14 +137,53 @@
             }
         });
         </script>
+            <script>
+                $( "#mySidenav" ).click(function() {
+                    alert( "Handler for .click() called." );
+                });
+
+                function openNav() {
+                    document.getElementById("mySidenav").style.width = "250px";
+                    document.getElementById("wrapwrap").style.marginLeft = "250px";
+                }
+
+                function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                    document.getElementById("wrapwrap").style.marginLeft= "0";
+                }
+        </script>
+
         </xpath>
     </template>
-
+    <template id="theme_angryhorse_slidemenu" inherit_id="website.layout" name="theme_angryhorse slide menu">
+        <xpath expr="//div[@id='wrapwrap']" position="inside">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+                <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                    <t t-call="website.submenu"/>
+                </t>
+                <li class="divider" t-ignore="true" t-if="website.user_id != user_id"/>
+                <li class="dropdown" t-ignore="true" t-if="website.user_id != user_id">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <b>
+                            <span t-esc="(len(user_id.name)&gt;25) and (user_id.name[:23]+'...') or user_id.name"/>
+                            <span class="caret"/>
+                        </b>
+                    </a>
+                    <ul class="dropdown-menu js_usermenu" role="menu">
+                        <li id="o_logout"><a t-attf-href="/web/session/logout?redirect=/" role="menuitem">Logout</a></li>
+                    </ul>
+                </li>
+            </div>
+        </xpath>
+    </template>
  
 
     <template id="theme_angryhorse_homepage" name="Angry Horse Homepage" inherit_id="website.homepage" >
         <xpath expr="//div[@id='wrap']" position="replace">
           <div id="wrap" class="">
+
+
 
             <!-- Intro -->
             <div id="intro">

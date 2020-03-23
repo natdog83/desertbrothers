@@ -138,25 +138,21 @@
         });
         </script>
             <script>
-                $( "#mySidenav" ).click(function() {
-                    alert( "Handler for .click() called." );
-                });
-
                 function openNav() {
-                    document.getElementById("mySidenav").style.width = "250px";
-                    document.getElementById("wrapwrap").style.marginLeft = "250px";
+                    document.getElementById("mySidenav").style.width = "360px";
+                    document.getElementById("wrapwrap").style.marginRight = "360px";
                 }
 
                 function closeNav() {
                     document.getElementById("mySidenav").style.width = "0";
-                    document.getElementById("wrapwrap").style.marginLeft= "0";
+                    document.getElementById("wrapwrap").style.marginRight= "0";
                 }
         </script>
 
         </xpath>
     </template>
     <template id="theme_angryhorse_slidemenu" inherit_id="website.layout" name="theme_angryhorse slide menu">
-        <xpath expr="//div[@id='wrapwrap']" position="inside">
+        <xpath expr="//header" position="before">
             <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
                 <t t-foreach="website.menu_id.child_id" t-as="submenu">

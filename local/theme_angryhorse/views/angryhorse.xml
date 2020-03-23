@@ -158,6 +158,7 @@
                 <t t-foreach="website.menu_id.child_id" t-as="submenu">
                     <t t-call="website.submenu"/>
                 </t>
+                <li t-as="submenu" t-ignore="true" t-if="website.user_id == user_id"><a href="/web/login?redirect=/">Login</a></li>
                 <li class="divider" t-ignore="true" t-if="website.user_id != user_id"/>
                 <li class="dropdown" t-ignore="true" t-if="website.user_id != user_id">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">

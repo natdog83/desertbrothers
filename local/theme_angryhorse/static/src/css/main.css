@@ -119,17 +119,20 @@ h3{
     margin: 5px
 }
 
+
+/* BACKGROUNDS */
 .country_road{
     background-image: url(/theme_angryhorse/static/src/img/country_road.jpeg);
     margin: 0 0 0 0;
     padding: 30px 0px 60px;
-
 }
 .icon_background{
     background-image: url(/theme_angryhorse/static/src/img/icon_background.jpeg);
-    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-
+    min-height: 500px;
 }
 
 #intro{

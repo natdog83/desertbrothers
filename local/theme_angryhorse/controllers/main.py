@@ -7,7 +7,7 @@ from openerp.addons.website.controllers.main import Website
 
 class Home(Website):
 
-    @http.route(['/', '/index', '/home'], type='http', website=True, auth='public')
+    @http.route(['/', '/index', '/home'], type='http', auth='public', website=True)
     def index(self, **kw):
         #menus = requests.get('https://business.untappd.com/api/v1/sections/82681/items', auth=('nmccusker@angryhorsebrewing.com', '15TG6vxCrAtyLVWWUsrv')).json()
         hr_obj = request.registry['hr.employee']
